@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
+		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
+		8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA81BC56B6E00B7149E /* ViewController.m */; };
+		8EC69BAC1BC56B6E00B7149E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC69BAA1BC56B6E00B7149E /* Main.storyboard */; };
+		8EC69BAE1BC56B6E00B7149E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC69BAD1BC56B6E00B7149E /* Assets.xcassets */; };
+		8EC69BB11BC56B6E00B7149E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC69BAF1BC56B6E00B7149E /* LaunchScreen.storyboard */; };
+		8EC69BBC1BC56B6F00B7149E /* PronokalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BBB1BC56B6F00B7149E /* PronokalTests.m */; };
+		8EC69BC71BC56B6F00B7149E /* PronokalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BC61BC56B6F00B7149E /* PronokalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC69BB81BC56B6F00B7149E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC69B961BC56B6E00B7149E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC69B9D1BC56B6E00B7149E;
+			remoteInfo = Pronokal;
+		};
+		8EC69BC31BC56B6F00B7149E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC69B961BC56B6E00B7149E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC69B9D1BC56B6E00B7149E;
+			remoteInfo = Pronokal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC69BA21BC56B6E00B7149E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EC69BA41BC56B6E00B7149E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EC69BA51BC56B6E00B7149E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EC69BA71BC56B6E00B7149E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EC69BA81BC56B6E00B7149E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EC69BAB1BC56B6E00B7149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EC69BAD1BC56B6E00B7149E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC69BB01BC56B6E00B7149E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC69BB21BC56B6E00B7149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC69BB71BC56B6F00B7149E /* PronokalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PronokalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC69BBB1BC56B6F00B7149E /* PronokalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PronokalTests.m; sourceTree = "<group>"; };
+		8EC69BBD1BC56B6F00B7149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC69BC21BC56B6F00B7149E /* PronokalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PronokalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC69BC61BC56B6F00B7149E /* PronokalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PronokalUITests.m; sourceTree = "<group>"; };
+		8EC69BC81BC56B6F00B7149E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC69B9B1BC56B6E00B7149E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BB41BC56B6F00B7149E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BBF1BC56B6F00B7149E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EC69B951BC56B6E00B7149E = {
+			isa = PBXGroup;
+			children = (
+				8EC69BA01BC56B6E00B7149E /* Pronokal */,
+				8EC69BBA1BC56B6F00B7149E /* PronokalTests */,
+				8EC69BC51BC56B6F00B7149E /* PronokalUITests */,
+				8EC69B9F1BC56B6E00B7149E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC69B9F1BC56B6E00B7149E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC69B9E1BC56B6E00B7149E /* Pronokal.app */,
+				8EC69BB71BC56B6F00B7149E /* PronokalTests.xctest */,
+				8EC69BC21BC56B6F00B7149E /* PronokalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC69BA01BC56B6E00B7149E /* Pronokal */ = {
+			isa = PBXGroup;
+			children = (
+				8EC69BA41BC56B6E00B7149E /* AppDelegate.h */,
+				8EC69BA51BC56B6E00B7149E /* AppDelegate.m */,
+				8EC69BA71BC56B6E00B7149E /* ViewController.h */,
+				8EC69BA81BC56B6E00B7149E /* ViewController.m */,
+				8EC69BAA1BC56B6E00B7149E /* Main.storyboard */,
+				8EC69BAD1BC56B6E00B7149E /* Assets.xcassets */,
+				8EC69BAF1BC56B6E00B7149E /* LaunchScreen.storyboard */,
+				8EC69BB21BC56B6E00B7149E /* Info.plist */,
+				8EC69BA11BC56B6E00B7149E /* Supporting Files */,
+			);
+			path = Pronokal;
+			sourceTree = "<group>";
+		};
+		8EC69BA11BC56B6E00B7149E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EC69BA21BC56B6E00B7149E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EC69BBA1BC56B6F00B7149E /* PronokalTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC69BBB1BC56B6F00B7149E /* PronokalTests.m */,
+				8EC69BBD1BC56B6F00B7149E /* Info.plist */,
+			);
+			path = PronokalTests;
+			sourceTree = "<group>";
+		};
+		8EC69BC51BC56B6F00B7149E /* PronokalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC69BC61BC56B6F00B7149E /* PronokalUITests.m */,
+				8EC69BC81BC56B6F00B7149E /* Info.plist */,
+			);
+			path = PronokalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC69B9D1BC56B6E00B7149E /* Pronokal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC69BCB1BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "Pronokal" */;
+			buildPhases = (
+				8EC69B9A1BC56B6E00B7149E /* Sources */,
+				8EC69B9B1BC56B6E00B7149E /* Frameworks */,
+				8EC69B9C1BC56B6E00B7149E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pronokal;
+			productName = Pronokal;
+			productReference = 8EC69B9E1BC56B6E00B7149E /* Pronokal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC69BB61BC56B6F00B7149E /* PronokalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC69BCE1BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "PronokalTests" */;
+			buildPhases = (
+				8EC69BB31BC56B6F00B7149E /* Sources */,
+				8EC69BB41BC56B6F00B7149E /* Frameworks */,
+				8EC69BB51BC56B6F00B7149E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC69BB91BC56B6F00B7149E /* PBXTargetDependency */,
+			);
+			name = PronokalTests;
+			productName = PronokalTests;
+			productReference = 8EC69BB71BC56B6F00B7149E /* PronokalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC69BC11BC56B6F00B7149E /* PronokalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC69BD11BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "PronokalUITests" */;
+			buildPhases = (
+				8EC69BBE1BC56B6F00B7149E /* Sources */,
+				8EC69BBF1BC56B6F00B7149E /* Frameworks */,
+				8EC69BC01BC56B6F00B7149E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC69BC41BC56B6F00B7149E /* PBXTargetDependency */,
+			);
+			name = PronokalUITests;
+			productName = PronokalUITests;
+			productReference = 8EC69BC21BC56B6F00B7149E /* PronokalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC69B961BC56B6E00B7149E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Hopper;
+				TargetAttributes = {
+					8EC69B9D1BC56B6E00B7149E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 58WJ6AVVZN;
+					};
+					8EC69BB61BC56B6F00B7149E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 58WJ6AVVZN;
+						TestTargetID = 8EC69B9D1BC56B6E00B7149E;
+					};
+					8EC69BC11BC56B6F00B7149E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 58WJ6AVVZN;
+						TestTargetID = 8EC69B9D1BC56B6E00B7149E;
+					};
+				};
+			};
+			buildConfigurationList = 8EC69B991BC56B6E00B7149E /* Build configuration list for PBXProject "Pronokal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC69B951BC56B6E00B7149E;
+			productRefGroup = 8EC69B9F1BC56B6E00B7149E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC69B9D1BC56B6E00B7149E /* Pronokal */,
+				8EC69BB61BC56B6F00B7149E /* PronokalTests */,
+				8EC69BC11BC56B6F00B7149E /* PronokalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC69B9C1BC56B6E00B7149E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC69BB11BC56B6E00B7149E /* LaunchScreen.storyboard in Resources */,
+				8EC69BAE1BC56B6E00B7149E /* Assets.xcassets in Resources */,
+				8EC69BAC1BC56B6E00B7149E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BB51BC56B6F00B7149E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BC01BC56B6F00B7149E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC69B9A1BC56B6E00B7149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */,
+				8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */,
+				8EC69BA31BC56B6E00B7149E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BB31BC56B6F00B7149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC69BBC1BC56B6F00B7149E /* PronokalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC69BBE1BC56B6F00B7149E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC69BC71BC56B6F00B7149E /* PronokalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC69BB91BC56B6F00B7149E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC69B9D1BC56B6E00B7149E /* Pronokal */;
+			targetProxy = 8EC69BB81BC56B6F00B7149E /* PBXContainerItemProxy */;
+		};
+		8EC69BC41BC56B6F00B7149E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC69B9D1BC56B6E00B7149E /* Pronokal */;
+			targetProxy = 8EC69BC31BC56B6F00B7149E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EC69BAA1BC56B6E00B7149E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC69BAB1BC56B6E00B7149E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EC69BAF1BC56B6E00B7149E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC69BB01BC56B6E00B7149E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC69BC91BC56B6F00B7149E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EC69BCA1BC56B6F00B7149E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC69BCC1BC56B6F00B7149E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pronokal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.Pronokal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EC69BCD1BC56B6F00B7149E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pronokal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.Pronokal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EC69BCF1BC56B6F00B7149E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PronokalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.PronokalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pronokal.app/Pronokal";
+			};
+			name = Debug;
+		};
+		8EC69BD01BC56B6F00B7149E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PronokalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.PronokalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pronokal.app/Pronokal";
+			};
+			name = Release;
+		};
+		8EC69BD21BC56B6F00B7149E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PronokalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.PronokalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pronokal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8EC69BD31BC56B6F00B7149E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PronokalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Hopper.PronokalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pronokal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC69B991BC56B6E00B7149E /* Build configuration list for PBXProject "Pronokal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC69BC91BC56B6F00B7149E /* Debug */,
+				8EC69BCA1BC56B6F00B7149E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC69BCB1BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "Pronokal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC69BCC1BC56B6F00B7149E /* Debug */,
+				8EC69BCD1BC56B6F00B7149E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EC69BCE1BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "PronokalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC69BCF1BC56B6F00B7149E /* Debug */,
+				8EC69BD01BC56B6F00B7149E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EC69BD11BC56B6F00B7149E /* Build configuration list for PBXNativeTarget "PronokalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC69BD21BC56B6F00B7149E /* Debug */,
+				8EC69BD31BC56B6F00B7149E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC69B961BC56B6E00B7149E /* Project object */;
+}
