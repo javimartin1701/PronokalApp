@@ -21,10 +21,13 @@
 @implementation testimoniosViewController
 
 -(IBAction)play:(id)sender{
-    NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
-    NSURL *url= [NSURL fileURLWithPath:stringPath];
+
     
-    mpc=[[MPMoviePlayerController alloc]initWithContentURL:url];
+   // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/virginiaytoni.mp4"];
+   
+    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];
     
     [[self view]addSubview:mpc.view];
@@ -33,10 +36,10 @@
 }
 
 -(IBAction)play2:(id)sender{
-    NSString *stringPath2=[[NSBundle mainBundle]pathForResource:@"ingridconsuelo" ofType:@"mp4"];
-    NSURL *url2= [NSURL fileURLWithPath:stringPath2];
+    //NSString *stringPath2=[[NSBundle mainBundle]pathForResource:@"ingridconsuelo" ofType:@"mp4"];
+    NSURL *url2 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/ingridconsuelo.mp4"];
     
-    mpc2=[[MPMoviePlayerController alloc]initWithContentURL:url2];
+    mpc2=[[MPMoviePlayerController alloc] initWithContentURL:url2];
     [mpc2 setMovieSourceType:MPMovieSourceTypeFile];
     
     [[self view]addSubview:mpc2.view];
@@ -45,10 +48,10 @@
 }
 
 -(IBAction)play3:(id)sender{
-    NSString *stringPath3=[[NSBundle mainBundle]pathForResource:@"anamarta" ofType:@"mp4"];
-    NSURL *url3= [NSURL fileURLWithPath:stringPath3];
+   // NSString *stringPath3=[[NSBundle mainBundle]pathForResource:@"anamarta" ofType:@"mp4"];
+    NSURL *url3 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/anamarta.mp4"];
     
-    mpc3=[[MPMoviePlayerController alloc]initWithContentURL:url3];
+    mpc3=[[MPMoviePlayerController alloc] initWithContentURL:url3];
     [mpc3 setMovieSourceType:MPMovieSourceTypeFile];
     
     [[self view]addSubview:mpc3.view];
@@ -57,10 +60,11 @@
 }
 
 -(IBAction)play4:(id)sender{
-    NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
-    NSURL *url4= [NSURL fileURLWithPath:stringPath4];
+    //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    NSURL *url4 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/virginiaytoni.mp4"];
     
-    mpc4=[[MPMoviePlayerController alloc]initWithContentURL:url4];
+    mpc4=[[MPMoviePlayerController alloc] initWithContentURL:url4];
+
     [mpc4 setMovieSourceType:MPMovieSourceTypeFile];
     
     [[self view]addSubview:mpc4.view];

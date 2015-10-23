@@ -81,9 +81,6 @@
 		8EE1F26F1BD3BE45007A3D73 /* testimoniosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1F26E1BD3BE45007A3D73 /* testimoniosViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8EE1F2731BD40977007A3D73 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE1F2721BD40977007A3D73 /* MediaPlayer.framework */; };
 		8EE1F2751BD4131B007A3D73 /* testimonios1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F2741BD4131B007A3D73 /* testimonios1.jpg */; settings = {ASSET_TAGS = (); }; };
-		8EE1F2771BD418CE007A3D73 /* virginiaytoni.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F2761BD418CE007A3D73 /* virginiaytoni.mp4 */; settings = {ASSET_TAGS = (); }; };
-		8EE1F2791BD41E7F007A3D73 /* ingridconsuelo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F2781BD41E7F007A3D73 /* ingridconsuelo.mp4 */; settings = {ASSET_TAGS = (); }; };
-		8EE1F27B1BD4209C007A3D73 /* anamarta.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F27A1BD4209C007A3D73 /* anamarta.mp4 */; settings = {ASSET_TAGS = (); }; };
 		8EE1F27E1BD53E4E007A3D73 /* calc1-h.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F27C1BD53E4E007A3D73 /* calc1-h.jpg */; settings = {ASSET_TAGS = (); }; };
 		8EE1F27F1BD53E4E007A3D73 /* calc1-m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F27D1BD53E4E007A3D73 /* calc1-m.jpg */; settings = {ASSET_TAGS = (); }; };
 		8EE1F2821BD5424D007A3D73 /* CalculadorahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1F2811BD5424D007A3D73 /* CalculadorahViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -207,9 +204,6 @@
 		8EE1F26E1BD3BE45007A3D73 /* testimoniosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testimoniosViewController.m; sourceTree = "<group>"; };
 		8EE1F2721BD40977007A3D73 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		8EE1F2741BD4131B007A3D73 /* testimonios1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonios1.jpg; sourceTree = "<group>"; };
-		8EE1F2761BD418CE007A3D73 /* virginiaytoni.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = virginiaytoni.mp4; sourceTree = "<group>"; };
-		8EE1F2781BD41E7F007A3D73 /* ingridconsuelo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ingridconsuelo.mp4; sourceTree = "<group>"; };
-		8EE1F27A1BD4209C007A3D73 /* anamarta.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = anamarta.mp4; sourceTree = "<group>"; };
 		8EE1F27C1BD53E4E007A3D73 /* calc1-h.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h.jpg"; sourceTree = "<group>"; };
 		8EE1F27D1BD53E4E007A3D73 /* calc1-m.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-m.jpg"; sourceTree = "<group>"; };
 		8EE1F2801BD5424D007A3D73 /* CalculadorahViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculadorahViewController.h; sourceTree = "<group>"; };
@@ -406,9 +400,6 @@
 		8EC69C0B1BC66B5900B7149E /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
-				8EE1F2781BD41E7F007A3D73 /* ingridconsuelo.mp4 */,
-				8EE1F2761BD418CE007A3D73 /* virginiaytoni.mp4 */,
-				8EE1F27A1BD4209C007A3D73 /* anamarta.mp4 */,
 				8E672AE71BD68D0700B8D12F /* coaching1.jpg */,
 				8EE1F27C1BD53E4E007A3D73 /* calc1-h.jpg */,
 				8EE1F27D1BD53E4E007A3D73 /* calc1-m.jpg */,
@@ -583,7 +574,6 @@
 				8EC69C2C1BCD101D00B7149E /* boton_club.jpg in Resources */,
 				8EC69C0A1BC66B5100B7149E /* medicos_home.jpg in Resources */,
 				8EC69C2F1BCD101D00B7149E /* boton_peso.jpg in Resources */,
-				8EE1F27B1BD4209C007A3D73 /* anamarta.mp4 in Resources */,
 				8EE1F24F1BCEACFF007A3D73 /* PNK-3.jpg in Resources */,
 				8EE1F24E1BCEACFF007A3D73 /* PNK-2.jpg in Resources */,
 				8EE1F2751BD4131B007A3D73 /* testimonios1.jpg in Resources */,
@@ -599,11 +589,9 @@
 				8EE1F2491BCEA0DE007A3D73 /* nutricion-2.jpg in Resources */,
 				8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */,
 				8EE1F27E1BD53E4E007A3D73 /* calc1-h.jpg in Resources */,
-				8EE1F2791BD41E7F007A3D73 /* ingridconsuelo.mp4 in Resources */,
 				8EE1F2681BD112D6007A3D73 /* actividad1.jpg in Resources */,
 				8EC69BAC1BC56B6E00B7149E /* Main.storyboard in Resources */,
 				8EE1F2441BCE990F007A3D73 /* nutricion-1.jpg in Resources */,
-				8EE1F2771BD418CE007A3D73 /* virginiaytoni.mp4 in Resources */,
 				8EC69C1C1BC6BD3B00B7149E /* posicion.png in Resources */,
 				8EC69BFC1BC5813E00B7149E /* config.png in Resources */,
 				8EC69C291BCD101D00B7149E /* boton_actividad.jpg in Resources */,
