@@ -88,8 +88,12 @@
     amasd.text = [NSString stringWithFormat:@"%d", sAmasD];
     bmasc.text = [NSString stringWithFormat:@"%d", sBmasC];
     
-    int A=sAmasD;
-    int B=sBmasC;
+    int A=0;
+    int B=0;
+    
+    
+    A=sAmasD;
+    B=sBmasC;
     
     if (A>B) {
         

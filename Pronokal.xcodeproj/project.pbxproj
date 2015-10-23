@@ -13,7 +13,6 @@
 		8E672AE61BD68ADE00B8D12F /* Coaching1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E672AE51BD68ADE00B8D12F /* Coaching1ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E672AE81BD68D0700B8D12F /* coaching1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE71BD68D0700B8D12F /* coaching1.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AEA1BD8DADA00B8D12F /* coaching0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE91BD8DADA00B8D12F /* coaching0.jpg */; settings = {ASSET_TAGS = (); }; };
-		8E672AED1BD8DEC300B8D12F /* Coaching2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E672AEC1BD8DEC300B8D12F /* Coaching2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
 		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
@@ -112,8 +111,6 @@
 		8E672AE51BD68ADE00B8D12F /* Coaching1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coaching1ViewController.m; sourceTree = "<group>"; };
 		8E672AE71BD68D0700B8D12F /* coaching1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching1.jpg; sourceTree = "<group>"; };
 		8E672AE91BD8DADA00B8D12F /* coaching0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching0.jpg; sourceTree = "<group>"; };
-		8E672AEB1BD8DEC300B8D12F /* Coaching2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coaching2ViewController.h; sourceTree = "<group>"; };
-		8E672AEC1BD8DEC300B8D12F /* Coaching2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coaching2ViewController.m; sourceTree = "<group>"; };
 		8E672AEE1BD94E3B00B8D12F /* Coaching2bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coaching2bViewController.h; sourceTree = "<group>"; };
 		8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coaching2bViewController.m; sourceTree = "<group>"; };
 		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -281,8 +278,6 @@
 				8EC69BAA1BC56B6E00B7149E /* Main.storyboard */,
 				8E672AEE1BD94E3B00B8D12F /* Coaching2bViewController.h */,
 				8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */,
-				8E672AEB1BD8DEC300B8D12F /* Coaching2ViewController.h */,
-				8E672AEC1BD8DEC300B8D12F /* Coaching2ViewController.m */,
 				8E672AE41BD68ADE00B8D12F /* Coaching1ViewController.h */,
 				8E672AE51BD68ADE00B8D12F /* Coaching1ViewController.m */,
 				8EE1F2831BD54E83007A3D73 /* Calculadora2ViewController.h */,
@@ -639,7 +634,6 @@
 				8EE1F26F1BD3BE45007A3D73 /* testimoniosViewController.m in Sources */,
 				8EE1F2421BCE75DD007A3D73 /* NutricionViewController.m in Sources */,
 				8EC69BA31BC56B6E00B7149E /* main.m in Sources */,
-				8E672AED1BD8DEC300B8D12F /* Coaching2ViewController.m in Sources */,
 				8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */,
 				8EE1F26C1BD3B43B007A3D73 /* Actividad2ViewController.m in Sources */,
 			);
