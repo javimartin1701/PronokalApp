@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8EC69BB61BC56B6F00B7149E"
-               BuildableName = "PronokalTests.xctest"
-               BlueprintName = "PronokalTests"
-               ReferencedContainer = "container:Pronokal.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8EC69BC11BC56B6F00B7149E"
-               BuildableName = "PronokalUITests.xctest"
-               BlueprintName = "PronokalUITests"
-               ReferencedContainer = "container:Pronokal.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
