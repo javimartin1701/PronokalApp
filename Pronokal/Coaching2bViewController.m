@@ -120,7 +120,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320,600)];
+    [scroller setContentSize:CGSizeMake(320,720)];
     
     paso1.hidden=YES;
     paso2.hidden=YES;

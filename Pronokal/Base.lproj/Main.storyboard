@@ -273,11 +273,31 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Mq-4M-aEb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTq-gk-peb">
-                                        <rect key="frame" x="130" y="332" width="61" height="30"/>
-                                        <state key="normal" title="Empezar"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oTo-Nh-VFQ">
+                                        <rect key="frame" x="0.0" y="5" width="320" height="509"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="gSY-ZX-Giu"/>
+                                            <constraint firstAttribute="width" secondItem="oTo-Nh-VFQ" secondAttribute="height" multiplier="320:509" id="iHr-Ol-44I"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTq-gk-peb">
+                                        <rect key="frame" x="100" y="440" width="120" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="3Cc-dn-1ZP"/>
+                                            <constraint firstAttribute="width" secondItem="QTq-gk-peb" secondAttribute="height" multiplier="4:1" id="6wi-4i-UzB"/>
+                                        </constraints>
                                         <connections>
                                             <action selector="empezar:" destination="aYC-pH-BpT" eventType="touchUpInside" id="gtl-OZ-teb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bm7-Jd-ch4">
+                                        <rect key="frame" x="107" y="108" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="bm7-Jd-ch4" secondAttribute="height" multiplier="23:15" id="2q9-EX-Xpa"/>
+                                            <constraint firstAttribute="width" constant="46" id="Qei-Ix-aLZ"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="QzO-PJ-1Vh" kind="show" animates="NO" id="f7U-6P-83y"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9W-qA-X9b">
@@ -603,6 +623,14 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="bm7-Jd-ch4" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" constant="108" id="6QK-Qc-PkQ"/>
+                                    <constraint firstItem="bm7-Jd-ch4" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" constant="-40" id="8Mj-uI-cTK"/>
+                                    <constraint firstItem="oTo-Nh-VFQ" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="Vek-nd-hAX"/>
+                                    <constraint firstItem="oTo-Nh-VFQ" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="ij4-gY-2lC"/>
+                                    <constraint firstItem="QTq-gk-peb" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="nj8-FP-Wxo"/>
+                                    <constraint firstItem="QTq-gk-peb" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" constant="440" id="zPS-9k-eNe"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -668,40 +696,44 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xad-6k-9rK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pDh-Hb-BXO">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="705"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching-a1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LIt-Ld-FLM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="765"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="5VP-Bh-f98"/>
-                                            <constraint firstAttribute="width" secondItem="pDh-Hb-BXO" secondAttribute="height" multiplier="64:141" id="ef6-CF-uTB"/>
+                                            <constraint firstAttribute="width" secondItem="LIt-Ld-FLM" secondAttribute="height" multiplier="64:153" id="BAq-pH-dxN"/>
+                                            <constraint firstAttribute="width" constant="320" id="a8u-XP-aTA"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89h-rx-JYc">
                                         <rect key="frame" x="109" y="462" width="103" height="30"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="89h-rx-JYc" secondAttribute="height" multiplier="103:30" id="H2H-IM-xbd"/>
-                                            <constraint firstAttribute="width" constant="103" id="LOL-Rq-J3n"/>
-                                        </constraints>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20s-iR-3FA">
-                                        <rect key="frame" x="176" y="81" width="46" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="20s-iR-3FA" secondAttribute="height" multiplier="23:15" id="7Wu-7L-zvN"/>
-                                            <constraint firstAttribute="width" constant="46" id="Pp9-Gl-WTv"/>
+                                            <constraint firstAttribute="width" secondItem="89h-rx-JYc" secondAttribute="height" multiplier="103:30" id="bhL-ue-pov"/>
+                                            <constraint firstAttribute="width" constant="103" id="qY9-9k-TgI"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="aYC-pH-BpT" kind="show" animates="NO" id="0E4-d7-10D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20s-iR-3FA">
+                                        <rect key="frame" x="181" y="105" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="Tyv-8R-z5e"/>
+                                            <constraint firstAttribute="width" secondItem="20s-iR-3FA" secondAttribute="height" multiplier="23:15" id="nJV-pC-E3e"/>
                                         </constraints>
                                         <state key="normal" title=" "/>
                                         <connections>
-                                            <segue destination="aYC-pH-BpT" kind="show" id="I9p-9N-ZWK"/>
+                                            <segue destination="aYC-pH-BpT" kind="show" animates="NO" id="I9p-9N-ZWK"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="pDh-Hb-BXO" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="Bby-FQ-lQ2"/>
-                                    <constraint firstItem="pDh-Hb-BXO" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" id="CBP-L8-A7S"/>
-                                    <constraint firstItem="89h-rx-JYc" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" constant="647" id="b7H-t0-YTE"/>
-                                    <constraint firstItem="20s-iR-3FA" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" constant="81" id="fgI-xC-dbT"/>
-                                    <constraint firstItem="89h-rx-JYc" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="fyp-xt-R58"/>
-                                    <constraint firstItem="20s-iR-3FA" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" constant="40" id="u30-yF-wc7"/>
+                                    <constraint firstItem="LIt-Ld-FLM" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" id="NdZ-fc-5y1"/>
+                                    <constraint firstItem="LIt-Ld-FLM" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="TWg-bC-qAb"/>
+                                    <constraint firstItem="89h-rx-JYc" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" constant="710" id="bAN-OS-dKM"/>
+                                    <constraint firstItem="20s-iR-3FA" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" constant="40" id="cTD-CL-igD"/>
+                                    <constraint firstItem="20s-iR-3FA" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" constant="105" id="cYU-4L-4Mc"/>
+                                    <constraint firstItem="89h-rx-JYc" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="cmd-ri-pJL"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -2346,7 +2378,8 @@
         <image name="calc1-h.jpg" width="747" height="1224"/>
         <image name="calc1-m.jpg" width="747" height="1224"/>
         <image name="club.png" width="25" height="25"/>
-        <image name="coaching0.jpg" width="750" height="1692"/>
+        <image name="coaching-a1.jpg" width="746" height="1805"/>
+        <image name="coaching1.jpg" width="747" height="1218"/>
         <image name="config.png" width="25" height="25"/>
         <image name="contacto.png" width="25" height="25"/>
         <image name="control1.jpg" width="745" height="1400"/>
@@ -2366,17 +2399,19 @@
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="f7U-6P-83y"/>
+        <segue reference="I9p-9N-ZWK"/>
         <segue reference="xLk-7n-WHd"/>
+        <segue reference="xBx-Fe-RKY"/>
+        <segue reference="rte-fe-HIn"/>
+        <segue reference="aw2-Fr-I3T"/>
         <segue reference="fvA-qt-0EE"/>
         <segue reference="l8p-pq-pL1"/>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="nPa-bS-CB1"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="HvQ-gg-HKO"/>
         <segue reference="had-le-EPl"/>
         <segue reference="roz-NK-X1A"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="tnD-7F-Pin"/>
+        <segue reference="djE-OB-S6i"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="Z1s-8x-Pdf"/>
     </inferredMetricsTieBreakers>
 </document>

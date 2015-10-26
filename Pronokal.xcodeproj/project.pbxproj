@@ -14,6 +14,7 @@
 		8E672AE81BD68D0700B8D12F /* coaching1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE71BD68D0700B8D12F /* coaching1.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AEA1BD8DADA00B8D12F /* coaching0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE91BD8DADA00B8D12F /* coaching0.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */; settings = {ASSET_TAGS = (); }; };
 		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
 		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
 		8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA81BC56B6E00B7149E /* ViewController.m */; };
@@ -113,6 +114,7 @@
 		8E672AE91BD8DADA00B8D12F /* coaching0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching0.jpg; sourceTree = "<group>"; };
 		8E672AEE1BD94E3B00B8D12F /* Coaching2bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coaching2bViewController.h; sourceTree = "<group>"; };
 		8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coaching2bViewController.m; sourceTree = "<group>"; };
+		8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coaching-a1.jpg"; sourceTree = "<group>"; };
 		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC69BA21BC56B6E00B7149E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC69BA41BC56B6E00B7149E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -429,6 +431,7 @@
 				8EC69C0C1BC66D8D00B7149E /* logo_texto.jpg */,
 				8E672AE01BD64A5900B8D12F /* flecha.jpg */,
 				8E672AE21BD64B8E00B8D12F /* flecha.png */,
+				8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				8EE1F2611BD00BBA007A3D73 /* control1.jpg in Resources */,
 				8EC69BDF1BC57C9A00B7149E /* menu@3x.png in Resources */,
 				8EE1F24D1BCEACFF007A3D73 /* PNK-1.jpg in Resources */,
+				8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */,
 				8EC69C0D1BC66D8D00B7149E /* logo_texto.jpg in Resources */,
 				8EE1F2621BD00BBA007A3D73 /* control2.jpg in Resources */,
 				8EC69C371BCD289C00B7149E /* calculadura_text2.jpg in Resources */,
