@@ -38,9 +38,9 @@
     IBOutlet UILabel *label34;
     IBOutlet UILabel *label4;
     
-    IBOutlet UILabel *caso1;
-    IBOutlet UILabel *caso2;
-    IBOutlet UILabel *caso3;
+    IBOutlet UITextView *caso1;
+    IBOutlet UITextView *caso2;
+    IBOutlet UITextView *caso3;
     
     IBOutlet UILabel *amasd;
     IBOutlet UILabel *bmasc;
@@ -50,6 +50,8 @@
     IBOutlet UIView *paso3;
     IBOutlet UIView *paso4;
     IBOutlet UIView *informeFinal;
+    
+    
     
     
 }

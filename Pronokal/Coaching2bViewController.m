@@ -71,6 +71,7 @@
     total3 = valor7 + valor8 + valor9;
     total4 = valor10 + valor11 + valor12;
     
+    
     label1.text = [NSString stringWithFormat:@"%d", total1];
     label12.text = [NSString stringWithFormat:@"%d", total1];
     label13.text = [NSString stringWithFormat:@"%d", total1];
@@ -98,18 +99,18 @@
     if (A>B) {
         
         caso1.hidden=NO;
-        caso1.text = @"Caso 1";
+        
     }
     
     if (A<B) {
         caso2.hidden=NO;
-        caso2.text = @"Caso 2";
+        
         
     }
     
     if (A==B) {
         caso3.hidden=NO;
-        caso3.text = @"Caso 3";
+        
     }
     
     

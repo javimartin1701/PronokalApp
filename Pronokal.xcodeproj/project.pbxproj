@@ -15,6 +15,7 @@
 		8E672AEA1BD8DADA00B8D12F /* coaching0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE91BD8DADA00B8D12F /* coaching0.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */; settings = {ASSET_TAGS = (); }; };
 		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
 		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
 		8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA81BC56B6E00B7149E /* ViewController.m */; };
@@ -115,6 +116,7 @@
 		8E672AEE1BD94E3B00B8D12F /* Coaching2bViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coaching2bViewController.h; sourceTree = "<group>"; };
 		8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coaching2bViewController.m; sourceTree = "<group>"; };
 		8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coaching-a1.jpg"; sourceTree = "<group>"; };
+		8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultado_test.jpg; sourceTree = "<group>"; };
 		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC69BA21BC56B6E00B7149E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC69BA41BC56B6E00B7149E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -429,6 +431,7 @@
 				8EC69C091BC66B5100B7149E /* medicos_home.jpg */,
 				8EC69C101BC675E300B7149E /* logo_texto2.png */,
 				8EC69C0C1BC66D8D00B7149E /* logo_texto.jpg */,
+				8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */,
 				8E672AE01BD64A5900B8D12F /* flecha.jpg */,
 				8E672AE21BD64B8E00B8D12F /* flecha.png */,
 				8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */,
@@ -585,6 +588,7 @@
 				8EC69BE51BC57E1B00B7149E /* club@2x.png in Resources */,
 				8EC69C311BCD101D00B7149E /* boton_testimonios.jpg in Resources */,
 				8EC69C061BC5820D00B7149E /* atras@2x.png in Resources */,
+				8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */,
 				8EE1F2491BCEA0DE007A3D73 /* nutricion-2.jpg in Resources */,
 				8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */,
 				8EE1F27E1BD53E4E007A3D73 /* calc1-h.jpg in Resources */,
