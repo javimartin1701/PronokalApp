@@ -42,9 +42,9 @@
     total2=(saltura/100)*(saltura/100)*21.5;
     total3=speso-total2;
 
-    resultadot=[NSString stringWithFormat:@"%.2f",total];
-    resultadot2=[NSString stringWithFormat:@"%.2f",total2];
-    resultadot3=[NSString stringWithFormat:@"%.2f",total3];
+    resultadot=[NSString stringWithFormat:@"%.1f",total];
+    resultadot2=[NSString stringWithFormat:@"%.1f",total2];
+    resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;

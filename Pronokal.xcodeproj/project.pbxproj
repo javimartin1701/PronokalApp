@@ -17,6 +17,7 @@
 		8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E85DB901BDF8124003DB5B7 /* PesoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E85DB8F1BDF8124003DB5B7 /* PesoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8E85DB921BDFA954003DB5B7 /* resPesIdal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */; settings = {ASSET_TAGS = (); }; };
 		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
 		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
 		8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA81BC56B6E00B7149E /* ViewController.m */; };
@@ -120,6 +121,7 @@
 		8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultado_test.jpg; sourceTree = "<group>"; };
 		8E85DB8E1BDF8124003DB5B7 /* PesoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PesoViewController.h; sourceTree = "<group>"; };
 		8E85DB8F1BDF8124003DB5B7 /* PesoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PesoViewController.m; sourceTree = "<group>"; };
+		8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resPesIdal.jpg; sourceTree = "<group>"; };
 		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC69BA21BC56B6E00B7149E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC69BA41BC56B6E00B7149E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 				8E672AE01BD64A5900B8D12F /* flecha.jpg */,
 				8E672AE21BD64B8E00B8D12F /* flecha.png */,
 				8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */,
+				8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 				8E672AE11BD64A5900B8D12F /* flecha.jpg in Resources */,
 				8EC69C2B1BCD101D00B7149E /* boton_calc.jpg in Resources */,
 				8EC69C2D1BCD101D00B7149E /* boton_control.jpg in Resources */,
+				8E85DB921BDFA954003DB5B7 /* resPesIdal.jpg in Resources */,
 				8E672AEA1BD8DADA00B8D12F /* coaching0.jpg in Resources */,
 				8EC69BFF1BC5813E00B7149E /* contacto.png in Resources */,
 				8EE1F2611BD00BBA007A3D73 /* control1.jpg in Resources */,
