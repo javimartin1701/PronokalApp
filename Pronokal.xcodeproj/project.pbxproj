@@ -18,6 +18,7 @@
 		8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E85DB8C1BDE873A003DB5B7 /* resultado_test.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E85DB901BDF8124003DB5B7 /* PesoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E85DB8F1BDF8124003DB5B7 /* PesoViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E85DB921BDFA954003DB5B7 /* resPesIdal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E85DB951BDFD3AA003DB5B7 /* PesohViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E85DB941BDFD3AA003DB5B7 /* PesohViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8EC69BA31BC56B6E00B7149E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA21BC56B6E00B7149E /* main.m */; };
 		8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA51BC56B6E00B7149E /* AppDelegate.m */; };
 		8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC69BA81BC56B6E00B7149E /* ViewController.m */; };
@@ -122,6 +123,8 @@
 		8E85DB8E1BDF8124003DB5B7 /* PesoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PesoViewController.h; sourceTree = "<group>"; };
 		8E85DB8F1BDF8124003DB5B7 /* PesoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PesoViewController.m; sourceTree = "<group>"; };
 		8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resPesIdal.jpg; sourceTree = "<group>"; };
+		8E85DB931BDFD3AA003DB5B7 /* PesohViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PesohViewController.h; sourceTree = "<group>"; };
+		8E85DB941BDFD3AA003DB5B7 /* PesohViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PesohViewController.m; sourceTree = "<group>"; };
 		8EC69B9E1BC56B6E00B7149E /* Pronokal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pronokal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC69BA21BC56B6E00B7149E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8EC69BA41BC56B6E00B7149E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -321,6 +324,8 @@
 				8EE1F2811BD5424D007A3D73 /* CalculadorahViewController.m */,
 				8E85DB8E1BDF8124003DB5B7 /* PesoViewController.h */,
 				8E85DB8F1BDF8124003DB5B7 /* PesoViewController.m */,
+				8E85DB931BDFD3AA003DB5B7 /* PesohViewController.h */,
+				8E85DB941BDFD3AA003DB5B7 /* PesohViewController.m */,
 				8EE1F2501BCFAFD7007A3D73 /* PNK1ViewController.h */,
 				8EE1F2511BCFAFD7007A3D73 /* PNK1ViewController.m */,
 			);
@@ -653,6 +658,7 @@
 				8EE1F2421BCE75DD007A3D73 /* NutricionViewController.m in Sources */,
 				8EC69BA31BC56B6E00B7149E /* main.m in Sources */,
 				8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */,
+				8E85DB951BDFD3AA003DB5B7 /* PesohViewController.m in Sources */,
 				8EE1F26C1BD3B43B007A3D73 /* Actividad2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
