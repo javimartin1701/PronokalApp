@@ -19,8 +19,15 @@
     IBOutlet UILabel *pesoPerder;
     
     IBOutlet UIView *pantallaresultado;
+    
+    IBOutlet UIWebView *grafica;
+    
+    //IBOutlet UILabel *urlGrafica;
+
 }
 
 -(IBAction)calcular:(id)sender;
+
+-(IBAction)vetGrafica:(id)sender;
 
 @end

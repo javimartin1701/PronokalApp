@@ -14,6 +14,10 @@
 
 @implementation PesoViewController
 
+-(IBAction)vetGrafica:(id)sender{
+    grafica.hidden=NO;
+}
+
 -(IBAction)calcular:(id)sender{
     pantallaresultado.hidden=NO;
   
@@ -52,6 +56,15 @@
     
     
     
+    NSString *website = [NSString stringWithFormat:@"http://webdemo.com.es/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
+    //urlGrafica.text=website;
+    
+    //NSString *website = @"http://webdemo.com.es/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";
+    NSURL *url = [NSURL URLWithString:website];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    [grafica loadRequest:request];
+
     
     
     
@@ -94,7 +107,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+  
+    
     pantallaresultado.hidden=YES;
+    grafica.hidden=YES;
     
     [scrollcalc setScrollEnabled:YES];
     [scrollcalc setContentSize:CGSizeMake(320,600)];
@@ -102,7 +118,9 @@
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ocultaTeclado:)];
     [tapGesture setNumberOfTouchesRequired:1];
     [[self view] addGestureRecognizer:tapGesture];
-}
+    
+    
+   }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
