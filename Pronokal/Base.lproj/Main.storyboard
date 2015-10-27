@@ -1968,7 +1968,7 @@
                                             <constraint firstAttribute="width" constant="70" id="KFt-KN-NZP"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ecH-LA-9K8">
                                         <rect key="frame" x="163" y="304" width="70" height="30"/>
@@ -1978,7 +1978,7 @@
                                             <constraint firstAttribute="width" secondItem="ecH-LA-9K8" secondAttribute="height" multiplier="7:3" id="ehb-dN-Zoy"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cpb-p4-c89">
                                         <rect key="frame" x="163" y="351" width="70" height="30"/>
@@ -1988,7 +1988,7 @@
                                             <constraint firstAttribute="width" secondItem="cpb-p4-c89" secondAttribute="height" multiplier="7:3" id="acQ-1G-lLi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sph-mD-H3a">
                                         <rect key="frame" x="79" y="473" width="161" height="30"/>
@@ -2010,11 +2010,43 @@
                                                     <constraint firstAttribute="width" constant="320" id="qKY-HB-D2t"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDh-dp-cqS">
+                                                <rect key="frame" x="43" y="115" width="163" height="101"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1z-bG-4Xz">
+                                                <rect key="frame" x="43" y="256" width="163" height="101"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                                <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymO-9q-dqx">
+                                                <rect key="frame" x="79" y="445" width="162" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="162" id="SiK-3Z-1Kn"/>
+                                                    <constraint firstAttribute="width" secondItem="ymO-9q-dqx" secondAttribute="height" multiplier="27:5" id="jV5-3n-7FB"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="vetGrafica:" destination="1zW-k4-CKP" eventType="touchUpInside" id="Ra1-YB-TT5"/>
+                                                </connections>
+                                            </button>
+                                            <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="526"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="dqR-8i-Myt" secondAttribute="height" multiplier="160:263" id="GKS-a5-xzv"/>
+                                                    <constraint firstAttribute="width" constant="320" id="rZv-xj-Gnu"/>
+                                                </constraints>
+                                            </webView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="ymO-9q-dqx" firstAttribute="centerX" secondItem="4oF-P9-EcH" secondAttribute="centerX" id="0dt-kS-Zs8"/>
                                             <constraint firstItem="hzr-Cz-P9m" firstAttribute="top" secondItem="4oF-P9-EcH" secondAttribute="top" id="HCA-aO-C0R"/>
                                             <constraint firstAttribute="width" secondItem="4oF-P9-EcH" secondAttribute="height" multiplier="160:263" id="Imd-w3-4w9"/>
+                                            <constraint firstItem="ymO-9q-dqx" firstAttribute="top" secondItem="f1z-bG-4Xz" secondAttribute="bottom" constant="88" id="U71-J6-Qpx"/>
                                             <constraint firstItem="hzr-Cz-P9m" firstAttribute="centerX" secondItem="4oF-P9-EcH" secondAttribute="centerX" id="hIi-Vq-OJL"/>
                                             <constraint firstAttribute="width" constant="320" id="zi0-Ev-MMT"/>
                                         </constraints>
@@ -2048,8 +2080,11 @@
                     <connections>
                         <outlet property="altura" destination="ecH-LA-9K8" id="MUP-ad-dxd"/>
                         <outlet property="edad" destination="cpb-p4-c89" id="mEq-V4-TCt"/>
+                        <outlet property="grafica" destination="dqR-8i-Myt" id="0Li-iI-TdS"/>
                         <outlet property="pantallaresultado" destination="4oF-P9-EcH" id="zZL-Eu-Ia7"/>
                         <outlet property="peso" destination="SsC-da-lyv" id="UrY-qW-vIM"/>
+                        <outlet property="pesoIdeal" destination="HDh-dp-cqS" id="ETE-h7-Xsx"/>
+                        <outlet property="pesoPerder" destination="f1z-bG-4Xz" id="Xe2-wJ-4yX"/>
                         <outlet property="scrollcalc" destination="Izn-lG-6cd" id="PjF-4n-nrJ"/>
                     </connections>
                 </viewController>
