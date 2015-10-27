@@ -1509,7 +1509,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Hu-f1-g5G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="386" y="-1476"/>
+            <point key="canvasLocation" x="-158" y="-1420"/>
         </scene>
         <!--Calculadorah View Controller-->
         <scene sceneID="FsD-ij-uKO">
@@ -1777,7 +1777,106 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAJ-PW-kpu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="859" y="-1476"/>
+            <point key="canvasLocation" x="315" y="-1420"/>
+        </scene>
+        <!--Peso View Controller-->
+        <scene sceneID="lhR-Kv-WXR">
+            <objects>
+                <viewController id="frg-ud-eCJ" customClass="PesoViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="STL-Rb-WvG"/>
+                        <viewControllerLayoutGuide type="bottom" id="0XK-eG-Pn8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Da3-XI-BwM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sUp-JS-Skg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-m.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ztz-Fs-nYg">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="522"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Ztz-Fs-nYg" secondAttribute="height" multiplier="160:261" id="Se9-fp-gkJ"/>
+                                            <constraint firstAttribute="width" constant="320" id="mbt-h9-VF8"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXq-f6-V4Y">
+                                        <rect key="frame" x="79" y="471" width="160" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="calcular:" destination="frg-ud-eCJ" eventType="touchUpInside" id="a5N-3k-NAk"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0eN-GO-KFt">
+                                        <rect key="frame" x="150" y="253" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zNR-xn-Vp3">
+                                        <rect key="frame" x="150" y="303" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ler-V3-8na">
+                                        <rect key="frame" x="150" y="341" width="97" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                                    </textField>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAJ-xP-L7c">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOm-zJ-noE">
+                                                <rect key="frame" x="120" y="137" width="91" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJx-61-CZe">
+                                                <rect key="frame" x="120" y="235" width="138" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwK-E9-ISh">
+                                                <rect key="frame" x="120" y="331" width="138" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Ztz-Fs-nYg" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="top" id="3d4-QR-zIe"/>
+                                    <constraint firstItem="Ztz-Fs-nYg" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="fZ1-KX-dyW"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="sUp-JS-Skg" secondAttribute="trailing" constant="-20" id="P1k-5E-7ZD"/>
+                            <constraint firstItem="sUp-JS-Skg" firstAttribute="leading" secondItem="Da3-XI-BwM" secondAttribute="leadingMargin" constant="-20" id="aTK-T7-3Uo"/>
+                            <constraint firstItem="sUp-JS-Skg" firstAttribute="top" secondItem="STL-Rb-WvG" secondAttribute="bottom" id="aax-MQ-rSB"/>
+                            <constraint firstItem="0XK-eG-Pn8" firstAttribute="top" secondItem="sUp-JS-Skg" secondAttribute="bottom" id="uXx-xW-6BF"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="altura" destination="zNR-xn-Vp3" id="5C1-Ic-r3y"/>
+                        <outlet property="edad" destination="Ler-V3-8na" id="c4Z-Pj-5YZ"/>
+                        <outlet property="pantallaresultado" destination="QAJ-xP-L7c" id="OgA-VW-G1S"/>
+                        <outlet property="peso" destination="0eN-GO-KFt" id="PXB-hE-Via"/>
+                        <outlet property="pesoIdeal" destination="NJx-61-CZe" id="s80-c8-VZd"/>
+                        <outlet property="pesoPerder" destination="RwK-E9-ISh" id="WdL-j0-ZXB"/>
+                        <outlet property="resultado" destination="kOm-zJ-noE" id="HYa-ng-0eW"/>
+                        <outlet property="scrollcalc" destination="sUp-JS-Skg" id="nrG-rE-wUZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jn8-Qt-xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="-1624"/>
         </scene>
         <!--Control1 View Controller-->
         <scene sceneID="MeV-aQ-zA6">
@@ -2125,6 +2224,9 @@
                                             <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="boton_peso.jpg"/>
+                                        <connections>
+                                            <segue destination="frg-ud-eCJ" kind="show" id="04N-eA-yfk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-lI-5q9" userLabel="ButtonTest">
                                         <rect key="frame" x="0.0" y="100" width="69" height="95"/>
@@ -2757,19 +2859,19 @@
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xBx-Fe-RKY"/>
         <segue reference="xLk-7n-WHd"/>
+        <segue reference="nPa-bS-CB1"/>
+        <segue reference="G2V-es-xvu"/>
         <segue reference="l8p-pq-pL1"/>
         <segue reference="fvA-qt-0EE"/>
         <segue reference="aw2-Fr-I3T"/>
         <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="6fa-lp-6Zu"/>
         <segue reference="djE-OB-S6i"/>
         <segue reference="HvQ-gg-HKO"/>
         <segue reference="had-le-EPl"/>
         <segue reference="roz-NK-X1A"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="6fa-lp-6Zu"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="f7U-6P-83y"/>
     </inferredMetricsTieBreakers>
 </document>
