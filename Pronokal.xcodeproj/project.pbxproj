@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0770301BE228540049C901 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07702F1BE228540049C901 /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8E0770331BE22AB00049C901 /* Menu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0770321BE22AB00049C901 /* Menu2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AE11BD64A5900B8D12F /* flecha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE01BD64A5900B8D12F /* flecha.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE21BD64B8E00B8D12F /* flecha.png */; settings = {ASSET_TAGS = (); }; };
@@ -109,6 +111,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E07702E1BE228540049C901 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		8E07702F1BE228540049C901 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		8E0770311BE22AB00049C901 /* Menu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu2ViewController.h; sourceTree = "<group>"; };
+		8E0770321BE22AB00049C901 /* Menu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu2ViewController.m; sourceTree = "<group>"; };
 		8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultadoimc.jpg; sourceTree = "<group>"; };
 		8E672AE01BD64A5900B8D12F /* flecha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flecha.jpg; sourceTree = "<group>"; };
 		8E672AE21BD64B8E00B8D12F /* flecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha.png; sourceTree = "<group>"; };
@@ -288,6 +294,10 @@
 				8EC69C121BC67A0800B7149E /* ContactoViewController.h */,
 				8EC69C131BC67A0800B7149E /* ContactoViewController.m */,
 				8EC69BAA1BC56B6E00B7149E /* Main.storyboard */,
+				8E0770311BE22AB00049C901 /* Menu2ViewController.h */,
+				8E0770321BE22AB00049C901 /* Menu2ViewController.m */,
+				8E07702E1BE228540049C901 /* MenuViewController.h */,
+				8E07702F1BE228540049C901 /* MenuViewController.m */,
 				8E672AEE1BD94E3B00B8D12F /* Coaching2bViewController.h */,
 				8E672AEF1BD94E3B00B8D12F /* Coaching2bViewController.m */,
 				8E672AE41BD68ADE00B8D12F /* Coaching1ViewController.h */,
@@ -652,10 +662,12 @@
 				8EC69BD91BC5757600B7149E /* UIDemoNavController.m in Sources */,
 				8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */,
 				8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */,
+				8E0770331BE22AB00049C901 /* Menu2ViewController.m in Sources */,
 				8EE1F2851BD54E83007A3D73 /* Calculadora2ViewController.m in Sources */,
 				8EE1F25E1BD00914007A3D73 /* Control2ViewController.m in Sources */,
 				8EE1F26F1BD3BE45007A3D73 /* testimoniosViewController.m in Sources */,
 				8EE1F2421BCE75DD007A3D73 /* NutricionViewController.m in Sources */,
+				8E0770301BE228540049C901 /* MenuViewController.m in Sources */,
 				8EC69BA31BC56B6E00B7149E /* main.m in Sources */,
 				8E672AF01BD94E3B00B8D12F /* Coaching2bViewController.m in Sources */,
 				8E85DB951BDFD3AA003DB5B7 /* PesohViewController.m in Sources */,
