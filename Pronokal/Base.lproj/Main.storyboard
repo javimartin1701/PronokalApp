@@ -242,21 +242,12 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
                     <tabBarItem key="tabBarItem" title="Menú" image="menu.png" id="scu-Rr-YWB"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="320" height="568"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1148" y="993"/>
+            <point key="canvasLocation" x="-1139" y="993"/>
         </scene>
         <!--Coaching 2b View Controller-->
         <scene sceneID="O5Q-ZR-FUQ">
@@ -3074,20 +3065,20 @@
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="nPa-bS-CB1"/>
+        <segue reference="xBx-Fe-RKY"/>
+        <segue reference="rte-fe-HIn"/>
         <segue reference="G2V-es-xvu"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="aw2-Fr-I3T"/>
         <segue reference="l8p-pq-pL1"/>
         <segue reference="fvA-qt-0EE"/>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="6fa-lp-6Zu"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="had-le-EPl"/>
         <segue reference="roz-NK-X1A"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="djE-OB-S6i"/>
+        <segue reference="HvQ-gg-HKO"/>
         <segue reference="KBI-Tt-PM3"/>
     </inferredMetricsTieBreakers>
 </document>
