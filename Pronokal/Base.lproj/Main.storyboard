@@ -2528,7 +2528,7 @@
         <!--Home-->
         <scene sceneID="7fi-m3-r06">
             <objects>
-                <viewController id="pxA-eF-nfQ" userLabel="Home" sceneMemberID="viewController">
+                <viewController id="pxA-eF-nfQ" userLabel="Home" customClass="homeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oUD-Bc-vlJ"/>
                         <viewControllerLayoutGuide type="bottom" id="xZc-t9-HOz"/>
@@ -2544,38 +2544,16 @@
                                     <constraint firstAttribute="width" constant="199" id="a5b-cR-N0e"/>
                                 </constraints>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="medicos_home.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jcv-wf-QFj">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="medicos_home.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jcv-wf-QFj">
                                 <rect key="frame" x="0.0" y="371" width="321" height="148"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="jcv-wf-QFj" secondAttribute="height" multiplier="321:148" id="ED7-Em-z4k"/>
                                 </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fgp-mO-RA2" userLabel="logos">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fgp-mO-RA2" userLabel="logos">
                                 <rect key="frame" x="20" y="69" width="290" height="294"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Di-9mn" userLabel="ButtonClub">
-                                        <rect key="frame" x="0.0" y="0.0" width="69" height="95"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="69" id="6k2-0f-pi3"/>
-                                            <constraint firstAttribute="width" secondItem="A0t-Di-9mn" secondAttribute="height" multiplier="69:95" id="bHU-f8-obq"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="boton_club.jpg"/>
-                                        <connections>
-                                            <segue destination="Cy8-pz-gFb" kind="show" id="nPa-bS-CB1"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-3G-Xz8" userLabel="ButtonPeso">
-                                        <rect key="frame" x="211" y="0.0" width="69" height="95"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="UBs-3G-Xz8" secondAttribute="height" multiplier="69:95" id="Y7c-hG-OOm"/>
-                                            <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="boton_peso.jpg"/>
-                                        <connections>
-                                            <segue destination="frg-ud-eCJ" kind="show" id="04N-eA-yfk"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-lI-5q9" userLabel="ButtonTest">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jD-lI-5q9" userLabel="ButtonTest">
                                         <rect key="frame" x="0.0" y="100" width="69" height="95"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="69" id="0eZ-QE-vOE"/>
@@ -2586,7 +2564,7 @@
                                             <segue destination="3po-R3-VDS" kind="show" id="WCL-6a-cs6"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rly-Qm-KdH" userLabel="ButtonPronokal">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rly-Qm-KdH" userLabel="ButtonPronokal">
                                         <rect key="frame" x="106" y="100" width="69" height="95"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="69" id="2Yv-93-m8w"/>
@@ -2597,18 +2575,7 @@
                                             <segue destination="p0O-Mv-NaQ" kind="show" id="fvA-qt-0EE"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvN-5u-Ysk" userLabel="ButtonControl">
-                                        <rect key="frame" x="211" y="100" width="69" height="95"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="69" id="7tG-f5-q6Q"/>
-                                            <constraint firstAttribute="width" secondItem="WvN-5u-Ysk" secondAttribute="height" multiplier="69:95" id="xSp-px-aeK"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="boton_control.jpg"/>
-                                        <connections>
-                                            <segue destination="UZr-GG-ldv" kind="show" id="xLk-7n-WHd"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwG-wL-x3V" userLabel="ButtonPronokal">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KwG-wL-x3V" userLabel="ButtonPronokal">
                                         <rect key="frame" x="106" y="200" width="75" height="97"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="KwG-wL-x3V" secondAttribute="height" multiplier="75:97" id="8f1-hX-llP"/>
@@ -2619,18 +2586,7 @@
                                             <segue destination="V8R-a3-HFF" kind="show" id="aw2-Fr-I3T"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru2-Iv-nDU" userLabel="ButtonControl">
-                                        <rect key="frame" x="208" y="200" width="75" height="97"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="75" id="rGN-ur-b5F"/>
-                                            <constraint firstAttribute="width" secondItem="Ru2-Iv-nDU" secondAttribute="height" multiplier="75:97" id="xG9-mn-EPS"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="boton_apoyo.jpg"/>
-                                        <connections>
-                                            <segue destination="QzO-PJ-1Vh" kind="show" id="G2V-es-xvu"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngv-ct-lNo" userLabel="ButtonTest">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngv-ct-lNo" userLabel="ButtonTest">
                                         <rect key="frame" x="0.0" y="200" width="75" height="97"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ngv-ct-lNo" secondAttribute="height" multiplier="75:97" id="tVS-vp-h8y"/>
@@ -2650,6 +2606,50 @@
                                         <state key="normal" title="Button" image="boton_calc.jpg"/>
                                         <connections>
                                             <segue destination="TdS-gh-HQD" kind="show" id="l8p-pq-pL1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru2-Iv-nDU" userLabel="ButtonControl">
+                                        <rect key="frame" x="208" y="200" width="75" height="97"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="rGN-ur-b5F"/>
+                                            <constraint firstAttribute="width" secondItem="Ru2-Iv-nDU" secondAttribute="height" multiplier="75:97" id="xG9-mn-EPS"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="boton_apoyo.jpg"/>
+                                        <connections>
+                                            <segue destination="QzO-PJ-1Vh" kind="show" id="G2V-es-xvu"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvN-5u-Ysk" userLabel="ButtonControl">
+                                        <rect key="frame" x="211" y="100" width="69" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="7tG-f5-q6Q"/>
+                                            <constraint firstAttribute="width" secondItem="WvN-5u-Ysk" secondAttribute="height" multiplier="69:95" id="xSp-px-aeK"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="boton_control.jpg"/>
+                                        <connections>
+                                            <segue destination="UZr-GG-ldv" kind="show" id="xLk-7n-WHd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-3G-Xz8" userLabel="ButtonPeso">
+                                        <rect key="frame" x="211" y="0.0" width="69" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="UBs-3G-Xz8" secondAttribute="height" multiplier="69:95" id="Y7c-hG-OOm"/>
+                                            <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="boton_peso.jpg"/>
+                                        <connections>
+                                            <segue destination="frg-ud-eCJ" kind="show" id="04N-eA-yfk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Di-9mn" userLabel="ButtonClub">
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="95"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="69" id="6k2-0f-pi3"/>
+                                            <constraint firstAttribute="width" secondItem="A0t-Di-9mn" secondAttribute="height" multiplier="69:95" id="bHU-f8-obq"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="boton_club.jpg"/>
+                                        <connections>
+                                            <segue destination="Cy8-pz-gFb" kind="show" id="nPa-bS-CB1"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2688,9 +2688,13 @@
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="trailing" secondItem="WBJ-aB-MK2" secondAttribute="trailingMargin" constant="20" id="3cq-kU-nl6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fgp-mO-RA2" secondAttribute="trailing" constant="10" id="6Po-KM-fJP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jcv-wf-QFj" secondAttribute="trailing" constant="-21" id="CgX-RK-I7t"/>
-                            <constraint firstItem="fgp-mO-RA2" firstAttribute="top" secondItem="wj5-kp-rsi" secondAttribute="bottom" constant="8" id="Lds-FK-Rkw"/>
-                            <constraint firstItem="xZc-t9-HOz" firstAttribute="top" secondItem="jcv-wf-QFj" secondAttribute="bottom" id="UAC-Nm-5YY"/>
-                            <constraint firstItem="jcv-wf-QFj" firstAttribute="top" secondItem="fgp-mO-RA2" secondAttribute="bottom" constant="8" id="ZUa-El-KUQ"/>
+                            <constraint firstItem="fgp-mO-RA2" firstAttribute="top" secondItem="wj5-kp-rsi" secondAttribute="bottom" id="Lds-FK-Rkw"/>
+                            <constraint firstItem="xZc-t9-HOz" firstAttribute="top" secondItem="jcv-wf-QFj" secondAttribute="bottom" constant="-60" id="UAC-Nm-5YY">
+                                <string key="identifier" base64-UTF8="YES">
+CQ
+</string>
+                            </constraint>
+                            <constraint firstItem="jcv-wf-QFj" firstAttribute="top" secondItem="fgp-mO-RA2" secondAttribute="bottom" id="ZUa-El-KUQ"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="20" id="b2O-9C-VuI"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="10" id="gF5-lL-Slh"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="top" secondItem="wj5-kp-rsi" secondAttribute="bottom" constant="8" id="i9t-Ti-aYT"/>
@@ -2704,6 +2708,7 @@
                                 <exclude reference="b2O-9C-VuI"/>
                                 <exclude reference="i9t-Ti-aYT"/>
                                 <exclude reference="ohb-DJ-0N4"/>
+                                <exclude reference="UAC-Nm-5YY"/>
                             </mask>
                         </variation>
                     </view>
@@ -2711,6 +2716,10 @@
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="medicos" destination="jcv-wf-QFj" id="fqi-Qp-xsF"/>
+                        <outlet property="principal" destination="WBJ-aB-MK2" id="Jrq-YO-cZv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q84-da-G8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
