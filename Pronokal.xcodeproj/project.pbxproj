@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0515761BE3C72F00E26054 /* testtext1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515721BE3C72F00E26054 /* testtext1.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515731BE3C72F00E26054 /* testtext2.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E0515781BE3C72F00E26054 /* testtext3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515741BE3C72F00E26054 /* testtext3.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E0515791BE3C72F00E26054 /* testtext4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E0515751BE3C72F00E26054 /* testtext4.jpg */; settings = {ASSET_TAGS = (); }; };
+		8E05157B1BE3D1B900E26054 /* paso1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E05157A1BE3D1B900E26054 /* paso1.jpg */; settings = {ASSET_TAGS = (); }; };
 		8E0770301BE228540049C901 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07702F1BE228540049C901 /* MenuViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E0770331BE22AB00049C901 /* Menu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0770321BE22AB00049C901 /* Menu2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		8E07708D1BE3A78D0049C901 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07708C1BE3A78D0049C901 /* homeViewController.m */; settings = {ASSET_TAGS = (); }; };
@@ -112,6 +117,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0515721BE3C72F00E26054 /* testtext1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext1.jpg; sourceTree = "<group>"; };
+		8E0515731BE3C72F00E26054 /* testtext2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext2.jpg; sourceTree = "<group>"; };
+		8E0515741BE3C72F00E26054 /* testtext3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext3.jpg; sourceTree = "<group>"; };
+		8E0515751BE3C72F00E26054 /* testtext4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testtext4.jpg; sourceTree = "<group>"; };
+		8E05157A1BE3D1B900E26054 /* paso1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso1.jpg; sourceTree = "<group>"; };
 		8E07702E1BE228540049C901 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		8E07702F1BE228540049C901 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		8E0770311BE22AB00049C901 /* Menu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu2ViewController.h; sourceTree = "<group>"; };
@@ -463,6 +473,11 @@
 				8E672AE21BD64B8E00B8D12F /* flecha.png */,
 				8E672AF11BDE329A00B8D12F /* coaching-a1.jpg */,
 				8E85DB911BDFA954003DB5B7 /* resPesIdal.jpg */,
+				8E0515721BE3C72F00E26054 /* testtext1.jpg */,
+				8E0515731BE3C72F00E26054 /* testtext2.jpg */,
+				8E0515741BE3C72F00E26054 /* testtext3.jpg */,
+				8E0515751BE3C72F00E26054 /* testtext4.jpg */,
+				8E05157A1BE3D1B900E26054 /* paso1.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -575,6 +590,7 @@
 			files = (
 				8EC69BDD1BC57C9A00B7149E /* menu.png in Resources */,
 				8EC69C301BCD101D00B7149E /* boton_pronokal.jpg in Resources */,
+				8E0515791BE3C72F00E26054 /* testtext4.jpg in Resources */,
 				8EC69BFE1BC5813E00B7149E /* config@3x.png in Resources */,
 				8EC69C2A1BCD101D00B7149E /* boton_apoyo.jpg in Resources */,
 				8EC69BE61BC57E1B00B7149E /* club@3x.png in Resources */,
@@ -587,6 +603,7 @@
 				8EC69C051BC5820D00B7149E /* atras.png in Resources */,
 				8EE1F27F1BD53E4E007A3D73 /* calc1-m.jpg in Resources */,
 				8EC69BFD1BC5813E00B7149E /* config@2x.png in Resources */,
+				8E0515781BE3C72F00E26054 /* testtext3.jpg in Resources */,
 				8EC69C071BC5820D00B7149E /* atras@3x.png in Resources */,
 				8EC69C011BC5813E00B7149E /* contacto@3x.png in Resources */,
 				8E672AE11BD64A5900B8D12F /* flecha.jpg in Resources */,
@@ -608,6 +625,7 @@
 				8EE1F24F1BCEACFF007A3D73 /* PNK-3.jpg in Resources */,
 				8EE1F24E1BCEACFF007A3D73 /* PNK-2.jpg in Resources */,
 				8EE1F2751BD4131B007A3D73 /* testimonios1.jpg in Resources */,
+				8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */,
 				8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */,
 				8EC69C0F1BC6737300B7149E /* texto-contacto.png in Resources */,
 				8EC69C181BC6A58F00B7149E /* llamadas.png in Resources */,
@@ -615,6 +633,7 @@
 				8E672AE81BD68D0700B8D12F /* coaching1.jpg in Resources */,
 				8EE1F2691BD112D6007A3D73 /* actividad2.jpg in Resources */,
 				8EC69BE51BC57E1B00B7149E /* club@2x.png in Resources */,
+				8E0515761BE3C72F00E26054 /* testtext1.jpg in Resources */,
 				8EC69C311BCD101D00B7149E /* boton_testimonios.jpg in Resources */,
 				8EC69C061BC5820D00B7149E /* atras@2x.png in Resources */,
 				8E85DB8D1BDE873A003DB5B7 /* resultado_test.jpg in Resources */,
@@ -625,6 +644,7 @@
 				8EC69BAC1BC56B6E00B7149E /* Main.storyboard in Resources */,
 				8EE1F2441BCE990F007A3D73 /* nutricion-1.jpg in Resources */,
 				8EC69C1C1BC6BD3B00B7149E /* posicion.png in Resources */,
+				8E05157B1BE3D1B900E26054 /* paso1.jpg in Resources */,
 				8EC69BFC1BC5813E00B7149E /* config.png in Resources */,
 				8EC69C291BCD101D00B7149E /* boton_actividad.jpg in Resources */,
 				8EC69C001BC5813E00B7149E /* contacto@2x.png in Resources */,

@@ -380,75 +380,36 @@
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9W-qA-X9b">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFn-TY-SQz">
-                                                <rect key="frame" x="28" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlJ-p8-tsQ">
-                                                <rect key="frame" x="28" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fij-E8-2Ut">
-                                                <rect key="frame" x="28" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7z9-ut-JbI">
-                                                <rect key="frame" x="272" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mA-I5-Uug">
-                                                <rect key="frame" x="272" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="org-bb-WYJ">
-                                                <rect key="frame" x="272" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4Z-3G-upZ">
-                                                <rect key="frame" x="150" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqz-36-MUQ">
-                                                <rect key="frame" x="150" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ubs-f2-Kv7">
-                                                <rect key="frame" x="150" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAMBIAR O NO CAMBIAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBb-CW-1Nt">
-                                                <rect key="frame" x="28" y="40" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paso1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aId-j9-RpO">
+                                                <rect key="frame" x="0.0" y="-352" width="320" height="1224"/>
+                                            </imageView>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="MQN-ST-NxI">
+                                                <rect key="frame" x="18" y="220" width="270" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="xrh-jz-BIa"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-es-4zv">
+                                                <rect key="frame" x="18" y="327" width="270" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="lQP-xF-LRQ"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-CG-Zzr">
+                                                <rect key="frame" x="18" y="424" width="270" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Vfg-5I-aWa"/>
+                                                </connections>
+                                            </slider>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNz-TL-d5U">
                                                 <rect key="frame" x="112" y="439" width="98" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
@@ -459,60 +420,6 @@
                                                     <action selector="siguiente1:" destination="aYC-pH-BpT" eventType="touchUpInside" id="x1T-KC-xQu"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pensando en los inconvenientes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JeK-hn-uhy">
-                                                <rect key="frame" x="28" y="62" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="INCONVENIENTES DE SEGUIR IGUAL" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CEF-Mr-b9K">
-                                                <rect key="frame" x="85" y="86" width="148" height="54"/>
-                                                <color key="textColor" red="0.1565931273" green="0.96776357319999995" blue="0.21979886139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Que si no pongo remedio, empeorarán mis problemas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MDM-Mt-StO">
-                                                <rect key="frame" x="31" y="145" width="281" height="65"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="No me ocupo de mi" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ihd-8M-f5b">
-                                                <rect key="frame" x="31" y="249" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Otros inconvenientes" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="a9n-cq-vza">
-                                                <rect key="frame" x="31" y="341" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="MQN-ST-NxI">
-                                                <rect key="frame" x="24" y="192" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="xrh-jz-BIa"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-es-4zv">
-                                                <rect key="frame" x="24" y="279" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="lQP-xF-LRQ"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-CG-Zzr">
-                                                <rect key="frame" x="24" y="370" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Vfg-5I-aWa"/>
-                                                </connections>
-                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
@@ -2982,7 +2889,7 @@ CQ
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Itj-CJ-4T3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817" y="189"/>
+            <point key="canvasLocation" x="743" y="195"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Ljb-gA-otc">
@@ -3229,6 +3136,7 @@ CQ
         <image name="menu.png" width="25" height="25"/>
         <image name="nutricion-1.jpg" width="747" height="1221"/>
         <image name="nutricion-2.jpg" width="753" height="1731"/>
+        <image name="paso1.jpg" width="747" height="1224"/>
         <image name="posicion.png" width="123" height="124"/>
         <image name="resPesIdal.jpg" width="747" height="1221"/>
         <image name="resultado_test.jpg" width="750" height="1221"/>
@@ -3238,22 +3146,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="G2V-es-xvu"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="nPa-bS-CB1"/>
-        <segue reference="04N-eA-yfk"/>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="l8p-pq-pL1"/>
-        <segue reference="fvA-qt-0EE"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="6fa-lp-6Zu"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="CDX-BN-Kvp"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="azG-x2-9hX"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="nPa-bS-CB1"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="04N-eA-yfk"/>
+        <segue reference="l8p-pq-pL1"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="CDX-BN-Kvp"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="azG-x2-9hX"/>
+        <segue reference="eNI-yk-SAr"/>
+        <segue reference="djE-OB-S6i"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="f7U-6P-83y"/>
+        <segue reference="6fa-lp-6Zu"/>
     </inferredMetricsTieBreakers>
 </document>
