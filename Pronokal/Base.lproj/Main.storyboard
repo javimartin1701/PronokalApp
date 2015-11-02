@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fvo-xq-Wv5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Fvo-xq-Wv5">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -377,606 +377,295 @@
                                             <segue destination="QzO-PJ-1Vh" kind="show" animates="NO" id="f7U-6P-83y"/>
                                         </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h9W-qA-X9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zhV-6L-Inj">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="paso1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aId-j9-RpO">
-                                                <rect key="frame" x="0.0" y="-352" width="320" height="1224"/>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KrZ-jT-rzt">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="KrZ-jT-rzt" secondAttribute="height" multiplier="320:603" id="3dn-rc-X1s"/>
+                                                    <constraint firstAttribute="width" constant="320" id="mAk-ey-9Ua"/>
+                                                </constraints>
                                             </imageView>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="MQN-ST-NxI">
-                                                <rect key="frame" x="18" y="220" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="xrh-jz-BIa"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="zUw-es-4zv">
-                                                <rect key="frame" x="18" y="327" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="lQP-xF-LRQ"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="kfH-CG-Zzr">
-                                                <rect key="frame" x="18" y="424" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Vfg-5I-aWa"/>
-                                                </connections>
-                                            </slider>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jNz-TL-d5U">
-                                                <rect key="frame" x="112" y="439" width="98" height="30"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cSG-zM-xkL">
+                                                <rect key="frame" x="85" y="525" width="150" height="30"/>
                                                 <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <state key="normal" title="SIGUIENTE">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="siguiente1:" destination="aYC-pH-BpT" eventType="touchUpInside" id="x1T-KC-xQu"/>
+                                                    <action selector="siguiente1:" destination="aYC-pH-BpT" eventType="touchUpInside" id="Jfa-ch-wtP"/>
                                                 </connections>
                                             </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="XR4-rq-AwV">
+                                                <rect key="frame" x="24" y="222" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Z7k-ZU-D2P"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qve-9Z-ZcH">
+                                                <rect key="frame" x="24" y="327" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="is5-V7-q44"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="48H-PA-4J7">
+                                                <rect key="frame" x="24" y="428" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="mYs-4R-JYD"/>
+                                                </connections>
+                                            </slider>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="KrZ-jT-rzt" firstAttribute="centerX" secondItem="zhV-6L-Inj" secondAttribute="centerX" id="0oR-uc-3UT"/>
+                                            <constraint firstAttribute="width" secondItem="zhV-6L-Inj" secondAttribute="height" multiplier="16:31" id="ia9-LG-aGh"/>
+                                            <constraint firstItem="KrZ-jT-rzt" firstAttribute="top" secondItem="zhV-6L-Inj" secondAttribute="top" id="xFx-p2-5pN"/>
+                                            <constraint firstAttribute="width" constant="320" id="zbS-Op-ZMC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CSe-xo-g1E">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x9Y-uc-HWg">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="x9Y-uc-HWg" secondAttribute="height" multiplier="320:603" id="GVI-0p-8fI"/>
+                                                    <constraint firstAttribute="width" constant="320" id="eOf-br-a4Q"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRJ-yD-xyo">
+                                                <rect key="frame" x="85" y="525" width="150" height="30"/>
+                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="SIGUIENTE">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="siguiente2:" destination="aYC-pH-BpT" eventType="touchUpInside" id="iYK-P6-zJe"/>
+                                                </connections>
+                                            </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="wuz-e0-Uhk">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="3My-HK-w1E">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="8IE-7r-Z00">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="CSe-xo-g1E" secondAttribute="height" multiplier="16:31" id="9Rk-e5-lSh"/>
+                                            <constraint firstItem="x9Y-uc-HWg" firstAttribute="centerX" secondItem="CSe-xo-g1E" secondAttribute="centerX" id="JHE-PC-uXQ"/>
+                                            <constraint firstAttribute="width" constant="320" id="Keb-MI-zp9"/>
+                                            <constraint firstItem="x9Y-uc-HWg" firstAttribute="top" secondItem="CSe-xo-g1E" secondAttribute="top" id="fau-jn-1rO"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqU-oD-0sl">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esP-QK-o7f">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbR-Wv-9Ph">
-                                                <rect key="frame" x="28" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZkF-oT-n6i">
-                                                <rect key="frame" x="28" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILI-jW-wKC">
-                                                <rect key="frame" x="28" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2a7-QC-1KC">
-                                                <rect key="frame" x="272" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtH-x2-owD">
-                                                <rect key="frame" x="272" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfn-0s-nQ2">
-                                                <rect key="frame" x="272" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ea-v5-PW4">
-                                                <rect key="frame" x="150" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HC3-qZ-nPC">
-                                                <rect key="frame" x="150" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEa-Rj-DWu">
-                                                <rect key="frame" x="150" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAMBIAR O NO CAMBIAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2t-5b-20Q">
-                                                <rect key="frame" x="28" y="40" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pensando en los inconvenientes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mmi-ub-UE9">
-                                                <rect key="frame" x="28" y="62" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="INCONVENIENTES DE CAMBIAR" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ALN-Lx-wPe">
-                                                <rect key="frame" x="85" y="86" width="148" height="54"/>
-                                                <color key="textColor" red="1" green="0.019161445900000001" blue="0.1216747103" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Esfuerzo temporal que tendré que hacer" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="77m-7f-7z4">
-                                                <rect key="frame" x="31" y="165" width="281" height="65"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Tendré que prestar más atención a mis conductas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4sE-YV-CvK">
-                                                <rect key="frame" x="31" y="235" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Otros inconvenientes" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qby-ym-pkT">
-                                                <rect key="frame" x="31" y="341" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPZ-gR-IUb">
-                                                <rect key="frame" x="112" y="439" width="98" height="30"/>
-                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="SIGUIENTE">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="siguiente2:" destination="aYC-pH-BpT" eventType="touchUpInside" id="886-Gr-DLJ"/>
-                                                </connections>
-                                            </button>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Obv-bh-0XV">
-                                                <rect key="frame" x="24" y="192" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="LaN-Bk-vXD"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="mRe-wK-Vbz">
-                                                <rect key="frame" x="24" y="279" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="TKY-bK-gTH"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="8up-P0-8C1">
-                                                <rect key="frame" x="24" y="370" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="9og-lC-a8V"/>
-                                                </connections>
-                                            </slider>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-9k-qrh">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCq-Bp-MxE">
-                                                <rect key="frame" x="28" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULK-LN-ufO">
-                                                <rect key="frame" x="28" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ivb-vg-Epc">
-                                                <rect key="frame" x="28" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yH-23-yV1">
-                                                <rect key="frame" x="272" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUc-Jh-r5Y">
-                                                <rect key="frame" x="272" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZg-BD-qcI">
-                                                <rect key="frame" x="272" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49H-VJ-Li2">
-                                                <rect key="frame" x="150" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ApA-sj-31L">
-                                                <rect key="frame" x="150" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRa-5s-EBt">
-                                                <rect key="frame" x="150" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAMBIAR O NO CAMBIAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Suj-oe-5Pr">
-                                                <rect key="frame" x="28" y="40" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pensando en los beneficios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-1J-KqD">
-                                                <rect key="frame" x="28" y="62" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="BENEFICIOS DE SEGUIR IGUAL" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aHV-pe-vgy">
-                                                <rect key="frame" x="85" y="86" width="148" height="54"/>
-                                                <color key="textColor" red="1" green="0.019161445900000001" blue="0.1216747103" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comodidad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvT-G4-pRL">
-                                                <rect key="frame" x="31" y="165" width="104" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrN-eW-T2X">
-                                                <rect key="frame" x="59" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSF-CW-o8m">
-                                                <rect key="frame" x="139" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apE-Iw-ZLp">
-                                                <rect key="frame" x="210" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfM-4R-nuN">
-                                                <rect key="frame" x="112" y="439" width="98" height="30"/>
-                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="SIGUIENTE">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="siguiente3:" destination="aYC-pH-BpT" eventType="touchUpInside" id="2wv-7P-PGX"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Placer inmediato" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAT-g7-bN4">
-                                                <rect key="frame" x="31" y="254" width="104" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Otros beneficios" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ln-HX-twm">
-                                                <rect key="frame" x="31" y="341" width="104" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Jdm-Wp-fbK">
-                                                <rect key="frame" x="24" y="192" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="GoA-YE-tuV"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="s9W-fn-bEB">
-                                                <rect key="frame" x="24" y="279" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Hgz-v4-4kA"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="VWA-tR-FbW">
-                                                <rect key="frame" x="24" y="370" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="82x-j6-wI9"/>
-                                                </connections>
-                                            </slider>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rQP-He-HqW">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWX-zC-kak">
-                                                <rect key="frame" x="28" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adn-9S-F8B">
-                                                <rect key="frame" x="28" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boI-XA-lQQ">
-                                                <rect key="frame" x="28" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TlF-0K-p03">
-                                                <rect key="frame" x="272" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJL-1E-fnB">
-                                                <rect key="frame" x="272" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s6h-sp-Oyo">
-                                                <rect key="frame" x="272" y="403" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMT-Sw-AYM">
-                                                <rect key="frame" x="150" y="225" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHp-m1-jFU">
-                                                <rect key="frame" x="150" y="311" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQm-UE-tYL">
-                                                <rect key="frame" x="150" y="370" width="20" height="21"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="6md-vc-Yr2">
-                                                <rect key="frame" x="24" y="192" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="eHh-TL-UZU"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="EIX-yA-dGS">
-                                                <rect key="frame" x="24" y="279" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Xix-hc-YtJ"/>
-                                                </connections>
-                                            </slider>
-                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZpQ-ay-7kH">
-                                                <rect key="frame" x="24" y="370" width="270" height="31"/>
-                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <connections>
-                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="cul-0w-3xw"/>
-                                                </connections>
-                                            </slider>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CAMBIAR O NO CAMBIAR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsZ-yW-1hi">
-                                                <rect key="frame" x="28" y="40" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pensando en los beneficios" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Wt-3h-ReW">
-                                                <rect key="frame" x="28" y="62" width="255" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="BENEFICIOS DE SEGUIR IGUAL" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="I9d-iH-oRH">
-                                                <rect key="frame" x="85" y="86" width="148" height="54"/>
-                                                <color key="textColor" red="0.1565931273" green="0.96776357319999995" blue="0.21979886139999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Más salud y calidad de vida" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ymX-rZ-htB">
-                                                <rect key="frame" x="31" y="165" width="281" height="65"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Placer duradero (autoestima)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Im6-sb-kM3">
-                                                <rect key="frame" x="31" y="249" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Otros beneficios" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HdA-2q-bAp">
-                                                <rect key="frame" x="31" y="341" width="281" height="39"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efJ-fW-ZX7">
-                                                <rect key="frame" x="32" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ua7-s8-g7k">
-                                                <rect key="frame" x="107" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="by4-KV-YF4">
-                                                <rect key="frame" x="178" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XK3-hS-CmU">
-                                                <rect key="frame" x="245" y="40" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX6-NT-VOA">
-                                                <rect key="frame" x="112" y="439" width="98" height="30"/>
-                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
-                                                <state key="normal" title="Finalizar">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="finalizar:" destination="aYC-pH-BpT" eventType="touchUpInside" id="vOA-nB-hIQ"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pKp-1p-gA4">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                                        <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="resultado_test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="z39-p4-Wda">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kp8-qK-ULU">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="320" id="Ejk-yS-SIW"/>
-                                                    <constraint firstAttribute="width" secondItem="z39-p4-Wda" secondAttribute="height" multiplier="320:519" id="ebH-dS-ADR"/>
+                                                    <constraint firstAttribute="width" secondItem="kp8-qK-ULU" secondAttribute="height" multiplier="320:603" id="8za-RM-dUY"/>
+                                                    <constraint firstAttribute="width" constant="320" id="Xx6-O9-C9O"/>
                                                 </constraints>
                                             </imageView>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8G1-h9-4A3">
-                                                <rect key="frame" x="79" y="53" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8CM-ZX-2PY">
-                                                <rect key="frame" x="209" y="53" width="42" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="raH-n3-Y88">
-                                                <rect key="frame" x="16" y="307" width="300" height="128"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="Dyt-VT-7PQ"/>
-                                                    <constraint firstAttribute="width" secondItem="raH-n3-Y88" secondAttribute="height" multiplier="75:32" id="nLh-kY-psp"/>
-                                                </constraints>
-                                                <string key="text">¡Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="aTy-tW-xxK">
-                                                <rect key="frame" x="4" y="307" width="300" height="128"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="EYd-T0-edI"/>
-                                                    <constraint firstAttribute="width" secondItem="aTy-tW-xxK" secondAttribute="height" multiplier="75:32" id="idk-qT-7sp"/>
-                                                </constraints>
-                                                <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.</string>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="XzF-Or-Nbs">
-                                                <rect key="frame" x="4" y="307" width="300" height="128"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="300" id="3Pf-16-od2"/>
-                                                    <constraint firstAttribute="width" secondItem="XzF-Or-Nbs" secondAttribute="height" multiplier="75:32" id="Bty-uf-VIP"/>
-                                                </constraints>
-                                                <string key="text">Parece que te sientes ambivalente ante la decisión de iniciar el camino para alcanzar tu objetivo. ¿Quieres cambiar y seguir igual al mismo tiempo? El Departamento de Coaching de PronoKal Group te ayudará a reforzar tu motivación.</string>
-                                                <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAx-KY-kBr">
-                                                <rect key="frame" x="79" y="463" width="158" height="30"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="158" id="Mgv-jZ-eNl"/>
-                                                    <constraint firstAttribute="width" secondItem="TAx-KY-kBr" secondAttribute="height" multiplier="79:15" id="SfB-SY-YMa"/>
-                                                </constraints>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2w-oG-srs">
+                                                <rect key="frame" x="85" y="525" width="150" height="30"/>
+                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="SIGUIENTE">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
                                                 <connections>
-                                                    <segue destination="1oK-Nv-yd0" kind="show" id="6fa-lp-6Zu"/>
+                                                    <action selector="siguiente3:" destination="aYC-pH-BpT" eventType="touchUpInside" id="RXO-tO-nEQ"/>
                                                 </connections>
                                             </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-rm-DHf">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="A0i-Ct-q4G">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yUg-4b-7R5">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstItem="raH-n3-Y88" firstAttribute="centerX" secondItem="pKp-1p-gA4" secondAttribute="centerX" id="3Nj-nM-Leo"/>
-                                            <constraint firstItem="aTy-tW-xxK" firstAttribute="centerX" secondItem="pKp-1p-gA4" secondAttribute="centerX" id="5f8-cS-P6H"/>
-                                            <constraint firstItem="raH-n3-Y88" firstAttribute="top" secondItem="pKp-1p-gA4" secondAttribute="top" constant="307" id="6lO-OM-VQ7"/>
-                                            <constraint firstItem="XzF-Or-Nbs" firstAttribute="top" secondItem="pKp-1p-gA4" secondAttribute="top" constant="307" id="7kl-we-xzA"/>
-                                            <constraint firstItem="aTy-tW-xxK" firstAttribute="top" secondItem="pKp-1p-gA4" secondAttribute="top" constant="307" id="Hc9-Fh-IKy"/>
-                                            <constraint firstItem="z39-p4-Wda" firstAttribute="centerX" secondItem="pKp-1p-gA4" secondAttribute="centerX" id="L8Y-dx-lf2"/>
-                                            <constraint firstItem="TAx-KY-kBr" firstAttribute="centerX" secondItem="pKp-1p-gA4" secondAttribute="centerX" id="pQf-CT-GYe"/>
-                                            <constraint firstItem="TAx-KY-kBr" firstAttribute="top" secondItem="pKp-1p-gA4" secondAttribute="top" constant="463" id="pW9-dw-Iuc"/>
-                                            <constraint firstItem="z39-p4-Wda" firstAttribute="top" secondItem="pKp-1p-gA4" secondAttribute="top" id="u9G-hi-zzd"/>
-                                            <constraint firstItem="XzF-Or-Nbs" firstAttribute="centerX" secondItem="pKp-1p-gA4" secondAttribute="centerX" id="xf2-JV-0d9"/>
+                                            <constraint firstAttribute="width" constant="320" id="3bI-y8-M5O"/>
+                                            <constraint firstItem="kp8-qK-ULU" firstAttribute="centerX" secondItem="esP-QK-o7f" secondAttribute="centerX" id="Pnd-3Z-y4v"/>
+                                            <constraint firstAttribute="width" secondItem="esP-QK-o7f" secondAttribute="height" multiplier="16:31" id="Rbu-Nb-X99"/>
+                                            <constraint firstItem="kp8-qK-ULU" firstAttribute="top" secondItem="esP-QK-o7f" secondAttribute="top" id="d03-fE-xSH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B7o-FZ-4Af">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Zf-Ad5">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="tJz-52-jKm"/>
+                                                    <constraint firstAttribute="width" secondItem="KvR-Zf-Ad5" secondAttribute="height" multiplier="320:603" id="xQc-cD-T12"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srE-W9-iZi">
+                                                <rect key="frame" x="85" y="525" width="150" height="30"/>
+                                                <color key="backgroundColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="FINALIZAR">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="finalizar:" destination="aYC-pH-BpT" eventType="touchUpInside" id="pYj-eD-Ps9"/>
+                                                </connections>
+                                            </button>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-ps-7hp">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="z8T-0T-g7k">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="YXa-5Z-1et">
+                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </slider>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="2Dw-pl-vMJ"/>
+                                            <constraint firstItem="KvR-Zf-Ad5" firstAttribute="centerX" secondItem="B7o-FZ-4Af" secondAttribute="centerX" id="F4P-Mr-Ba5"/>
+                                            <constraint firstAttribute="width" secondItem="B7o-FZ-4Af" secondAttribute="height" multiplier="16:31" id="LpF-Ce-hxh"/>
+                                            <constraint firstItem="KvR-Zf-Ad5" firstAttribute="top" secondItem="B7o-FZ-4Af" secondAttribute="top" id="wFq-up-ZR8"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeh-cP-taZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="resultado_test.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ygV-l1-ZvH">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="8cD-Pg-fnR"/>
+                                                    <constraint firstAttribute="width" secondItem="ygV-l1-ZvH" secondAttribute="height" multiplier="320:519" id="LqJ-lJ-HT2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAD-b7-YP9">
+                                                <rect key="frame" x="79" y="461" width="161" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="161" id="8Pu-8B-asg"/>
+                                                    <constraint firstAttribute="width" secondItem="wAD-b7-YP9" secondAttribute="height" multiplier="161:34" id="efs-6q-TxG"/>
+                                                </constraints>
+                                                <connections>
+                                                    <segue destination="1oK-Nv-yd0" kind="show" id="SRY-IF-6Bj"/>
+                                                </connections>
+                                            </button>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rz0-v3-c0W">
+                                                <rect key="frame" x="39" y="299" width="240" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
+                                                    <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
+                                                </constraints>
+                                                <string key="text">Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.
+CONSULTA UN COACH PRONOKAL</string>
+                                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
+                                                <rect key="frame" x="40" y="299" width="240" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="9gK-hL-dDj" secondAttribute="height" multiplier="15:8" id="cR3-54-7rB"/>
+                                                    <constraint firstAttribute="width" constant="240" id="ihh-vJ-iNH"/>
+                                                </constraints>
+                                                <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.
+CONSULTA UN COACH PRONOKAL</string>
+                                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-hu-usg">
+                                                <rect key="frame" x="40" y="299" width="240" height="128"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
+                                                    <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
+                                                </constraints>
+                                                <string key="text">Parece que te sientes ambivalente ante la decisión de iniciar el camino para alcanzar tu objetivo. ¿Quieres cambiar y seguir igual al mismo tiempo? El Departamento de Coaching de PronoKal Group te ayudará a reforzar tu motivación.</string>
+                                                <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="CsF-hu-usg" firstAttribute="centerX" secondItem="eeh-cP-taZ" secondAttribute="centerX" id="24a-k3-x9d"/>
+                                            <constraint firstItem="wAD-b7-YP9" firstAttribute="centerX" secondItem="eeh-cP-taZ" secondAttribute="centerX" id="BAm-X7-hjU"/>
+                                            <constraint firstItem="wAD-b7-YP9" firstAttribute="top" secondItem="eeh-cP-taZ" secondAttribute="top" constant="461" id="CEM-QH-ZTA"/>
+                                            <constraint firstItem="rz0-v3-c0W" firstAttribute="top" secondItem="eeh-cP-taZ" secondAttribute="top" constant="299" id="Eyc-Of-Vb8"/>
+                                            <constraint firstItem="ygV-l1-ZvH" firstAttribute="centerX" secondItem="eeh-cP-taZ" secondAttribute="centerX" id="FjU-Oh-tRc"/>
+                                            <constraint firstAttribute="width" secondItem="eeh-cP-taZ" secondAttribute="height" multiplier="16:31" id="InB-WF-Q0P"/>
+                                            <constraint firstAttribute="width" constant="320" id="Zq4-b4-GGY"/>
+                                            <constraint firstItem="CsF-hu-usg" firstAttribute="top" secondItem="eeh-cP-taZ" secondAttribute="top" constant="299" id="cxn-56-hLg"/>
+                                            <constraint firstItem="9gK-hL-dDj" firstAttribute="top" secondItem="eeh-cP-taZ" secondAttribute="top" constant="299" id="i26-1x-4bC"/>
+                                            <constraint firstItem="ygV-l1-ZvH" firstAttribute="top" secondItem="eeh-cP-taZ" secondAttribute="top" id="j4E-9j-5dk"/>
+                                            <constraint firstItem="rz0-v3-c0W" firstAttribute="centerX" secondItem="eeh-cP-taZ" secondAttribute="centerX" id="jcj-9b-TcK"/>
+                                            <constraint firstItem="9gK-hL-dDj" firstAttribute="centerX" secondItem="eeh-cP-taZ" secondAttribute="centerX" id="oC8-h3-sAz"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="rQP-He-HqW" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="4pd-CQ-5U5"/>
+                                    <constraint firstItem="esP-QK-o7f" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="0sQ-sP-GsA"/>
                                     <constraint firstItem="bm7-Jd-ch4" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" constant="108" id="6QK-Qc-PkQ"/>
-                                    <constraint firstItem="dqU-oD-0sl" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="6cg-yu-nUc"/>
-                                    <constraint firstItem="pKp-1p-gA4" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="7F6-fF-M3e"/>
                                     <constraint firstItem="bm7-Jd-ch4" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" constant="-40" id="8Mj-uI-cTK"/>
+                                    <constraint firstItem="CSe-xo-g1E" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="D65-Wq-ch8"/>
+                                    <constraint firstItem="eeh-cP-taZ" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="DzD-et-ENE"/>
+                                    <constraint firstItem="esP-QK-o7f" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="FFz-Zx-sJr"/>
+                                    <constraint firstItem="CSe-xo-g1E" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="IjK-3E-eet"/>
+                                    <constraint firstItem="zhV-6L-Inj" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="MiN-cC-FzV"/>
+                                    <constraint firstItem="B7o-FZ-4Af" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="Rci-fc-17j"/>
                                     <constraint firstItem="oTo-Nh-VFQ" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="Vek-nd-hAX"/>
-                                    <constraint firstItem="h9W-qA-X9b" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="dhf-gc-swd"/>
+                                    <constraint firstItem="eeh-cP-taZ" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="hXp-8g-h3T"/>
                                     <constraint firstItem="oTo-Nh-VFQ" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="ij4-gY-2lC"/>
+                                    <constraint firstItem="B7o-FZ-4Af" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="jJL-6Z-Ppf"/>
                                     <constraint firstItem="QTq-gk-peb" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="nj8-FP-Wxo"/>
-                                    <constraint firstItem="6ef-9k-qrh" firstAttribute="centerX" secondItem="6Mq-4M-aEb" secondAttribute="centerX" id="t8e-o7-O5O"/>
+                                    <constraint firstItem="zhV-6L-Inj" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" id="rE0-qs-hfJ"/>
                                     <constraint firstItem="QTq-gk-peb" firstAttribute="top" secondItem="6Mq-4M-aEb" secondAttribute="top" constant="440" id="zPS-9k-eNe"/>
                                 </constraints>
                             </scrollView>
@@ -991,41 +680,26 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="amasd" destination="8G1-h9-4A3" id="xQX-Lt-FiI"/>
-                        <outlet property="bmasc" destination="8CM-ZX-2PY" id="qwq-kX-6CP"/>
-                        <outlet property="caso1" destination="raH-n3-Y88" id="DmR-Zu-C75"/>
-                        <outlet property="caso2" destination="aTy-tW-xxK" id="BnR-fG-2BS"/>
-                        <outlet property="caso3" destination="XzF-Or-Nbs" id="Ccs-oU-0cK"/>
-                        <outlet property="informeFinal" destination="pKp-1p-gA4" id="06y-2I-sWC"/>
-                        <outlet property="label13" destination="MrN-eW-T2X" id="2rn-Dq-3sc"/>
-                        <outlet property="label14" destination="efJ-fW-ZX7" id="upN-98-UGA"/>
-                        <outlet property="label23" destination="uSF-CW-o8m" id="Hfw-5b-rXI"/>
-                        <outlet property="label24" destination="ua7-s8-g7k" id="eWU-UW-uW5"/>
-                        <outlet property="label3" destination="apE-Iw-ZLp" id="1v7-zY-Ih0"/>
-                        <outlet property="label34" destination="by4-KV-YF4" id="Ztu-KQ-S9S"/>
-                        <outlet property="label4" destination="XK3-hS-CmU" id="985-hD-f49"/>
-                        <outlet property="paso1" destination="h9W-qA-X9b" id="bBO-IJ-J58"/>
-                        <outlet property="paso2" destination="dqU-oD-0sl" id="AMN-h9-dy6"/>
-                        <outlet property="paso3" destination="6ef-9k-qrh" id="j4K-JP-kUs"/>
-                        <outlet property="paso4" destination="rQP-He-HqW" id="P4Z-Xj-UIN"/>
+                        <outlet property="caso1" destination="rz0-v3-c0W" id="fhF-mM-hHX"/>
+                        <outlet property="caso2" destination="9gK-hL-dDj" id="1hx-qo-Lpx"/>
+                        <outlet property="caso3" destination="CsF-hu-usg" id="dd0-Ga-NOA"/>
+                        <outlet property="informeFinal" destination="eeh-cP-taZ" id="7wC-Hl-I3Y"/>
+                        <outlet property="paso1" destination="zhV-6L-Inj" id="Rwt-Ag-ppV"/>
+                        <outlet property="paso2" destination="CSe-xo-g1E" id="Xmb-Z7-4gT"/>
+                        <outlet property="paso3" destination="esP-QK-o7f" id="yRU-kh-8yt"/>
+                        <outlet property="paso4" destination="B7o-FZ-4Af" id="3MT-tD-ocb"/>
                         <outlet property="scroller" destination="6Mq-4M-aEb" id="As8-Pj-kZj"/>
-                        <outlet property="slider1" destination="MQN-ST-NxI" id="nD9-SN-S8Q"/>
-                        <outlet property="slider10" destination="6md-vc-Yr2" id="f0Q-wz-OUh"/>
-                        <outlet property="slider11" destination="EIX-yA-dGS" id="Zjm-VV-ZQy"/>
-                        <outlet property="slider12" destination="ZpQ-ay-7kH" id="m2q-dE-rSz"/>
-                        <outlet property="slider2" destination="zUw-es-4zv" id="56G-Xc-u61"/>
-                        <outlet property="slider3" destination="kfH-CG-Zzr" id="ceS-Lb-soq"/>
-                        <outlet property="slider4" destination="Obv-bh-0XV" id="LfD-Ui-iyM"/>
-                        <outlet property="slider5" destination="mRe-wK-Vbz" id="kED-Or-JkP"/>
-                        <outlet property="slider6" destination="8up-P0-8C1" id="c6N-KD-tcg"/>
-                        <outlet property="slider7" destination="Jdm-Wp-fbK" id="15z-Mm-78d"/>
-                        <outlet property="slider8" destination="s9W-fn-bEB" id="Veb-k6-LXP"/>
-                        <outlet property="slider9" destination="VWA-tR-FbW" id="Jnq-uM-inE"/>
+                        <outlet property="slider1" destination="XR4-rq-AwV" id="1to-aE-ndZ"/>
+                        <outlet property="slider2" destination="Qve-9Z-ZcH" id="VIb-96-NuB"/>
+                        <outlet property="slider3" destination="48H-PA-4J7" id="eyU-zQ-TAD"/>
+                        <outlet property="slider4" destination="wuz-e0-Uhk" id="mjT-qm-wVX"/>
+                        <outlet property="slider5" destination="3My-HK-w1E" id="Dyk-Yc-5vX"/>
+                        <outlet property="slider6" destination="8IE-7r-Z00" id="gJx-2B-6xN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3c9-1Z-NmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-681" y="-1975"/>
+            <point key="canvasLocation" x="-679" y="-1975"/>
         </scene>
         <!--Coaching1 View Controller-->
         <scene sceneID="bqS-gD-Psm">
@@ -3102,6 +2776,23 @@ CQ
             </objects>
             <point key="canvasLocation" x="-1467" y="1221"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="9oo-br-pxq">
+            <objects>
+                <viewController id="u25-zX-miu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5FX-ug-peM"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Fe-N7-j7z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IBO-gF-hgm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TvC-nW-DC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="PNK-1.jpg" width="745" height="1964"/>
@@ -3136,7 +2827,10 @@ CQ
         <image name="menu.png" width="25" height="25"/>
         <image name="nutricion-1.jpg" width="747" height="1221"/>
         <image name="nutricion-2.jpg" width="753" height="1731"/>
-        <image name="paso1.jpg" width="747" height="1224"/>
+        <image name="paso1.jpg" width="747" height="1400"/>
+        <image name="paso2.jpg" width="747" height="1400"/>
+        <image name="paso3.jpg" width="747" height="1400"/>
+        <image name="paso4.jpg" width="747" height="1400"/>
         <image name="posicion.png" width="123" height="124"/>
         <image name="resPesIdal.jpg" width="747" height="1221"/>
         <image name="resultado_test.jpg" width="750" height="1221"/>
@@ -3146,22 +2840,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="fvA-qt-0EE"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="l8p-pq-pL1"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="WCL-6a-cs6"/>
-        <segue reference="04N-eA-yfk"/>
-        <segue reference="l8p-pq-pL1"/>
         <segue reference="xLk-7n-WHd"/>
         <segue reference="aw2-Fr-I3T"/>
-        <segue reference="CDX-BN-Kvp"/>
+        <segue reference="04N-eA-yfk"/>
         <segue reference="Z1s-8x-Pdf"/>
         <segue reference="had-le-EPl"/>
-        <segue reference="azG-x2-9hX"/>
-        <segue reference="eNI-yk-SAr"/>
+        <segue reference="CDX-BN-Kvp"/>
         <segue reference="djE-OB-S6i"/>
+        <segue reference="azG-x2-9hX"/>
+        <segue reference="SRY-IF-6Bj"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="f7U-6P-83y"/>
-        <segue reference="6fa-lp-6Zu"/>
     </inferredMetricsTieBreakers>
 </document>
