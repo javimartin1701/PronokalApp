@@ -16,10 +16,15 @@
 
 -(IBAction)vetGrafica:(id)sender{
     grafica.hidden=NO;
+    pantallagrafica.hidden=NO;
 }
 
 -(IBAction)calcular:(id)sender{
+    
+    
+    
     pantallaresultado.hidden=NO;
+    
     
     ////Calculadora IMC
     
@@ -36,23 +41,63 @@
     NSString *resultadot;
     NSString *resultadot2;
     NSString *resultadot3;
+    NSString *resultadot4;
     
     float total;
     float total2;
     float total3;
+    
+    float duracionTratamiento;
+    float duracionRed=0.0;
+    float duracionTemp;
     
     
     total=speso/((saltura/100)*(saltura/100));
     total2=(saltura/100)*(saltura/100)*24;
     total3=speso-total2;
     
+    duracionTemp=total3*(100/80);
+    
+    
+    
+    if (duracionTemp<10) {
+        duracionRed=8;
+    }
+    
+    if (duracionTemp>10 && duracionTratamiento<=15) {
+        duracionRed=10;
+    }
+    
+    if (duracionTemp>15 && duracionTratamiento<=20) {
+        duracionRed=12;
+    }
+    
+    if (duracionTemp>20 && duracionTratamiento<=25) {
+        duracionRed=14;
+    }
+    
+    if (duracionTemp>25 && duracionTratamiento<=30) {
+        duracionRed=16;
+    }
+    
+    if (duracionTemp>30) {
+        duracionRed=20;
+    }
+    
+    duracionTratamiento=(total3*0.4/2.6)+(total3*0.2/2.35)+(total3*0.2/2.25)+duracionRed;
+    
+    int duracionRound = lroundf(duracionTratamiento);
+    
     resultadot=[NSString stringWithFormat:@"%.1f",total];
     resultadot2=[NSString stringWithFormat:@"%.1f",total2];
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
+    resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;
     pesoPerder.text=resultadot3;
+    duracion.text=resultadot4;
+    
     
     
     
@@ -62,6 +107,12 @@
     //NSString *website = @"http://webdemo.com.es/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";
     NSURL *url = [NSURL URLWithString:website];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    
+    
+    
+    
+    
     
     [grafica loadRequest:request];
     
@@ -101,6 +152,8 @@
      }
      
      */
+
+    
 }
 
 - (void)viewDidLoad {
@@ -111,6 +164,7 @@
     
     pantallaresultado.hidden=YES;
     grafica.hidden=YES;
+    pantallagrafica.hidden=YES;
     
     [scrollcalc setScrollEnabled:YES];
     [scrollcalc setContentSize:CGSizeMake(320,600)];

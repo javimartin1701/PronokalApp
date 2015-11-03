@@ -19,8 +19,12 @@
     IBOutlet UILabel *pesoPerder;
     
     IBOutlet UIView *pantallaresultado;
+    IBOutlet UIView *pantallagrafica;
+    
     
     IBOutlet UIWebView *grafica;
+    
+    IBOutlet UILabel *duracion;
     
     //IBOutlet UILabel *urlGrafica;
 

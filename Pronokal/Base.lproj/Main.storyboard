@@ -1606,10 +1606,22 @@
                                                     <action selector="vetGrafica:" destination="frg-ud-eCJ" eventType="touchUpInside" id="0VB-qW-iFX"/>
                                                 </connections>
                                             </button>
-                                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maS-3R-UtX">
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HE0-oq-2v1">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                                <subviews>
+                                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maS-3R-UtX">
+                                                        <rect key="frame" x="0.0" y="160" width="320" height="323"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </webView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oF-LU-HeZ">
+                                                        <rect key="frame" x="50" y="82" width="131" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            </webView>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1646,8 +1658,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="altura" destination="zNR-xn-Vp3" id="5C1-Ic-r3y"/>
+                        <outlet property="duracion" destination="8oF-LU-HeZ" id="Fuw-nB-bbC"/>
                         <outlet property="edad" destination="Ler-V3-8na" id="c4Z-Pj-5YZ"/>
                         <outlet property="grafica" destination="maS-3R-UtX" id="NW0-9x-dhg"/>
+                        <outlet property="pantallagrafica" destination="HE0-oq-2v1" id="n38-93-ND6"/>
                         <outlet property="pantallaresultado" destination="QAJ-xP-L7c" id="OgA-VW-G1S"/>
                         <outlet property="peso" destination="0eN-GO-KFt" id="PXB-hE-Via"/>
                         <outlet property="pesoIdeal" destination="NJx-61-CZe" id="s80-c8-VZd"/>
@@ -1760,14 +1774,22 @@
                                                     <action selector="vetGrafica:" destination="1zW-k4-CKP" eventType="touchUpInside" id="Ra1-YB-TT5"/>
                                                 </connections>
                                             </button>
-                                            <webView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="526"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AOY-r7-ohz">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                                                <subviews>
+                                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
+                                                        <rect key="frame" x="0.0" y="160" width="320" height="323"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </webView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9JZ-GZ-XTz">
+                                                        <rect key="frame" x="71" y="76" width="188" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" secondItem="dqR-8i-Myt" secondAttribute="height" multiplier="160:263" id="GKS-a5-xzv"/>
-                                                    <constraint firstAttribute="width" constant="320" id="rZv-xj-Gnu"/>
-                                                </constraints>
-                                            </webView>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -1808,8 +1830,10 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="altura" destination="ecH-LA-9K8" id="MUP-ad-dxd"/>
+                        <outlet property="duracion" destination="9JZ-GZ-XTz" id="tlW-fb-u4o"/>
                         <outlet property="edad" destination="cpb-p4-c89" id="mEq-V4-TCt"/>
                         <outlet property="grafica" destination="dqR-8i-Myt" id="0Li-iI-TdS"/>
+                        <outlet property="pantallagrafica" destination="AOY-r7-ohz" id="FpS-Ge-nxh"/>
                         <outlet property="pantallaresultado" destination="4oF-P9-EcH" id="zZL-Eu-Ia7"/>
                         <outlet property="peso" destination="SsC-da-lyv" id="UrY-qW-vIM"/>
                         <outlet property="pesoIdeal" destination="HDh-dp-cqS" id="ETE-h7-Xsx"/>
@@ -1819,7 +1843,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QtR-7R-jDa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1443" y="-1624"/>
+            <point key="canvasLocation" x="1539" y="-1624"/>
         </scene>
         <!--Control1 View Controller-->
         <scene sceneID="MeV-aQ-zA6">
@@ -2171,7 +2195,7 @@
                                             <constraint firstAttribute="width" constant="69" id="0eZ-QE-vOE"/>
                                             <constraint firstAttribute="width" secondItem="0jD-lI-5q9" secondAttribute="height" multiplier="69:95" id="Qix-Oc-GZ6"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_testimonios.jpg"/>
+                                        <state key="normal" title="Button" image="boton_testimonios2.jpg"/>
                                         <connections>
                                             <segue destination="3po-R3-VDS" kind="show" id="WCL-6a-cs6"/>
                                         </connections>
@@ -2193,7 +2217,7 @@
                                             <constraint firstAttribute="width" secondItem="KwG-wL-x3V" secondAttribute="height" multiplier="75:97" id="8f1-hX-llP"/>
                                             <constraint firstAttribute="width" constant="75" id="ufi-ox-GK4"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_actividad.jpg"/>
+                                        <state key="normal" title="Button" image="boton_actividad2.jpg"/>
                                         <connections>
                                             <segue destination="V8R-a3-HFF" kind="show" id="aw2-Fr-I3T"/>
                                         </connections>
@@ -2215,7 +2239,7 @@
                                             <constraint firstAttribute="width" constant="69" id="VXc-40-nrN"/>
                                             <constraint firstAttribute="width" secondItem="V87-Vn-WTy" secondAttribute="height" multiplier="69:95" id="ljB-HT-LaQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_calc.jpg"/>
+                                        <state key="normal" title="Button" image="boton_calc2.jpg"/>
                                         <connections>
                                             <segue destination="TdS-gh-HQD" kind="show" id="l8p-pq-pL1"/>
                                         </connections>
@@ -2226,7 +2250,7 @@
                                             <constraint firstAttribute="width" constant="75" id="rGN-ur-b5F"/>
                                             <constraint firstAttribute="width" secondItem="Ru2-Iv-nDU" secondAttribute="height" multiplier="75:97" id="xG9-mn-EPS"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_apoyo.jpg"/>
+                                        <state key="normal" title="Button" image="boton_apoyo2.jpg"/>
                                         <connections>
                                             <segue destination="QzO-PJ-1Vh" kind="show" id="G2V-es-xvu"/>
                                         </connections>
@@ -2259,7 +2283,7 @@
                                             <constraint firstAttribute="width" constant="69" id="6k2-0f-pi3"/>
                                             <constraint firstAttribute="width" secondItem="A0t-Di-9mn" secondAttribute="height" multiplier="69:95" id="bHU-f8-obq"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_club.jpg"/>
+                                        <state key="normal" title="Button" image="boton_club2.jpg"/>
                                         <connections>
                                             <segue destination="Cy8-pz-gFb" kind="show" id="nPa-bS-CB1"/>
                                         </connections>
@@ -2832,15 +2856,15 @@ CQ
         <image name="actividad1.jpg" width="750" height="1218"/>
         <image name="actividad2.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
-        <image name="boton_actividad.jpg" width="182" height="238"/>
-        <image name="boton_apoyo.jpg" width="182" height="238"/>
-        <image name="boton_calc.jpg" width="164" height="225"/>
-        <image name="boton_club.jpg" width="164" height="225"/>
+        <image name="boton_actividad2.jpg" width="182" height="238"/>
+        <image name="boton_apoyo2.jpg" width="182" height="238"/>
+        <image name="boton_calc2.jpg" width="164" height="225"/>
+        <image name="boton_club2.jpg" width="164" height="225"/>
         <image name="boton_control.jpg" width="164" height="225"/>
         <image name="boton_nutricion.jpg" width="182" height="238"/>
         <image name="boton_peso.jpg" width="164" height="225"/>
         <image name="boton_pronokal.jpg" width="164" height="225"/>
-        <image name="boton_testimonios.jpg" width="164" height="225"/>
+        <image name="boton_testimonios2.jpg" width="164" height="225"/>
         <image name="calc1-h.jpg" width="747" height="1224"/>
         <image name="calc1-m.jpg" width="747" height="1224"/>
         <image name="club.png" width="25" height="25"/>
@@ -2871,22 +2895,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="azG-x2-9hX"/>
         <segue reference="fvA-qt-0EE"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
         <segue reference="l8p-pq-pL1"/>
-        <segue reference="nPa-bS-CB1"/>
         <segue reference="WCL-6a-cs6"/>
-        <segue reference="xLk-7n-WHd"/>
+        <segue reference="G2V-es-xvu"/>
         <segue reference="aw2-Fr-I3T"/>
+        <segue reference="xLk-7n-WHd"/>
         <segue reference="04N-eA-yfk"/>
-        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="nPa-bS-CB1"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="SRY-IF-6Bj"/>
         <segue reference="had-le-EPl"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="CDX-BN-Kvp"/>
         <segue reference="djE-OB-S6i"/>
-        <segue reference="azG-x2-9hX"/>
-        <segue reference="SRY-IF-6Bj"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="f7U-6P-83y"/>
     </inferredMetricsTieBreakers>
 </document>
