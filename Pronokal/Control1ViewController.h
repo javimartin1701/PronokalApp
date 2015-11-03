@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface Control1ViewController : UIViewController{
     IBOutlet UIScrollView *scrollcontrol;
 }
+
+-(IBAction)play:(id)sender;
 
 @end

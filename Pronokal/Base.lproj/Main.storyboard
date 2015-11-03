@@ -1889,6 +1889,12 @@
                                             <segue destination="ouZ-Bq-AZp" kind="show" animates="NO" id="4Aa-1R-vM9"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9OH-dG-cbB">
+                                        <rect key="frame" x="14" y="325" width="292" height="172"/>
+                                        <connections>
+                                            <action selector="play:" destination="UZr-GG-ldv" eventType="touchUpInside" id="9fY-lm-ara"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Ip3-ZF-7u2" firstAttribute="centerX" secondItem="OXp-xS-JJZ" secondAttribute="centerX" id="2mT-Ow-Ozc"/>
@@ -2415,9 +2421,21 @@ CQ
                                             <segue destination="O8k-ez-0X2" kind="show" animates="NO" id="S3p-zB-FPh"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTf-sE-ptX">
+                                        <rect key="frame" x="13" y="290" width="90" height="49"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="1fB-Hh-Dh4"/>
+                                            <constraint firstAttribute="width" secondItem="hTf-sE-ptX" secondAttribute="height" multiplier="90:49" id="UyG-Oc-rpj"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="play:" destination="i33-dT-6qs" eventType="touchUpInside" id="BMq-0k-Iqs"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="0Lg-Eq-KR6"/>
+                                    <constraint firstItem="hTf-sE-ptX" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="290" id="BIF-v3-vsN"/>
+                                    <constraint firstItem="hTf-sE-ptX" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="Njk-Xs-4gl"/>
                                     <constraint firstItem="KQM-Sl-c0p" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="QuO-Jn-cmU"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="UOi-qE-Ebg"/>
                                     <constraint firstItem="c49-xN-3Kr" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="cZB-lq-Xms"/>
@@ -2499,16 +2517,28 @@ CQ
                                             <segue destination="UZr-GG-ldv" kind="show" id="w2u-1g-DF4"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTZ-nN-eOI">
+                                        <rect key="frame" x="14" y="288" width="92" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="92" id="oHr-ow-LvA"/>
+                                            <constraint firstAttribute="width" secondItem="yTZ-nN-eOI" secondAttribute="height" multiplier="23:13" id="sxz-uG-gxM"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="play:" destination="O8k-ez-0X2" eventType="touchUpInside" id="ip7-rg-uab"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="0Cd-rH-Ynp" firstAttribute="top" secondItem="oSq-lJ-lv2" secondAttribute="top" constant="373" id="3b1-Q4-6oQ"/>
                                     <constraint firstItem="Ihe-mF-hpd" firstAttribute="centerX" secondItem="oSq-lJ-lv2" secondAttribute="centerX" id="A1P-dK-YBw"/>
+                                    <constraint firstItem="yTZ-nN-eOI" firstAttribute="centerX" secondItem="oSq-lJ-lv2" secondAttribute="centerX" constant="-100" id="KJg-ni-ZLE"/>
                                     <constraint firstItem="rUh-Du-A6G" firstAttribute="top" secondItem="oSq-lJ-lv2" secondAttribute="top" constant="810" id="PBQ-3N-Rq3"/>
                                     <constraint firstItem="0Cd-rH-Ynp" firstAttribute="centerX" secondItem="oSq-lJ-lv2" secondAttribute="centerX" constant="-100" id="TqA-ly-Ruw"/>
                                     <constraint firstItem="lDc-ra-iKZ" firstAttribute="centerX" secondItem="oSq-lJ-lv2" secondAttribute="centerX" id="XcN-II-Obg"/>
                                     <constraint firstItem="rUh-Du-A6G" firstAttribute="centerX" secondItem="oSq-lJ-lv2" secondAttribute="centerX" id="jeI-ZG-s6x"/>
                                     <constraint firstItem="lDc-ra-iKZ" firstAttribute="top" secondItem="oSq-lJ-lv2" secondAttribute="top" id="k0e-XN-Vh6"/>
                                     <constraint firstItem="Ihe-mF-hpd" firstAttribute="top" secondItem="oSq-lJ-lv2" secondAttribute="top" constant="373" id="vFL-G1-I6P"/>
+                                    <constraint firstItem="yTZ-nN-eOI" firstAttribute="top" secondItem="oSq-lJ-lv2" secondAttribute="top" constant="288" id="zgN-hq-Zht"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -2583,6 +2613,16 @@ CQ
                                             <segue destination="i33-dT-6qs" kind="show" animates="NO" id="XWf-8E-PKn"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LdU-f2-ugi">
+                                        <rect key="frame" x="13" y="290" width="90" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="DY4-gJ-Ef5"/>
+                                            <constraint firstAttribute="width" secondItem="LdU-f2-ugi" secondAttribute="height" multiplier="45:26" id="Lgb-eP-vgg"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="play:" destination="p0O-Mv-NaQ" eventType="touchUpInside" id="Dfl-zZ-Paj"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="O5u-M9-C9K" firstAttribute="top" secondItem="9KT-6s-SU8" secondAttribute="bottom" constant="800" id="DOC-yO-xuC"/>
@@ -2592,6 +2632,8 @@ CQ
                                     <constraint firstItem="frg-lO-UOg" firstAttribute="top" secondItem="Ppi-RS-0Bk" secondAttribute="top" constant="373" id="Jsc-gQ-7aU"/>
                                     <constraint firstItem="9KT-6s-SU8" firstAttribute="top" secondItem="Ppi-RS-0Bk" secondAttribute="top" constant="373" id="Qu3-aQ-hHt"/>
                                     <constraint firstItem="9KT-6s-SU8" firstAttribute="centerX" secondItem="Ppi-RS-0Bk" secondAttribute="centerX" id="YOD-Vv-JYC"/>
+                                    <constraint firstItem="LdU-f2-ugi" firstAttribute="centerX" secondItem="Ppi-RS-0Bk" secondAttribute="centerX" constant="-100" id="jU3-2e-lfs"/>
+                                    <constraint firstItem="LdU-f2-ugi" firstAttribute="top" secondItem="Ppi-RS-0Bk" secondAttribute="top" constant="290" id="llG-Z0-nPx"/>
                                     <constraint firstItem="frg-lO-UOg" firstAttribute="centerX" secondItem="Ppi-RS-0Bk" secondAttribute="centerX" constant="100" id="o5r-og-Q1c"/>
                                     <constraint firstItem="O5u-M9-C9K" firstAttribute="centerX" secondItem="Ppi-RS-0Bk" secondAttribute="centerX" id="zoT-Hj-9am"/>
                                 </constraints>
@@ -2895,22 +2937,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="azG-x2-9hX"/>
-        <segue reference="fvA-qt-0EE"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="S3p-zB-FPh"/>
+        <segue reference="w2u-1g-DF4"/>
+        <segue reference="CfJ-tn-f0G"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
         <segue reference="l8p-pq-pL1"/>
         <segue reference="WCL-6a-cs6"/>
         <segue reference="G2V-es-xvu"/>
         <segue reference="aw2-Fr-I3T"/>
-        <segue reference="xLk-7n-WHd"/>
         <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="SRY-IF-6Bj"/>
         <segue reference="had-le-EPl"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="CDX-BN-Kvp"/>
-        <segue reference="djE-OB-S6i"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -8,11 +8,29 @@
 
 #import "PNK2ViewController.h"
 
-@interface PNK2ViewController ()
+@interface PNK2ViewController (){
+    MPMoviePlayerController *mpc;
+}
+
 
 @end
 
 @implementation PNK2ViewController
+
+-(IBAction)play:(id)sender{
+    
+    
+    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/pnk1e.mp4"];
+    
+    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
+    [mpc setMovieSourceType:MPMovieSourceTypeFile];
+    
+    [[self view]addSubview:mpc.view];
+    [mpc setFullscreen:YES];
+    [mpc play];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

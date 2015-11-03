@@ -41,7 +41,7 @@
     // Email Content
     NSString *messageBody = @"";
     // To address
-    NSArray *toRecipents = [NSArray arrayWithObject:@"javier.martin@hopper.es"];
+    NSArray *toRecipents = [NSArray arrayWithObject:@"info@pronokal.com"];
     
     MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
     mc.mailComposeDelegate = self;

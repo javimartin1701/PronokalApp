@@ -8,11 +8,29 @@
 
 #import "Control1ViewController.h"
 
-@interface Control1ViewController ()
+@interface Control1ViewController (){
+    MPMoviePlayerController *mpc;
+}
+
 
 @end
 
 @implementation Control1ViewController
+
+-(IBAction)play:(id)sender{
+    
+    
+    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/controlmedico.mp4"];
+    
+    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
+    [mpc setMovieSourceType:MPMovieSourceTypeFile];
+    
+    [[self view]addSubview:mpc.view];
+    [mpc setFullscreen:YES];
+    [mpc play];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

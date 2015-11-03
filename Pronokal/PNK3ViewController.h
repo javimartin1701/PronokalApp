@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface PNK3ViewController : UIViewController{
     IBOutlet UIScrollView *scrollpnk;
 }
+
+-(IBAction)play:(id)sender;
 
 @end
