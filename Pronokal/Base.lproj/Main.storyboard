@@ -454,22 +454,31 @@
                                                 </connections>
                                             </button>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="wuz-e0-Uhk">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="222" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="75D-gm-CXe"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="3My-HK-w1E">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="327" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Lyv-bC-bZf"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="8IE-7r-Z00">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="428" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="5PN-IL-SK6"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -501,22 +510,31 @@
                                                 </connections>
                                             </button>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="LFo-rm-DHf">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="222" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="2K2-DQ-dDe"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="A0i-Ct-q4G">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="327" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="Jpj-Nu-YVE"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="yUg-4b-7R5">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="428" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="tw3-ZF-VEv"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -548,22 +566,31 @@
                                                 </connections>
                                             </button>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="9CY-ps-7hp">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="222" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="9E9-Rt-Cyp"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="z8T-0T-g7k">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="327" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="1Lf-CJ-hrY"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="YXa-5Z-1et">
-                                                <rect key="frame" x="30" y="295" width="259" height="31"/>
+                                                <rect key="frame" x="30" y="428" width="259" height="31"/>
                                                 <color key="minimumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="thumbTintColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="slidetheslider:" destination="aYC-pH-BpT" eventType="valueChanged" id="6iy-8L-tJl"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -595,34 +622,32 @@
                                                 </connections>
                                             </button>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rz0-v3-c0W">
-                                                <rect key="frame" x="39" y="299" width="240" height="128"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <rect key="frame" x="39" y="320" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
                                                     <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
                                                 </constraints>
-                                                <string key="text">Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.
-CONSULTA UN COACH PRONOKAL</string>
+                                                <string key="text">Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
-                                                <rect key="frame" x="40" y="299" width="240" height="128"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
+                                                <rect key="frame" x="40" y="320" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="9gK-hL-dDj" secondAttribute="height" multiplier="15:8" id="cR3-54-7rB"/>
                                                     <constraint firstAttribute="width" constant="240" id="ihh-vJ-iNH"/>
                                                 </constraints>
-                                                <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.
-CONSULTA UN COACH PRONOKAL</string>
+                                                <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-hu-usg">
-                                                <rect key="frame" x="40" y="299" width="240" height="128"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-hu-usg">
+                                                <rect key="frame" x="40" y="320" width="240" height="128"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="CsF-hu-usg" secondAttribute="height" multiplier="15:8" id="4lP-Yq-T40"/>
                                                     <constraint firstAttribute="width" constant="240" id="M1Y-dc-dbF"/>
@@ -690,11 +715,17 @@ CONSULTA UN COACH PRONOKAL</string>
                         <outlet property="paso4" destination="B7o-FZ-4Af" id="3MT-tD-ocb"/>
                         <outlet property="scroller" destination="6Mq-4M-aEb" id="As8-Pj-kZj"/>
                         <outlet property="slider1" destination="XR4-rq-AwV" id="1to-aE-ndZ"/>
+                        <outlet property="slider10" destination="9CY-ps-7hp" id="Xce-L9-fqd"/>
+                        <outlet property="slider11" destination="z8T-0T-g7k" id="DRZ-B6-clh"/>
+                        <outlet property="slider12" destination="YXa-5Z-1et" id="ynE-wS-gfe"/>
                         <outlet property="slider2" destination="Qve-9Z-ZcH" id="VIb-96-NuB"/>
                         <outlet property="slider3" destination="48H-PA-4J7" id="eyU-zQ-TAD"/>
                         <outlet property="slider4" destination="wuz-e0-Uhk" id="mjT-qm-wVX"/>
                         <outlet property="slider5" destination="3My-HK-w1E" id="Dyk-Yc-5vX"/>
                         <outlet property="slider6" destination="8IE-7r-Z00" id="gJx-2B-6xN"/>
+                        <outlet property="slider7" destination="LFo-rm-DHf" id="uk6-k8-Oib"/>
+                        <outlet property="slider8" destination="A0i-Ct-q4G" id="qsS-B7-1fS"/>
+                        <outlet property="slider9" destination="yUg-4b-7R5" id="HDE-CJ-XjO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3c9-1Z-NmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
