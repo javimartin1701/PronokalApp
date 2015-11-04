@@ -37,6 +37,8 @@
     // Do any additional setup after loading the view.
     [scrollcontrol setScrollEnabled:YES];
     [scrollcontrol setContentSize:CGSizeMake(320,600)];
+    
+    
 
 }
 

@@ -1582,7 +1582,7 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAJ-xP-L7c">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOm-zJ-noE">
                                                 <rect key="frame" x="8" y="37" width="162" height="105"/>
@@ -1616,15 +1616,11 @@
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HE0-oq-2v1">
-                                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                 <subviews>
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NrY-if-lyh">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                     </imageView>
-                                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maS-3R-UtX">
-                                                        <rect key="frame" x="0.0" y="185" width="320" height="430"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </webView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oF-LU-HeZ">
                                                         <rect key="frame" x="95" y="142" width="131" height="21"/>
                                                         <constraints>
@@ -1635,10 +1631,27 @@
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="maS-3R-UtX">
+                                                        <rect key="frame" x="0.0" y="185" width="320" height="430"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </webView>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNa-8I-lmK">
+                                                        <rect key="frame" x="110" y="1200" width="100" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="XNa-8I-lmK" secondAttribute="height" multiplier="2:1" id="65J-oa-yLK"/>
+                                                            <constraint firstAttribute="width" constant="100" id="JVi-0j-OER"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <connections>
+                                                            <segue destination="1oK-Nv-yd0" kind="show" id="kRA-qC-B1P"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
+                                                    <constraint firstItem="XNa-8I-lmK" firstAttribute="centerX" secondItem="HE0-oq-2v1" secondAttribute="centerX" id="Gp8-lj-iSo"/>
                                                     <constraint firstItem="8oF-LU-HeZ" firstAttribute="top" secondItem="HE0-oq-2v1" secondAttribute="top" constant="142" id="bYv-yz-jl6"/>
+                                                    <constraint firstItem="XNa-8I-lmK" firstAttribute="top" secondItem="maS-3R-UtX" secondAttribute="bottom" constant="585" id="qiX-tx-zRQ"/>
                                                     <constraint firstItem="8oF-LU-HeZ" firstAttribute="centerX" secondItem="HE0-oq-2v1" secondAttribute="centerX" id="vQY-UG-naL"/>
                                                 </constraints>
                                             </view>
@@ -1803,7 +1816,7 @@
                                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tWq-WH-WU8">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                     </imageView>
-                                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
+                                                    <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
                                                         <rect key="frame" x="0.0" y="185" width="320" height="430"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </webView>
@@ -1817,11 +1830,21 @@
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA4-Cb-8fa">
+                                                        <rect key="frame" x="110" y="1200" width="100" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="100" id="EdU-EX-kWA"/>
+                                                            <constraint firstAttribute="width" secondItem="oA4-Cb-8fa" secondAttribute="height" multiplier="2:1" id="j6M-wD-0qL"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
+                                                    <constraint firstItem="oA4-Cb-8fa" firstAttribute="top" secondItem="dqR-8i-Myt" secondAttribute="bottom" constant="585" id="1Cy-Yh-fm4"/>
                                                     <constraint firstItem="9JZ-GZ-XTz" firstAttribute="top" secondItem="AOY-r7-ohz" secondAttribute="top" constant="143" id="6ec-Kd-kEG"/>
                                                     <constraint firstItem="9JZ-GZ-XTz" firstAttribute="centerX" secondItem="AOY-r7-ohz" secondAttribute="centerX" id="C6P-zv-HTq"/>
+                                                    <constraint firstItem="oA4-Cb-8fa" firstAttribute="centerX" secondItem="AOY-r7-ohz" secondAttribute="centerX" id="MFd-n9-Qyk"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -1896,10 +1919,14 @@
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CxU-7G-Lj8" secondAttribute="height" multiplier="64:121" id="DPE-T6-zdO"/>
                                             <constraint firstAttribute="width" constant="320" id="um0-u4-6U1"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="t3c-ag-aqW" appends="YES" id="IgA-aX-vET"/>
+                                        </connections>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPt-GA-VC5">
                                         <rect key="frame" x="179" y="85" width="54" height="33"/>
@@ -1954,6 +1981,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJD-W6-Y8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="t3c-ag-aqW">
+                    <connections>
+                        <segue destination="ouZ-Bq-AZp" kind="show" animates="NO" id="GqF-PK-3do"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1201" y="-804"/>
         </scene>
@@ -1974,10 +2006,14 @@
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="735"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Imw-i7-kWc" secondAttribute="height" multiplier="64:147" id="Rhj-dX-RWx"/>
                                             <constraint firstAttribute="width" constant="320" id="sou-K4-yoo"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="YJD-a2-R4n" appends="YES" id="guy-mb-ZJG"/>
+                                        </connections>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBm-Hl-4Ea">
                                         <rect key="frame" x="95" y="82" width="56" height="36"/>
@@ -2037,8 +2073,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8gA-3B-Wgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="YJD-a2-R4n">
+                    <connections>
+                        <segue destination="UZr-GG-ldv" kind="show" animates="NO" id="WSi-Ga-s1Q"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1700" y="-809"/>
+            <point key="canvasLocation" x="1889" y="-878"/>
         </scene>
         <!--Nutricion-->
         <scene sceneID="EBj-od-nyd">
@@ -2983,14 +3024,14 @@ CQ
         <segue reference="wJS-rf-Zqo"/>
         <segue reference="7lL-BT-yup"/>
         <segue reference="5cW-5g-JXh"/>
-        <segue reference="F62-eN-4x7"/>
         <segue reference="Ihw-Oi-boR"/>
-        <segue reference="LhT-Yc-oIj"/>
         <segue reference="had-le-EPl"/>
-        <segue reference="WLM-zQ-shq"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="SRY-IF-6Bj"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
+        <segue reference="WSi-Ga-s1Q"/>
+        <segue reference="GqF-PK-3do"/>
+        <segue reference="rac-cS-TaQ"/>
+        <segue reference="gPM-aR-IOE"/>
+        <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
 </document>

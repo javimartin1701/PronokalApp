@@ -11,6 +11,7 @@
 
 @interface Control1ViewController : UIViewController{
     IBOutlet UIScrollView *scrollcontrol;
+    IBOutlet UIGestureRecognizer *recognizer;
 }
 
 -(IBAction)play:(id)sender;
