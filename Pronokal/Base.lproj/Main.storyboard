@@ -918,7 +918,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRd-s1-KAY">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-m.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wpt-pB-NcG">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-m2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wpt-pB-NcG">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="522"/>
                                         <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -937,7 +937,7 @@
                                             <action selector="calcular:" destination="TdS-gh-HQD" eventType="touchUpInside" id="17B-w7-nXG"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m3V-sA-73b" userLabel="Altura">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m3V-sA-73b" userLabel="Altura">
                                         <rect key="frame" x="161" y="301" width="74" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="m3V-sA-73b" secondAttribute="height" multiplier="37:15" id="HHt-2D-deN"/>
@@ -945,10 +945,11 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="74" id="Zd5-16-Jph"/>
                                             <constraint firstAttribute="width" secondItem="m3V-sA-73b" secondAttribute="height" multiplier="37:15" id="aqx-AW-RZQ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0c-A9-bLV" userLabel="Edad">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="O0c-A9-bLV" userLabel="Edad">
                                         <rect key="frame" x="161" y="349" width="74" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="O0c-A9-bLV" secondAttribute="height" multiplier="37:15" id="sMa-GF-Ywf"/>
@@ -956,16 +957,18 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="74" id="xrh-40-EJd"/>
                                             <constraint firstAttribute="width" constant="74" id="yzj-on-XfJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-7u-CDr">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9eN-7u-CDr">
                                         <rect key="frame" x="161" y="254" width="74" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="TcO-GS-aS0"/>
                                             <constraint firstAttribute="width" secondItem="9eN-7u-CDr" secondAttribute="height" multiplier="37:15" id="v28-9x-vep"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIb-lM-xJs">
@@ -1236,7 +1239,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HeI-Ri-Fyb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-h.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ymv-WW-67h">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-h2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ymv-WW-67h">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="522"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="bIt-JV-xHA"/>
@@ -1253,23 +1256,25 @@
                                             <segue destination="TdS-gh-HQD" kind="show" animates="NO" id="afE-xA-CND"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Km4-w7-SYI">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Km4-w7-SYI">
                                         <rect key="frame" x="161" y="254" width="74" height="30"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="alt-Bx-4Ac"/>
                                             <constraint firstAttribute="width" secondItem="Km4-w7-SYI" secondAttribute="height" multiplier="37:15" id="fMQ-2U-JNA"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bdc-72-02t">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bdc-72-02t">
                                         <rect key="frame" x="161" y="349" width="74" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="74" id="2g6-Rl-gbF"/>
                                             <constraint firstAttribute="width" secondItem="bdc-72-02t" secondAttribute="height" multiplier="37:15" id="xuE-oE-aAL"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gy-8G-vgZ">
@@ -1283,13 +1288,14 @@
                                             <action selector="calcular:" destination="VxE-va-QY8" eventType="touchUpInside" id="5M2-gj-0xi"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vIE-dD-YcN">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vIE-dD-YcN">
                                         <rect key="frame" x="161" y="303" width="74" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vIE-dD-YcN" secondAttribute="height" multiplier="37:15" id="Ve5-Em-dnw"/>
                                             <constraint firstAttribute="width" constant="74" id="YN5-ft-zaY"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                                     </textField>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R9N-xR-i08">
@@ -2909,7 +2915,9 @@ CQ
         <image name="boton_pronokal.jpg" width="164" height="225"/>
         <image name="boton_testimonios2.jpg" width="164" height="225"/>
         <image name="calc1-h.jpg" width="747" height="1224"/>
+        <image name="calc1-h2.jpg" width="750" height="1224"/>
         <image name="calc1-m.jpg" width="747" height="1224"/>
+        <image name="calc1-m2.jpg" width="750" height="1224"/>
         <image name="club.png" width="25" height="25"/>
         <image name="coaching-a1.jpg" width="746" height="1805"/>
         <image name="coaching1.jpg" width="747" height="1218"/>
@@ -2938,22 +2946,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HvQ-gg-HKO"/>
-        <segue reference="S3p-zB-FPh"/>
+        <segue reference="owA-kL-23f"/>
+        <segue reference="afE-xA-CND"/>
+        <segue reference="wd4-sY-0OU"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="G2V-es-xvu"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="l8p-pq-pL1"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="G2V-es-xvu"/>
         <segue reference="aw2-Fr-I3T"/>
+        <segue reference="WCL-6a-cs6"/>
         <segue reference="fvA-qt-0EE"/>
         <segue reference="xLk-7n-WHd"/>
-        <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="SRY-IF-6Bj"/>
         <segue reference="had-le-EPl"/>
         <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="CDX-BN-Kvp"/>
+        <segue reference="SRY-IF-6Bj"/>
+        <segue reference="S3p-zB-FPh"/>
+        <segue reference="HvQ-gg-HKO"/>
     </inferredMetricsTieBreakers>
 </document>
