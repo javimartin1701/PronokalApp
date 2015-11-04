@@ -24,6 +24,9 @@
 		8E472D341BEA6F7800DA903A /* testimonios1b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D331BEA6F7800DA903A /* testimonios1b.jpg */; };
 		8E472D361BEA727700DA903A /* PNK-1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D351BEA727700DA903A /* PNK-1a.jpg */; };
 		8E472D381BEA74B500DA903A /* PNK-2a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D371BEA74B500DA903A /* PNK-2a.jpg */; };
+		8E472D3A1BEA791600DA903A /* PNK-3a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D391BEA791600DA903A /* PNK-3a.jpg */; };
+		8E472D3C1BEA7AAE00DA903A /* control1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D3B1BEA7AAE00DA903A /* control1a.jpg */; };
+		8E472D3E1BEA7BDD00DA903A /* control2a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D3D1BEA7BDD00DA903A /* control2a.jpg */; };
 		8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */; };
 		8E672AE11BD64A5900B8D12F /* flecha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE01BD64A5900B8D12F /* flecha.jpg */; };
 		8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE21BD64B8E00B8D12F /* flecha.png */; };
@@ -155,6 +158,9 @@
 		8E472D331BEA6F7800DA903A /* testimonios1b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testimonios1b.jpg; sourceTree = "<group>"; };
 		8E472D351BEA727700DA903A /* PNK-1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-1a.jpg"; sourceTree = "<group>"; };
 		8E472D371BEA74B500DA903A /* PNK-2a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-2a.jpg"; sourceTree = "<group>"; };
+		8E472D391BEA791600DA903A /* PNK-3a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-3a.jpg"; sourceTree = "<group>"; };
+		8E472D3B1BEA7AAE00DA903A /* control1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = control1a.jpg; sourceTree = "<group>"; };
+		8E472D3D1BEA7BDD00DA903A /* control2a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = control2a.jpg; sourceTree = "<group>"; };
 		8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultadoimc.jpg; sourceTree = "<group>"; };
 		8E672AE01BD64A5900B8D12F /* flecha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flecha.jpg; sourceTree = "<group>"; };
 		8E672AE21BD64B8E00B8D12F /* flecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha.png; sourceTree = "<group>"; };
@@ -532,6 +538,9 @@
 				8E472D331BEA6F7800DA903A /* testimonios1b.jpg */,
 				8E472D351BEA727700DA903A /* PNK-1a.jpg */,
 				8E472D371BEA74B500DA903A /* PNK-2a.jpg */,
+				8E472D391BEA791600DA903A /* PNK-3a.jpg */,
+				8E472D3B1BEA7AAE00DA903A /* control1a.jpg */,
+				8E472D3D1BEA7BDD00DA903A /* control2a.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -656,6 +665,7 @@
 				8E90C2DE1BE7C07300C354F5 /* paso2.jpg in Resources */,
 				8EC69BAE1BC56B6E00B7149E /* Assets.xcassets in Resources */,
 				8EC69C1A1BC6BCCD00B7149E /* sobre.png in Resources */,
+				8E472D3A1BEA791600DA903A /* PNK-3a.jpg in Resources */,
 				8EB712101BE91C560045EDE5 /* boton_testimonios2.jpg in Resources */,
 				8EC69C051BC5820D00B7149E /* atras.png in Resources */,
 				8EE1F27F1BD53E4E007A3D73 /* calc1-m.jpg in Resources */,
@@ -672,6 +682,7 @@
 				8E85DB921BDFA954003DB5B7 /* resPesIdal.jpg in Resources */,
 				8E472D381BEA74B500DA903A /* PNK-2a.jpg in Resources */,
 				8E672AEA1BD8DADA00B8D12F /* coaching0.jpg in Resources */,
+				8E472D3C1BEA7AAE00DA903A /* control1a.jpg in Resources */,
 				8EC69BFF1BC5813E00B7149E /* contacto.png in Resources */,
 				8EE1F2611BD00BBA007A3D73 /* control1.jpg in Resources */,
 				8E472D2C1BEA223900DA903A /* calc1-m2b.jpg in Resources */,
@@ -692,6 +703,7 @@
 				8E0515771BE3C72F00E26054 /* testtext2.jpg in Resources */,
 				8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */,
 				8E472D2E1BEA270100DA903A /* resPesIda2l.jpg in Resources */,
+				8E472D3E1BEA7BDD00DA903A /* control2a.jpg in Resources */,
 				8EC69C0F1BC6737300B7149E /* texto-contacto.png in Resources */,
 				8EC69C181BC6A58F00B7149E /* llamadas.png in Resources */,
 				8EC69C111BC675E300B7149E /* logo_texto2.png in Resources */,

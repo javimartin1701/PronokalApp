@@ -1917,7 +1917,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXp-xS-JJZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -2004,7 +2004,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-48-HL3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="735"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -2554,7 +2554,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSq-lJ-lv2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lDc-ra-iKZ">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="," translatesAutoresizingMaskIntoConstraints="NO" id="lDc-ra-iKZ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="873"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="lDc-ra-iKZ" secondAttribute="height" multiplier="320:873" id="2Np-1y-98G"/>
@@ -2633,7 +2633,7 @@ CQ
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Llc-9w-V8d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1630" y="189"/>
+            <point key="canvasLocation" x="1709" y="189"/>
         </scene>
         <!--PNK-->
         <scene sceneID="a03-LW-mN3">
@@ -2968,9 +2968,9 @@ CQ
         </scene>
     </scenes>
     <resources>
+        <image name="," width="25" height="25"/>
         <image name="PNK-1a.jpg" width="745" height="1964"/>
         <image name="PNK-2a.jpg" width="754" height="2783"/>
-        <image name="PNK-3.jpg" width="741" height="2032"/>
         <image name="actividad1.jpg" width="750" height="1218"/>
         <image name="actividad2.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
@@ -2992,8 +2992,8 @@ CQ
         <image name="coaching1.jpg" width="747" height="1218"/>
         <image name="config.png" width="25" height="25"/>
         <image name="contacto.png" width="25" height="25"/>
-        <image name="control1.jpg" width="745" height="1400"/>
-        <image name="control2.jpg" width="741" height="1700"/>
+        <image name="control1a.jpg" width="745" height="1400"/>
+        <image name="control2a.jpg" width="741" height="1700"/>
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
         <image name="llamadas.png" width="123" height="123"/>
@@ -3026,10 +3026,10 @@ CQ
         <segue reference="Ihw-Oi-boR"/>
         <segue reference="had-le-EPl"/>
         <segue reference="S3p-zB-FPh"/>
-        <segue reference="azG-x2-9hX"/>
-        <segue reference="eNI-yk-SAr"/>
-        <segue reference="WSi-Ga-s1Q"/>
-        <segue reference="GqF-PK-3do"/>
+        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="CfJ-tn-f0G"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="rac-cS-TaQ"/>
         <segue reference="gPM-aR-IOE"/>
         <segue reference="WLM-zQ-shq"/>

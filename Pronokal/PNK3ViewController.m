@@ -22,7 +22,7 @@
     
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     
-    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/pnk2.mp4"];
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/pnkgroup.mp4"];
     
     mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];
