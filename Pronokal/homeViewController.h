@@ -11,6 +11,7 @@
 @interface homeViewController : UIViewController{
     IBOutlet UIView *principal;
     IBOutlet UIImageView *medicos;
+    IBOutlet UIImageView *logoHead;
 }
 
 @end

@@ -14,9 +14,19 @@
 
 @implementation homeViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    logoHead.hidden = NO;
+    logoHead.alpha=0.0;
+    [UIView animateWithDuration:3
+                          delay:0
+                        options:UIViewAnimationOptionCurveEaseIn
+                     animations:^{ logoHead.alpha = 1; }
+                     completion:^(BOOL finished){}
+     ];
     
     
 }

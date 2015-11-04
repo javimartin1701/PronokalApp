@@ -2359,6 +2359,7 @@ CQ
                     <nil key="simulatedTopBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="logoHead" destination="wj5-kp-rsi" id="8Uz-Ye-1Yq"/>
                         <outlet property="medicos" destination="jcv-wf-QFj" id="fqi-Qp-xsF"/>
                         <outlet property="principal" destination="WBJ-aB-MK2" id="Jrq-YO-cZv"/>
                     </connections>
@@ -2939,20 +2940,20 @@ CQ
     <inferredMetricsTieBreakers>
         <segue reference="HvQ-gg-HKO"/>
         <segue reference="S3p-zB-FPh"/>
-        <segue reference="w2u-1g-DF4"/>
-        <segue reference="CfJ-tn-f0G"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="F62-eN-4x7"/>
         <segue reference="WLM-zQ-shq"/>
         <segue reference="l8p-pq-pL1"/>
         <segue reference="WCL-6a-cs6"/>
         <segue reference="G2V-es-xvu"/>
         <segue reference="aw2-Fr-I3T"/>
+        <segue reference="fvA-qt-0EE"/>
+        <segue reference="xLk-7n-WHd"/>
         <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="SRY-IF-6Bj"/>
         <segue reference="had-le-EPl"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="CDX-BN-Kvp"/>
     </inferredMetricsTieBreakers>
 </document>
