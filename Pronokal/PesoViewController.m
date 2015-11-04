@@ -90,6 +90,8 @@
     resultadot3=[NSString stringWithFormat:@"%.1f",total3];
     resultadot4=[NSString stringWithFormat:@"%d",duracionRound];
     
+    resultadot4 = [resultadot4 stringByAppendingString:@" Semanas"];
+    
     resultado.text=resultadot;
     pesoIdeal.text=resultadot2;
     pesoPerder.text=resultadot3;
@@ -105,7 +107,7 @@
     NSURL *url = [NSURL URLWithString:website];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     
-    
+    grafica.scrollView.scrollEnabled = NO;
     
     
     
@@ -162,7 +164,7 @@
     pantallagrafica.hidden=YES;
     
     [scrollcalc setScrollEnabled:YES];
-    [scrollcalc setContentSize:CGSizeMake(320,600)];
+    [scrollcalc setContentSize:CGSizeMake(320,1300)];
     
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(ocultaTeclado:)];
     [tapGesture setNumberOfTouchesRequired:1];
