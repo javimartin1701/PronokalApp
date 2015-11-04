@@ -820,7 +820,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A5U-Nl-qJ2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="testimonios1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s1e-yR-14a">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="testimonios1b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s1e-yR-14a">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="515"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="98G-kg-slH"/>
@@ -2458,11 +2458,11 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8oU-LR-GVl">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KQM-Sl-c0p">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="904"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-2a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="or3-Le-MRe">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="1182"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="M07-gc-dqo"/>
-                                            <constraint firstAttribute="width" secondItem="KQM-Sl-c0p" secondAttribute="height" multiplier="40:113" id="uV6-OY-9XP"/>
+                                            <constraint firstAttribute="width" secondItem="or3-Le-MRe" secondAttribute="height" multiplier="160:591" id="R2S-QP-Gno"/>
+                                            <constraint firstAttribute="width" constant="320" id="Yf7-Qa-Poi"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOF-1l-gen">
@@ -2512,11 +2512,11 @@ CQ
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="0Lg-Eq-KR6"/>
                                     <constraint firstItem="hTf-sE-ptX" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="290" id="BIF-v3-vsN"/>
                                     <constraint firstItem="hTf-sE-ptX" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="Njk-Xs-4gl"/>
-                                    <constraint firstItem="KQM-Sl-c0p" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="QuO-Jn-cmU"/>
+                                    <constraint firstItem="or3-Le-MRe" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="Sh5-Kz-wim"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="UOi-qE-Ebg"/>
                                     <constraint firstItem="c49-xN-3Kr" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="cZB-lq-Xms"/>
-                                    <constraint firstItem="KQM-Sl-c0p" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="cez-Jb-2dg"/>
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="100" id="gir-Fq-FQv"/>
+                                    <constraint firstItem="or3-Le-MRe" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="gnY-Rf-tAW"/>
                                     <constraint firstItem="c49-xN-3Kr" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="850" id="i0z-hJ-aXQ"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="qey-v6-Lh9"/>
                                 </constraints>
@@ -2650,7 +2650,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ppi-RS-0Bk">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-aM-fRf">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-1a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-aM-fRf">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="845"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="7t1-F7-HAl"/>
@@ -2968,8 +2968,8 @@ CQ
         </scene>
     </scenes>
     <resources>
-        <image name="PNK-1.jpg" width="745" height="1964"/>
-        <image name="PNK-2.jpg" width="736" height="2092"/>
+        <image name="PNK-1a.jpg" width="745" height="1964"/>
+        <image name="PNK-2a.jpg" width="754" height="2783"/>
         <image name="PNK-3.jpg" width="741" height="2032"/>
         <image name="actividad1.jpg" width="750" height="1218"/>
         <image name="actividad2.jpg" width="747" height="1689"/>
@@ -3012,7 +3012,7 @@ CQ
         <image name="resultado_test.jpg" width="750" height="1221"/>
         <image name="resultadoimc.jpg" width="744" height="1224"/>
         <image name="sobre.png" width="123" height="123"/>
-        <image name="testimonios1.jpg" width="753" height="1218"/>
+        <image name="testimonios1b.jpg" width="753" height="1218"/>
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
@@ -3022,12 +3022,12 @@ CQ
         <segue reference="oHC-TG-CEi"/>
         <segue reference="X96-Pp-Dok"/>
         <segue reference="wJS-rf-Zqo"/>
-        <segue reference="7lL-BT-yup"/>
         <segue reference="5cW-5g-JXh"/>
         <segue reference="Ihw-Oi-boR"/>
         <segue reference="had-le-EPl"/>
         <segue reference="S3p-zB-FPh"/>
-        <segue reference="HvQ-gg-HKO"/>
+        <segue reference="azG-x2-9hX"/>
+        <segue reference="eNI-yk-SAr"/>
         <segue reference="WSi-Ga-s1Q"/>
         <segue reference="GqF-PK-3do"/>
         <segue reference="rac-cS-TaQ"/>
