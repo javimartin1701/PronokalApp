@@ -2566,7 +2566,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSq-lJ-lv2">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="," translatesAutoresizingMaskIntoConstraints="NO" id="lDc-ra-iKZ">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-3aa.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lDc-ra-iKZ">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="873"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="lDc-ra-iKZ" secondAttribute="height" multiplier="320:873" id="2Np-1y-98G"/>
@@ -2806,11 +2806,11 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zkg-aD-t3M">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="etH-9I-Ndx">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="513"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad1a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fy4-wH-DTP">
+                                        <rect key="frame" x="1" y="0.0" width="320" height="508"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="NhC-4J-KTe"/>
-                                            <constraint firstAttribute="width" secondItem="etH-9I-Ndx" secondAttribute="height" multiplier="320:513" id="wBY-8t-2F2"/>
+                                            <constraint firstAttribute="width" secondItem="fy4-wH-DTP" secondAttribute="height" multiplier="80:127" id="Fwl-Xj-2Pf"/>
+                                            <constraint firstAttribute="width" constant="320" id="v4L-zx-WEr"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOf-ns-gRH">
@@ -2833,13 +2833,19 @@ CQ
                                             <segue destination="M0I-MZ-Pi7" kind="show" animates="NO" id="Gif-bo-5TN"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XrS-cd-Wje">
+                                        <rect key="frame" x="16" y="276" width="290" height="166"/>
+                                        <connections>
+                                            <action selector="play:" destination="V8R-a3-HFF" eventType="touchUpInside" id="7eJ-nP-ELj"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="etH-9I-Ndx" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="1Qq-3Z-r6f"/>
-                                    <constraint firstItem="etH-9I-Ndx" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" id="503-bd-tqp"/>
+                                    <constraint firstItem="fy4-wH-DTP" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="8y5-Aw-H9p"/>
                                     <constraint firstItem="BOf-ns-gRH" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" constant="83" id="LiN-tC-mma"/>
                                     <constraint firstItem="9OJ-nR-Aih" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="M7y-KV-7qk"/>
                                     <constraint firstItem="BOf-ns-gRH" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" constant="40" id="Rr4-xm-nqj"/>
+                                    <constraint firstItem="fy4-wH-DTP" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" id="Zap-ze-Xnb"/>
                                     <constraint firstItem="9OJ-nR-Aih" firstAttribute="top" secondItem="BOf-ns-gRH" secondAttribute="bottom" constant="359" id="lkb-E8-vpp"/>
                                 </constraints>
                             </scrollView>
@@ -2876,7 +2882,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lp4-Mv-YyN">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k8I-Wl-pYV">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad2a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k8I-Wl-pYV">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="717"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="7NT-w9-66D"/>
@@ -2980,11 +2986,11 @@ CQ
         </scene>
     </scenes>
     <resources>
-        <image name="," width="25" height="25"/>
         <image name="PNK-1a.jpg" width="745" height="1964"/>
         <image name="PNK-2a.jpg" width="754" height="2783"/>
-        <image name="actividad1.jpg" width="750" height="1218"/>
-        <image name="actividad2.jpg" width="747" height="1689"/>
+        <image name="PNK-3aa.jpg" width="741" height="2032"/>
+        <image name="actividad1a.jpg" width="750" height="1218"/>
+        <image name="actividad2a.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
         <image name="boton_actividad2.jpg" width="182" height="238"/>
         <image name="boton_apoyo2.jpg" width="182" height="238"/>
@@ -3031,19 +3037,19 @@ CQ
         <segue reference="KBI-Tt-PM3"/>
         <segue reference="CDX-BN-Kvp"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="oHC-TG-CEi"/>
+        <segue reference="Bun-oo-hug"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="N6i-Yv-VVr"/>
         <segue reference="wJS-rf-Zqo"/>
         <segue reference="5cW-5g-JXh"/>
         <segue reference="Ihw-Oi-boR"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
+        <segue reference="w2u-1g-DF4"/>
         <segue reference="CfJ-tn-f0G"/>
-        <segue reference="rlm-MO-jpp"/>
         <segue reference="Z1s-8x-Pdf"/>
         <segue reference="WLM-zQ-shq"/>
         <segue reference="xhY-sy-Kil"/>
         <segue reference="tnD-7F-Pin"/>
-        <segue reference="rx5-sN-1qc"/>
-        <segue reference="had-le-EPl"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -9,10 +9,28 @@
 #import "Actividad1ViewController.h"
 
 @interface Actividad1ViewController ()
+{
+    MPMoviePlayerController *mpc;
+}
 
 @end
 
 @implementation Actividad1ViewController
+
+-(IBAction)play:(id)sender{
+    
+    
+    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/actividadfisica.mp4"];
+    
+    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
+    [mpc setMovieSourceType:MPMovieSourceTypeFile];
+    
+    [[self view]addSubview:mpc.view];
+    [mpc setFullscreen:YES];
+    [mpc play];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
