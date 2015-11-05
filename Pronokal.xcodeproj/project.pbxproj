@@ -32,6 +32,7 @@
 		8E472D441BEB6AC100DA903A /* actividad1a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D431BEB6AC100DA903A /* actividad1a.jpg */; };
 		8E472D461BEB6FCC00DA903A /* actividad2a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D451BEB6FCC00DA903A /* actividad2a.jpg */; };
 		8E472D481BEB71F800DA903A /* PNK-3aa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D471BEB71F800DA903A /* PNK-3aa.jpg */; };
+		8E472D4A1BEB735000DA903A /* coaching-a2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D491BEB735000DA903A /* coaching-a2.jpg */; };
 		8E672ADF1BD644AA00B8D12F /* resultadoimc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */; };
 		8E672AE11BD64A5900B8D12F /* flecha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE01BD64A5900B8D12F /* flecha.jpg */; };
 		8E672AE31BD64B8E00B8D12F /* flecha.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E672AE21BD64B8E00B8D12F /* flecha.png */; };
@@ -171,6 +172,7 @@
 		8E472D431BEB6AC100DA903A /* actividad1a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad1a.jpg; sourceTree = "<group>"; };
 		8E472D451BEB6FCC00DA903A /* actividad2a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = actividad2a.jpg; sourceTree = "<group>"; };
 		8E472D471BEB71F800DA903A /* PNK-3aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-3aa.jpg"; sourceTree = "<group>"; };
+		8E472D491BEB735000DA903A /* coaching-a2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "coaching-a2.jpg"; sourceTree = "<group>"; };
 		8E672ADE1BD644AA00B8D12F /* resultadoimc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = resultadoimc.jpg; sourceTree = "<group>"; };
 		8E672AE01BD64A5900B8D12F /* flecha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flecha.jpg; sourceTree = "<group>"; };
 		8E672AE21BD64B8E00B8D12F /* flecha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flecha.png; sourceTree = "<group>"; };
@@ -556,6 +558,7 @@
 				8E472D431BEB6AC100DA903A /* actividad1a.jpg */,
 				8E472D451BEB6FCC00DA903A /* actividad2a.jpg */,
 				8E472D471BEB71F800DA903A /* PNK-3aa.jpg */,
+				8E472D491BEB735000DA903A /* coaching-a2.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -748,6 +751,7 @@
 				8EE1F2441BCE990F007A3D73 /* nutricion-1.jpg in Resources */,
 				8EC69C1C1BC6BD3B00B7149E /* posicion.png in Resources */,
 				8E90C2DD1BE7C07300C354F5 /* paso1.jpg in Resources */,
+				8E472D4A1BEB735000DA903A /* coaching-a2.jpg in Resources */,
 				8E90C2E01BE7C07300C354F5 /* paso4.jpg in Resources */,
 				8EC69BFC1BC5813E00B7149E /* config.png in Resources */,
 				8EC69C291BCD101D00B7149E /* boton_actividad.jpg in Resources */,

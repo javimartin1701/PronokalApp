@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
+
 
 @interface Coaching1ViewController : UIViewController{
     IBOutlet UIScrollView *scroller;
 }
+
+-(IBAction)play:(id)sender;
 
 @end

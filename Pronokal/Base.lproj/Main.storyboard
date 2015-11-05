@@ -747,7 +747,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xad-6k-9rK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching-a1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LIt-Ld-FLM">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching-a2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LIt-Ld-FLM">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="765"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="LIt-Ld-FLM" secondAttribute="height" multiplier="64:153" id="BAq-pH-dxN"/>
@@ -777,8 +777,20 @@
                                             <segue destination="aYC-pH-BpT" kind="show" animates="NO" id="I9p-9N-ZWK"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoL-zf-j0O">
+                                        <rect key="frame" x="15" y="311" width="290" height="167"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="MoL-zf-j0O" secondAttribute="height" multiplier="290:167" id="R8S-15-a0T"/>
+                                            <constraint firstAttribute="width" constant="290" id="ckH-3Y-eEX"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="play:" destination="QzO-PJ-1Vh" eventType="touchUpInside" id="xZv-Q3-694"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="MoL-zf-j0O" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="G14-j0-pIQ"/>
+                                    <constraint firstItem="MoL-zf-j0O" firstAttribute="top" secondItem="20s-iR-3FA" secondAttribute="bottom" constant="176" id="HK2-ff-54K"/>
                                     <constraint firstItem="LIt-Ld-FLM" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" id="NdZ-fc-5y1"/>
                                     <constraint firstItem="LIt-Ld-FLM" firstAttribute="centerX" secondItem="xad-6k-9rK" secondAttribute="centerX" id="TWg-bC-qAb"/>
                                     <constraint firstItem="89h-rx-JYc" firstAttribute="top" secondItem="xad-6k-9rK" secondAttribute="top" constant="710" id="bAN-OS-dKM"/>
@@ -3006,7 +3018,7 @@ CQ
         <image name="calc1-m2.jpg" width="750" height="1224"/>
         <image name="calc1-m2b.jpg" width="750" height="1224"/>
         <image name="club.png" width="25" height="25"/>
-        <image name="coaching-a1.jpg" width="746" height="1805"/>
+        <image name="coaching-a2.jpg" width="746" height="1805"/>
         <image name="coaching1.jpg" width="747" height="1218"/>
         <image name="config.png" width="25" height="25"/>
         <image name="contacto.png" width="25" height="25"/>

@@ -8,11 +8,29 @@
 
 #import "Coaching1ViewController.h"
 
-@interface Coaching1ViewController ()
+@interface Coaching1ViewController (){
+     MPMoviePlayerController *mpc;
+}
 
 @end
 
 @implementation Coaching1ViewController
+
+-(IBAction)play:(id)sender{
+    
+    
+    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
+    
+    NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/apoyo.mp4"];
+    
+    mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
+    [mpc setMovieSourceType:MPMovieSourceTypeFile];
+    
+    [[self view]addSubview:mpc.view];
+    [mpc setFullscreen:YES];
+    [mpc play];
+}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
