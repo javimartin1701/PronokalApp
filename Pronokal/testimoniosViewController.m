@@ -91,7 +91,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [scrolltestimonios setScrollEnabled:YES];
-    [scrolltestimonios setContentSize:CGSizeMake(320,500)];
+    [scrolltestimonios setContentSize:CGSizeMake(320,700)];
 }
 
 - (void)didReceiveMemoryWarning {

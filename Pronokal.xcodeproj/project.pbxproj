@@ -14,6 +14,9 @@
 		8E0770301BE228540049C901 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07702F1BE228540049C901 /* MenuViewController.m */; };
 		8E0770331BE22AB00049C901 /* Menu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0770321BE22AB00049C901 /* Menu2ViewController.m */; };
 		8E07708D1BE3A78D0049C901 /* homeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E07708C1BE3A78D0049C901 /* homeViewController.m */; };
+		8E2E8A721BEBA9D30019B4B5 /* home-pre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E8A711BEBA9D30019B4B5 /* home-pre.jpg */; };
+		8E2E8A751BEBAC3B0019B4B5 /* prehomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E8A741BEBAC3B0019B4B5 /* prehomeViewController.m */; };
+		8E2E8A781BEBAF910019B4B5 /* comproViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E2E8A771BEBAF910019B4B5 /* comproViewController.m */; };
 		8E472D261BEA1B9900DA903A /* calc1-h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D251BEA1B9900DA903A /* calc1-h2.jpg */; };
 		8E472D281BEA1C6300DA903A /* calc1-m2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D271BEA1C6300DA903A /* calc1-m2.jpg */; };
 		8E472D2B1BEA223900DA903A /* calc1-h2b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D291BEA223900DA903A /* calc1-h2b.jpg */; };
@@ -156,6 +159,11 @@
 		8E07708C1BE3A78D0049C901 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
 		8E2E8A6D1BEB86C50019B4B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8E2E8A6E1BEB86C50019B4B5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8E2E8A711BEBA9D30019B4B5 /* home-pre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "home-pre.jpg"; sourceTree = "<group>"; };
+		8E2E8A731BEBAC3B0019B4B5 /* prehomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prehomeViewController.h; sourceTree = "<group>"; };
+		8E2E8A741BEBAC3B0019B4B5 /* prehomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = prehomeViewController.m; sourceTree = "<group>"; };
+		8E2E8A761BEBAF910019B4B5 /* comproViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comproViewController.h; sourceTree = "<group>"; };
+		8E2E8A771BEBAF910019B4B5 /* comproViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = comproViewController.m; sourceTree = "<group>"; };
 		8E472D251BEA1B9900DA903A /* calc1-h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2.jpg"; sourceTree = "<group>"; };
 		8E472D271BEA1C6300DA903A /* calc1-m2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-m2.jpg"; sourceTree = "<group>"; };
 		8E472D291BEA223900DA903A /* calc1-h2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2b.jpg"; sourceTree = "<group>"; };
@@ -365,8 +373,12 @@
 				8EC69BD71BC5757600B7149E /* UIDemoNavController.h */,
 				8EC69BD81BC5757600B7149E /* UIDemoNavController.m */,
 				8EC69C121BC67A0800B7149E /* ContactoViewController.h */,
+				8E2E8A731BEBAC3B0019B4B5 /* prehomeViewController.h */,
+				8E2E8A741BEBAC3B0019B4B5 /* prehomeViewController.m */,
 				8EC69C131BC67A0800B7149E /* ContactoViewController.m */,
 				8EC69BAA1BC56B6E00B7149E /* Main.storyboard */,
+				8E2E8A761BEBAF910019B4B5 /* comproViewController.h */,
+				8E2E8A771BEBAF910019B4B5 /* comproViewController.m */,
 				8E0770311BE22AB00049C901 /* Menu2ViewController.h */,
 				8E0770321BE22AB00049C901 /* Menu2ViewController.m */,
 				8E07702E1BE228540049C901 /* MenuViewController.h */,
@@ -494,6 +506,7 @@
 		8EC69C0B1BC66B5900B7149E /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				8E2E8A711BEBA9D30019B4B5 /* home-pre.jpg */,
 				8E672AE71BD68D0700B8D12F /* coaching1.jpg */,
 				8EE1F27C1BD53E4E007A3D73 /* calc1-h.jpg */,
 				8EE1F27D1BD53E4E007A3D73 /* calc1-m.jpg */,
@@ -721,6 +734,7 @@
 				8EC69C371BCD289C00B7149E /* calculadura_text2.jpg in Resources */,
 				8EC69C2C1BCD101D00B7149E /* boton_club.jpg in Resources */,
 				8EC69C0A1BC66B5100B7149E /* medicos_home.jpg in Resources */,
+				8E2E8A721BEBA9D30019B4B5 /* home-pre.jpg in Resources */,
 				8EC69C2F1BCD101D00B7149E /* boton_peso.jpg in Resources */,
 				8EE1F24F1BCEACFF007A3D73 /* PNK-3.jpg in Resources */,
 				8EE1F24E1BCEACFF007A3D73 /* PNK-2.jpg in Resources */,
@@ -788,6 +802,7 @@
 				8EE1F23F1BCD4781007A3D73 /* CalculadoraViewController.m in Sources */,
 				8EE1F2551BCFC383007A3D73 /* PNK2ViewController.m in Sources */,
 				8EC69C1F1BCD07D800B7149E /* ClubViewController.m in Sources */,
+				8E2E8A781BEBAF910019B4B5 /* comproViewController.m in Sources */,
 				8EC69C141BC67A0800B7149E /* ContactoViewController.m in Sources */,
 				8EE1F2651BD11071007A3D73 /* Actividad1ViewController.m in Sources */,
 				8EE1F25B1BD007D4007A3D73 /* Control1ViewController.m in Sources */,
@@ -796,6 +811,7 @@
 				8EE1F2471BCE9E9A007A3D73 /* Nutricion2ViewController.m in Sources */,
 				8EE1F2581BCFF3C6007A3D73 /* PNK3ViewController.m in Sources */,
 				8E85DB901BDF8124003DB5B7 /* PesoViewController.m in Sources */,
+				8E2E8A751BEBAC3B0019B4B5 /* prehomeViewController.m in Sources */,
 				8EC69BD91BC5757600B7149E /* UIDemoNavController.m in Sources */,
 				8EC69BA91BC56B6E00B7149E /* ViewController.m in Sources */,
 				8EC69BA61BC56B6E00B7149E /* AppDelegate.m in Sources */,
