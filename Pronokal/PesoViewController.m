@@ -49,39 +49,39 @@
     float duracionTemp;
     
     
-    total=speso/((saltura/100)*(saltura/100));
-    total2=(saltura/100)*(saltura/100)*21.5;
+    total=speso/((saltura/100.0)*(saltura/100.0));
+    total2=(saltura/100.0)*(saltura/100.0)*21.5;
     total3=speso-total2;
     
-    duracionTemp=total3*(100/80);
+    duracionTemp=total3*(100.0/80.0);
     
     
     
-    if (duracionTemp<10) {
-        duracionRed=8;
+    if (duracionTemp<10.0) {
+        duracionRed=8.0;
     }
     
-    if (duracionTemp>10 && duracionTratamiento<=15) {
-        duracionRed=10;
+    if (duracionTemp>10.0 && duracionTratamiento<=15.0) {
+        duracionRed=10.0;
     }
     
-    if (duracionTemp>15 && duracionTratamiento<=20) {
-        duracionRed=12;
+    if (duracionTemp>15 && duracionTratamiento<=20.0) {
+        duracionRed=12.0;
     }
     
-    if (duracionTemp>20 && duracionTratamiento<=25) {
-        duracionRed=14;
+    if (duracionTemp>20.0 && duracionTratamiento<=25.0) {
+        duracionRed=14.0;
     }
     
-    if (duracionTemp>25 && duracionTratamiento<=30) {
-        duracionRed=16;
+    if (duracionTemp>25.0 && duracionTratamiento<=30.0) {
+        duracionRed=16.0;
     }
     
-    if (duracionTemp>30) {
-        duracionRed=20;
+    if (duracionTemp>30.0) {
+        duracionRed=20.0;
     }
     
-    duracionTratamiento=(total3*0.4/2.6)+(total3*0.2/2.35)+(total3*0.2/2.25)+duracionRed;
+    duracionTratamiento=((total3*0.4)/2.6)+((total3*0.2)/2.35)+((total3*0.2)/2.25)+duracionRed;
     
     int duracionRound = lroundf(duracionTratamiento);
 

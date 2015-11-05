@@ -51,40 +51,42 @@
     float duracionRed=0.0;
     float duracionTemp;
     
-    
-    total=speso/((saltura/100)*(saltura/100));
-    total2=(saltura/100)*(saltura/100)*24;
+    total=speso/((saltura/100.0)*(saltura/100.0));
+    total2=(saltura/100.0)*(saltura/100.0)*24.0;
     total3=speso-total2;
     
-    duracionTemp=total3*(100/80);
+    duracionTemp=total3*(100.0/80.0);
     
     
     
-    if (duracionTemp<10) {
-        duracionRed=8;
+    if (duracionTemp<10.0) {
+        duracionRed=8.0;
     }
     
-    if (duracionTemp>10 && duracionTratamiento<=15) {
-        duracionRed=10;
+    if (duracionTemp>10.0 && duracionTratamiento<=15.0) {
+        duracionRed=10.0;
     }
     
-    if (duracionTemp>15 && duracionTratamiento<=20) {
-        duracionRed=12;
+    if (duracionTemp>15 && duracionTratamiento<=20.0) {
+        duracionRed=12.0;
     }
     
-    if (duracionTemp>20 && duracionTratamiento<=25) {
-        duracionRed=14;
+    if (duracionTemp>20.0 && duracionTratamiento<=25.0) {
+        duracionRed=14.0;
     }
     
-    if (duracionTemp>25 && duracionTratamiento<=30) {
-        duracionRed=16;
+    if (duracionTemp>25.0 && duracionTratamiento<=30.0) {
+        duracionRed=16.0;
     }
     
-    if (duracionTemp>30) {
-        duracionRed=20;
+    if (duracionTemp>30.0) {
+        duracionRed=20.0;
     }
     
-    duracionTratamiento=(total3*0.4/2.6)+(total3*0.2/2.35)+(total3*0.2/2.25)+duracionRed;
+    duracionTratamiento=((total3*0.4)/2.6)+((total3*0.2)/2.35)+((total3*0.2)/2.25)+duracionRed;
+    
+    
+    
     
     int duracionRound = lroundf(duracionTratamiento);
     
@@ -103,10 +105,10 @@
     
     
     
-    NSString *website = [NSString stringWithFormat:@"http://webdemo.com.es/pnkv/svg/chart.php?sexo=m&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
+    NSString *website = [NSString stringWithFormat:@"http://webdemo.com.es/pnkv/svg/chart.php?sexo=h&altura=%.1f&peso=%.1f&edad=%.f", saltura, speso, sedad];
     //urlGrafica.text=website;
     
-    //NSString *website = @"http://webdemo.com.es/pnkv/svg/chart.php?sexo=m&altura=170&peso=80&edad=33";
+    //NSString *website = @"http://webdemo.com.es/pnkv/svg/chart.php?sexo=h&altura=170&peso=80&edad=33";
     NSURL *url = [NSURL URLWithString:website];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     

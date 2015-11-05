@@ -154,6 +154,8 @@
 		8E0770321BE22AB00049C901 /* Menu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu2ViewController.m; sourceTree = "<group>"; };
 		8E07708B1BE3A78D0049C901 /* homeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homeViewController.h; sourceTree = "<group>"; };
 		8E07708C1BE3A78D0049C901 /* homeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homeViewController.m; sourceTree = "<group>"; };
+		8E2E8A6D1BEB86C50019B4B5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8E2E8A6E1BEB86C50019B4B5 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		8E472D251BEA1B9900DA903A /* calc1-h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2.jpg"; sourceTree = "<group>"; };
 		8E472D271BEA1C6300DA903A /* calc1-m2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-m2.jpg"; sourceTree = "<group>"; };
 		8E472D291BEA223900DA903A /* calc1-h2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2b.jpg"; sourceTree = "<group>"; };
@@ -324,6 +326,8 @@
 		8EC69B951BC56B6E00B7149E = {
 			isa = PBXGroup;
 			children = (
+				8E2E8A6D1BEB86C50019B4B5 /* AVFoundation.framework */,
+				8E2E8A6E1BEB86C50019B4B5 /* AVKit.framework */,
 				8EE1F2721BD40977007A3D73 /* MediaPlayer.framework */,
 				8EC69C151BC683E800B7149E /* MessageUI.framework */,
 				8EC69BA01BC56B6E00B7149E /* Pronokal */,

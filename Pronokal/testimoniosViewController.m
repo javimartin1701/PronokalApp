@@ -10,6 +10,7 @@
 
 @interface testimoniosViewController ()
 {
+    
     MPMoviePlayerController *mpc;
     MPMoviePlayerController *mpc2;
     MPMoviePlayerController *mpc3;
@@ -20,7 +21,14 @@
 
 @implementation testimoniosViewController
 
+
+
 -(IBAction)play:(id)sender{
+    
+    
+    
+    
+    
 
     
    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
@@ -32,6 +40,8 @@
     
     [[self view]addSubview:mpc.view];
     [mpc setFullscreen:YES];
+    
+    
     [mpc play];
 }
 
@@ -44,6 +54,7 @@
     
     [[self view]addSubview:mpc2.view];
     [mpc2 setFullscreen:YES];
+    
     [mpc2 play];
 }
 
@@ -71,6 +82,9 @@
     [mpc4 setFullscreen:YES];
     [mpc4 play];
 }
+
+
+
 
 
 - (void)viewDidLoad {
