@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface NutricionViewController : UIViewController{
     IBOutlet UIScrollView *scrollnutricion;
 }
+
+-(IBAction)play:(id)sender;
 
 @end
