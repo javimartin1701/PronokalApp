@@ -2543,10 +2543,11 @@ CQ
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c49-xN-3Kr">
-                                        <rect key="frame" x="125" y="470" width="70" height="30"/>
+                                        <rect key="frame" x="125" y="650" width="70" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="c49-xN-3Kr" secondAttribute="height" multiplier="7:3" id="HGw-8X-EV7"/>
-                                            <constraint firstAttribute="width" constant="70" id="c4e-i4-qul"/>
+                                            <constraint firstAttribute="width" constant="70" id="TmU-rW-y8A"/>
+                                            <constraint firstAttribute="width" secondItem="c49-xN-3Kr" secondAttribute="height" multiplier="7:3" id="fgh-NH-OqD"/>
                                         </constraints>
                                         <connections>
                                             <segue destination="O8k-ez-0X2" kind="show" animates="NO" id="S3p-zB-FPh"/>
@@ -2567,12 +2568,12 @@ CQ
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="0Lg-Eq-KR6"/>
                                     <constraint firstItem="hTf-sE-ptX" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="290" id="BIF-v3-vsN"/>
                                     <constraint firstItem="hTf-sE-ptX" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="Njk-Xs-4gl"/>
+                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="1020" id="RRC-Gg-EbZ"/>
                                     <constraint firstItem="or3-Le-MRe" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="Sh5-Kz-wim"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="UOi-qE-Ebg"/>
-                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="cZB-lq-Xms"/>
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="100" id="gir-Fq-FQv"/>
                                     <constraint firstItem="or3-Le-MRe" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="gnY-Rf-tAW"/>
-                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="850" id="i0z-hJ-aXQ"/>
+                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="j9u-Kq-ggz"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="qey-v6-Lh9"/>
                                 </constraints>
                             </scrollView>
@@ -3140,7 +3141,6 @@ CQ
         <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="l8p-pq-pL1"/>
-        <segue reference="fvA-qt-0EE"/>
         <segue reference="WCL-6a-cs6"/>
         <segue reference="xLk-7n-WHd"/>
         <segue reference="I9p-9N-ZWK"/>
@@ -3149,6 +3149,7 @@ CQ
         <segue reference="Z1s-8x-Pdf"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
+        <segue reference="eNI-yk-SAr"/>
         <segue reference="xhY-sy-Kil"/>
         <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
