@@ -2139,7 +2139,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G1Q-eE-iuu">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-1a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3P3-vy-rjc">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-1a_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3P3-vy-rjc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="527"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="3P3-vy-rjc" secondAttribute="height" multiplier="320:527" id="4Sz-df-LG1"/>
@@ -2224,7 +2224,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBl-CZ-bx5">
                                 <rect key="frame" x="-4" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-2a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jKw-t8-WoA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-2a_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jKw-t8-WoA">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="740"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="G6R-qH-wRO"/>
@@ -3084,8 +3084,8 @@ CQ
         <image name="logo_texto2.png" width="373" height="94"/>
         <image name="medicos_home.jpg" width="745" height="344"/>
         <image name="menu.png" width="25" height="25"/>
-        <image name="nutricion-1a.jpg" width="747" height="1221"/>
-        <image name="nutricion-2a.jpg" width="753" height="1731"/>
+        <image name="nutricion-1a_rev.jpg" width="747" height="1221"/>
+        <image name="nutricion-2a_rev.jpg" width="753" height="1731"/>
         <image name="paso1.jpg" width="747" height="1400"/>
         <image name="paso2.jpg" width="747" height="1400"/>
         <image name="paso3.jpg" width="747" height="1400"/>
@@ -3100,21 +3100,21 @@ CQ
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="had-le-EPl"/>
-        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="rx5-sN-1qc"/>
+        <segue reference="WLM-zQ-shq"/>
+        <segue reference="xhY-sy-Kil"/>
+        <segue reference="tnD-7F-Pin"/>
         <segue reference="G2V-es-xvu"/>
         <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="l8p-pq-pL1"/>
         <segue reference="WCL-6a-cs6"/>
-        <segue reference="I9p-9N-ZWK"/>
         <segue reference="CDX-BN-Kvp"/>
+        <segue reference="I9p-9N-ZWK"/>
         <segue reference="djE-OB-S6i"/>
         <segue reference="CfJ-tn-f0G"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="rac-cS-TaQ"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="rlm-MO-jpp"/>
-        <segue reference="gPM-aR-IOE"/>
-        <segue reference="WLM-zQ-shq"/>
+        <segue reference="Z1s-8x-Pdf"/>
     </inferredMetricsTieBreakers>
 </document>
