@@ -1960,7 +1960,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OXp-xS-JJZ">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control1a_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-7G-Lj8">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -2047,7 +2047,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-48-HL3">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2a.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="control2a_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Imw-i7-kWc">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="735"/>
                                         <gestureRecognizers/>
                                         <constraints>
@@ -3074,8 +3074,8 @@ CQ
         <image name="coaching-a2.jpg" width="746" height="1805"/>
         <image name="coaching1.jpg" width="747" height="1218"/>
         <image name="contacto.png" width="25" height="25"/>
-        <image name="control1a.jpg" width="745" height="1400"/>
-        <image name="control2a.jpg" width="741" height="1700"/>
+        <image name="control1a_rev.jpg" width="745" height="1400"/>
+        <image name="control2a_rev.jpg" width="741" height="1700"/>
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
         <image name="home-pre.jpg" width="751" height="1334"/>
@@ -3108,13 +3108,13 @@ CQ
         <segue reference="WCL-6a-cs6"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="CDX-BN-Kvp"/>
-        <segue reference="kRA-qC-B1P"/>
         <segue reference="djE-OB-S6i"/>
         <segue reference="CfJ-tn-f0G"/>
-        <segue reference="w2u-1g-DF4"/>
         <segue reference="HvQ-gg-HKO"/>
+        <segue reference="rac-cS-TaQ"/>
         <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="xhY-sy-Kil"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="gPM-aR-IOE"/>
         <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
 </document>
