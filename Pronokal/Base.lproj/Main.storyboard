@@ -1624,6 +1624,196 @@
                                             <segue destination="1zW-k4-CKP" kind="show" animates="NO" id="CDX-BN-Kvp"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2WQ-VC-DDU">
+                                        <rect key="frame" x="0.0" y="-4" width="320" height="527"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" misplaced="YES" image="resultadoimc.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nWH-ti-OOD">
+                                                <rect key="frame" x="0.0" y="-1" width="320" height="520"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="320" id="NFu-Kn-3KA"/>
+                                                    <constraint firstAttribute="width" secondItem="nWH-ti-OOD" secondAttribute="height" multiplier="8:13" id="u1w-ow-29I"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-Dw-3Kj">
+                                                <rect key="frame" x="50" y="107" width="220" height="114"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="Npk-Dw-3Kj" secondAttribute="height" multiplier="110:57" id="DlK-aE-HV4"/>
+                                                    <constraint firstAttribute="width" constant="220" id="e2k-OH-paE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                                <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="flecha.png" translatesAutoresizingMaskIntoConstraints="NO" id="dWA-zt-cjA">
+                                                <rect key="frame" x="43" y="202" width="21" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="dWA-zt-cjA" secondAttribute="height" multiplier="21:19" id="Ee8-cj-XiA"/>
+                                                    <constraint firstAttribute="width" constant="21" id="Mm8-D0-f2k"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="flecha.png" translatesAutoresizingMaskIntoConstraints="NO" id="RsI-Wr-GTh">
+                                                <rect key="frame" x="106" y="202" width="21" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="RsI-Wr-GTh" secondAttribute="height" multiplier="21:19" id="8d8-7y-LVa"/>
+                                                    <constraint firstAttribute="width" constant="21" id="KkZ-0k-3N3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="flecha.png" translatesAutoresizingMaskIntoConstraints="NO" id="MC9-47-NzY">
+                                                <rect key="frame" x="179" y="202" width="21" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="MC9-47-NzY" secondAttribute="height" multiplier="21:19" id="9b7-Vj-b8k"/>
+                                                    <constraint firstAttribute="width" constant="21" id="o0N-eX-8Jq"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="flecha.png" translatesAutoresizingMaskIntoConstraints="NO" id="vIM-qq-ViM">
+                                                <rect key="frame" x="217" y="202" width="21" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="vIM-qq-ViM" secondAttribute="height" multiplier="21:19" id="Txh-6t-PJw"/>
+                                                    <constraint firstAttribute="width" constant="21" id="m1J-3R-CZ8"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" ambiguous="YES" image="flecha.png" translatesAutoresizingMaskIntoConstraints="NO" id="gVl-8y-r36">
+                                                <rect key="frame" x="255" y="202" width="21" height="19"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="21" id="4dt-vT-o0o"/>
+                                                    <constraint firstAttribute="width" secondItem="gVl-8y-r36" secondAttribute="height" multiplier="21:19" id="9bu-T9-d3B"/>
+                                                </constraints>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hH5-uJ-Oii">
+                                                <rect key="frame" x="31" y="251" width="261" height="190"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bajo peso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xkt-3n-NjG">
+                                                        <rect key="frame" x="78" y="8" width="104" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-2R-X2g">
+                                                        <rect key="frame" x="13" y="44" width="240" height="128"/>
+                                                        <string key="text">Tu IMC indica que tienes un peso por debajo de un peso saludable, lo que eleva tu riesgo de desarrollar problemas de salud. Consulta con un especialista médico. </string>
+                                                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CjL-Un-Fwg">
+                                                <rect key="frame" x="31" y="251" width="261" height="190"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Normal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xx3-Ky-eZk">
+                                                        <rect key="frame" x="78" y="8" width="104" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
+                                                        <rect key="frame" x="13" y="44" width="240" height="128"/>
+                                                        <string key="text">Tu IMC indica que tienes un peso correcto para tu altura. Aun así, podrías tener un exceso de grasa, por lo que sería aconsejable que realizaras un estudio del índice de masa grasa para descartarlo. Si quieres comprobar tu índice de grasa, ponte en contacto con PronoKal Group.</string>
+                                                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n10-Qp-oS5">
+                                                <rect key="frame" x="31" y="251" width="261" height="190"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sobrepeso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ga-8z-KgZ">
+                                                        <rect key="frame" x="78" y="8" width="104" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
+                                                        <rect key="frame" x="13" y="44" width="240" height="128"/>
+                                                        <string key="text">Tu IMC indica que tienes un exceso de peso, lo que aumenta el riesgo de que padezcas diferentes enfermedades. Deberías empezar a tomar medidas para perder peso y conseguir un peso saludable. Contacta con nosotros para conseguir tu peso ideal. </string>
+                                                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i7j-uK-zjg">
+                                                <rect key="frame" x="31" y="251" width="261" height="190"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Preobesidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSE-0i-ivx">
+                                                        <rect key="frame" x="78" y="8" width="150" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uFq-OC-gvH">
+                                                        <rect key="frame" x="13" y="44" width="240" height="128"/>
+                                                        <string key="text">Tu IMC indica que estás en un estado de preobesidad, por lo que estás aumentado el riesgo de padecer diferentes enfermedades con tu peso actual. Deberías tomar medidas ya y adquirir un peso saludable. Nosotros te podemos ayudar.</string>
+                                                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="CSE-0i-ivx" firstAttribute="centerX" secondItem="i7j-uK-zjg" secondAttribute="centerX" id="iik-5j-LdE"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fPv-5d-H3n">
+                                                <rect key="frame" x="31" y="251" width="261" height="190"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Obesidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PxZ-5k-GTZ">
+                                                        <rect key="frame" x="78" y="8" width="104" height="21"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
+                                                        <rect key="frame" x="13" y="44" width="240" height="128"/>
+                                                        <string key="text">Tu IMC indica que presentas obesidad, por lo que tienes un elevado riesgo de padecer diferentes enfermedades, como diabetes tipo 2, enfermedades cardiovascualres o alteracioens osteoarticulares, entre otras. Deberías iniciar ya las medidas necesarias para disminuir  de peso y reducir tu riesgo de comorbilidades. Contacta con nosotros para que te podamos ayudar.
+</string>
+                                                        <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xph-ZP-svj">
+                                                <rect key="frame" x="66" y="455" width="191" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="191" id="DtZ-LL-pPZ"/>
+                                                    <constraint firstAttribute="width" secondItem="Xph-ZP-svj" secondAttribute="height" multiplier="191:30" id="gWO-Zh-zMA"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="prePantallaResultado:" destination="frg-ud-eCJ" eventType="touchUpInside" id="tgL-Y6-7Jx"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="vIM-qq-ViM" firstAttribute="leading" secondItem="MC9-47-NzY" secondAttribute="trailing" constant="17" id="6YM-Pv-MRu"/>
+                                            <constraint firstItem="Npk-Dw-3Kj" firstAttribute="leading" secondItem="2WQ-VC-DDU" secondAttribute="leading" constant="50" id="7xh-RT-2kr"/>
+                                            <constraint firstItem="RsI-Wr-GTh" firstAttribute="leading" secondItem="dWA-zt-cjA" secondAttribute="trailing" constant="42" id="ABe-Bt-yKx"/>
+                                            <constraint firstItem="Npk-Dw-3Kj" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="107" id="Joq-MF-xfF"/>
+                                            <constraint firstItem="nWH-ti-OOD" firstAttribute="centerX" secondItem="2WQ-VC-DDU" secondAttribute="centerX" id="Nu3-co-oJX"/>
+                                            <constraint firstItem="MC9-47-NzY" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="OaU-hJ-Obo"/>
+                                            <constraint firstItem="RsI-Wr-GTh" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="YJn-fm-ewz"/>
+                                            <constraint firstItem="vIM-qq-ViM" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="bEJ-V6-iMy"/>
+                                            <constraint firstItem="dWA-zt-cjA" firstAttribute="leading" secondItem="2WQ-VC-DDU" secondAttribute="leading" constant="43" id="euR-XO-n50"/>
+                                            <constraint firstItem="Xph-ZP-svj" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="455" id="ges-hi-lch"/>
+                                            <constraint firstItem="MC9-47-NzY" firstAttribute="leading" secondItem="RsI-Wr-GTh" secondAttribute="trailing" constant="52" id="kiV-Yw-sJV"/>
+                                            <constraint firstItem="dWA-zt-cjA" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="ln5-VI-9Rc"/>
+                                            <constraint firstItem="gVl-8y-r36" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="nlB-r1-SKp"/>
+                                            <constraint firstItem="gVl-8y-r36" firstAttribute="leading" secondItem="vIM-qq-ViM" secondAttribute="trailing" constant="17" id="rba-zE-Lha"/>
+                                            <constraint firstItem="Xph-ZP-svj" firstAttribute="centerX" secondItem="2WQ-VC-DDU" secondAttribute="centerX" id="xix-14-q0p"/>
+                                            <constraint firstItem="nWH-ti-OOD" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" id="y1U-Mm-4Tc"/>
+                                        </constraints>
+                                    </view>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QAJ-xP-L7c">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                         <subviews>
@@ -1736,14 +1926,26 @@
                         <outlet property="altura" destination="zNR-xn-Vp3" id="5C1-Ic-r3y"/>
                         <outlet property="duracion" destination="8oF-LU-HeZ" id="Fuw-nB-bbC"/>
                         <outlet property="edad" destination="Ler-V3-8na" id="c4Z-Pj-5YZ"/>
+                        <outlet property="flechabajopeso" destination="dWA-zt-cjA" id="IXJ-FT-NAY"/>
+                        <outlet property="flechanormal" destination="RsI-Wr-GTh" id="FA9-YK-me8"/>
+                        <outlet property="flechaobesidad" destination="gVl-8y-r36" id="Rxc-P4-Br1"/>
+                        <outlet property="flechapreobesidad" destination="vIM-qq-ViM" id="XqF-OP-AEM"/>
+                        <outlet property="flechasobrepeso" destination="MC9-47-NzY" id="EAU-Xf-RJC"/>
                         <outlet property="grafica" destination="maS-3R-UtX" id="NW0-9x-dhg"/>
                         <outlet property="pantallagrafica" destination="HE0-oq-2v1" id="n38-93-ND6"/>
                         <outlet property="pantallaresultado" destination="QAJ-xP-L7c" id="OgA-VW-G1S"/>
                         <outlet property="peso" destination="0eN-GO-KFt" id="PXB-hE-Via"/>
                         <outlet property="pesoIdeal" destination="NJx-61-CZe" id="s80-c8-VZd"/>
                         <outlet property="pesoPerder" destination="RwK-E9-ISh" id="WdL-j0-ZXB"/>
+                        <outlet property="prepantallaresultado" destination="2WQ-VC-DDU" id="eA9-EA-nyP"/>
                         <outlet property="resultado" destination="kOm-zJ-noE" id="HYa-ng-0eW"/>
+                        <outlet property="resultado2" destination="Npk-Dw-3Kj" id="thC-Ed-Y5U"/>
                         <outlet property="scrollcalc" destination="sUp-JS-Skg" id="nrG-rE-wUZ"/>
+                        <outlet property="textobajopeso" destination="hH5-uJ-Oii" id="pet-0b-L2e"/>
+                        <outlet property="textonormal" destination="CjL-Un-Fwg" id="Agh-7l-0lg"/>
+                        <outlet property="textoobesidad" destination="fPv-5d-H3n" id="EWu-Dn-4BK"/>
+                        <outlet property="textopreobesidad" destination="i7j-uK-zjg" id="1VG-qC-L0b"/>
+                        <outlet property="textosobrepeso" destination="n10-Qp-oS5" id="Qes-Er-BCl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jn8-Qt-xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3096,12 +3298,12 @@ CQ
         <segue reference="N6i-Yv-VVr"/>
         <segue reference="f7U-6P-83y"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="SRY-IF-6Bj"/>
         <segue reference="WCL-6a-cs6"/>
-        <segue reference="04N-eA-yfk"/>
         <segue reference="nPa-bS-CB1"/>
         <segue reference="l8p-pq-pL1"/>
+        <segue reference="owA-kL-23f"/>
         <segue reference="CDX-BN-Kvp"/>
+        <segue reference="kRA-qC-B1P"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
         <segue reference="eNI-yk-SAr"/>

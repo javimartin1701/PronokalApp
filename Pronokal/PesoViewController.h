@@ -18,8 +18,24 @@
     IBOutlet UILabel *pesoIdeal;
     IBOutlet UILabel *pesoPerder;
     
+    
+    IBOutlet UIView *prepantallaresultado;
     IBOutlet UIView *pantallaresultado;
     IBOutlet UIView *pantallagrafica;
+    
+    IBOutlet UILabel *resultado2;
+    
+    IBOutlet UIImageView *flechabajopeso;
+    IBOutlet UIImageView *flechanormal;
+    IBOutlet UIImageView *flechasobrepeso;
+    IBOutlet UIImageView *flechapreobesidad;
+    IBOutlet UIImageView *flechaobesidad;
+    
+    IBOutlet UIView *textobajopeso;
+    IBOutlet UIView *textonormal;
+    IBOutlet UIView *textosobrepeso;
+    IBOutlet UIView *textopreobesidad;
+    IBOutlet UIView *textoobesidad;
     
     
     IBOutlet UIWebView *grafica;
@@ -29,6 +45,7 @@
     //IBOutlet UILabel *urlGrafica;
 
 }
+-(IBAction)prePantallaResultado:(id)sender;
 
 -(IBAction)calcular:(id)sender;
 
