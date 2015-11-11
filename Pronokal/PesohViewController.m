@@ -19,12 +19,12 @@
     pantallagrafica.hidden=NO;
 }
 
--(IBAction)calcular:(id)sender{
-    
-    
-    
+-(IBAction)prePantallaResultado:(id)sender{
     pantallaresultado.hidden=NO;
-    
+}
+
+-(IBAction)calcular:(id)sender{
+    prepantallaresultado.hidden=NO;
     
     ////Calculadora IMC
     
@@ -42,14 +42,52 @@
     NSString *resultadot2;
     NSString *resultadot3;
     NSString *resultadot4;
+    NSString *resultadotimc;
     
     float total;
     float total2;
     float total3;
+    float totalimc;
+    
     
     float duracionTratamiento;
     float duracionRed=0.0;
     float duracionTemp;
+    
+    /////////////
+    totalimc=speso/((saltura/100)*(saltura/100));
+    resultadotimc=[NSString stringWithFormat:@"%.2f",totalimc];
+    
+    resultado2.text=resultadotimc;
+    
+    if (totalimc<18.5) {
+        flechabajopeso.hidden=NO;
+        textobajopeso.hidden=NO;
+    }
+    
+    if (totalimc<24.99 && totalimc>18.51) {
+        flechanormal.hidden=NO;
+        textonormal.hidden=NO;
+    }
+    
+    if (totalimc<26.99 && totalimc>25) {
+        flechasobrepeso.hidden=NO;
+        textosobrepeso.hidden=NO;
+    }
+    
+    if (totalimc<29.99 && totalimc>27) {
+        flechapreobesidad.hidden=NO;
+        textopreobesidad.hidden=NO;
+    }
+    
+    if (totalimc>30) {
+        flechaobesidad.hidden=NO;
+        textoobesidad.hidden=NO;
+    }
+    
+    
+    ///////////////
+
     
     total=speso/((saltura/100.0)*(saltura/100.0));
     total2=(saltura/100.0)*(saltura/100.0)*24.0;
@@ -166,9 +204,23 @@
     
     
     
+    prepantallaresultado.hidden=YES;
     pantallaresultado.hidden=YES;
     grafica.hidden=YES;
     pantallagrafica.hidden=YES;
+    
+    flechabajopeso.hidden=YES;
+    flechanormal.hidden=YES;
+    flechasobrepeso.hidden=YES;
+    flechapreobesidad.hidden=YES;
+    flechaobesidad.hidden=YES;
+    
+    textobajopeso.hidden=YES;
+    textonormal.hidden=YES;
+    textosobrepeso.hidden=YES;
+    textopreobesidad.hidden=YES;
+    textoobesidad.hidden=YES;
+
     
     [scrollcalc setScrollEnabled:YES];
     [scrollcalc setContentSize:CGSizeMake(320,1300)];
