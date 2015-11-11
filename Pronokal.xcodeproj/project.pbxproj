@@ -36,6 +36,7 @@
 		8E2E8A9C1BF393FC0019B4B5 /* paso2_rev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E8A981BF393FC0019B4B5 /* paso2_rev.jpg */; };
 		8E2E8A9D1BF393FC0019B4B5 /* paso3_rev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E8A991BF393FC0019B4B5 /* paso3_rev.jpg */; };
 		8E2E8A9E1BF393FC0019B4B5 /* paso4_rev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E8A9A1BF393FC0019B4B5 /* paso4_rev.jpg */; };
+		8E2E8AA01BF3970A0019B4B5 /* PNK-2a_rev2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E2E8A9F1BF3970A0019B4B5 /* PNK-2a_rev2.jpg */; };
 		8E472D261BEA1B9900DA903A /* calc1-h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D251BEA1B9900DA903A /* calc1-h2.jpg */; };
 		8E472D281BEA1C6300DA903A /* calc1-m2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D271BEA1C6300DA903A /* calc1-m2.jpg */; };
 		8E472D2B1BEA223900DA903A /* calc1-h2b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8E472D291BEA223900DA903A /* calc1-h2b.jpg */; };
@@ -202,6 +203,7 @@
 		8E2E8A981BF393FC0019B4B5 /* paso2_rev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso2_rev.jpg; sourceTree = "<group>"; };
 		8E2E8A991BF393FC0019B4B5 /* paso3_rev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso3_rev.jpg; sourceTree = "<group>"; };
 		8E2E8A9A1BF393FC0019B4B5 /* paso4_rev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paso4_rev.jpg; sourceTree = "<group>"; };
+		8E2E8A9F1BF3970A0019B4B5 /* PNK-2a_rev2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "PNK-2a_rev2.jpg"; sourceTree = "<group>"; };
 		8E472D251BEA1B9900DA903A /* calc1-h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2.jpg"; sourceTree = "<group>"; };
 		8E472D271BEA1C6300DA903A /* calc1-m2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-m2.jpg"; sourceTree = "<group>"; };
 		8E472D291BEA223900DA903A /* calc1-h2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "calc1-h2b.jpg"; sourceTree = "<group>"; };
@@ -633,6 +635,7 @@
 				8E2E8A981BF393FC0019B4B5 /* paso2_rev.jpg */,
 				8E2E8A991BF393FC0019B4B5 /* paso3_rev.jpg */,
 				8E2E8A9A1BF393FC0019B4B5 /* paso4_rev.jpg */,
+				8E2E8A9F1BF3970A0019B4B5 /* PNK-2a_rev2.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -792,6 +795,7 @@
 				8E2E8A941BF38F460019B4B5 /* actividad2a_rev.jpg in Resources */,
 				8E2E8A9D1BF393FC0019B4B5 /* paso3_rev.jpg in Resources */,
 				8EC69BDF1BC57C9A00B7149E /* menu@3x.png in Resources */,
+				8E2E8AA01BF3970A0019B4B5 /* PNK-2a_rev2.jpg in Resources */,
 				8EE1F24D1BCEACFF007A3D73 /* PNK-1.jpg in Resources */,
 				8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */,
 				8E2E8A7A1BECB1B90019B4B5 /* icon-58.png in Resources */,
