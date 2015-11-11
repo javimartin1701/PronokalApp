@@ -2780,9 +2780,9 @@
                                             <constraint firstAttribute="width" constant="69" id="VXc-40-nrN"/>
                                             <constraint firstAttribute="width" secondItem="V87-Vn-WTy" secondAttribute="height" multiplier="69:95" id="ljB-HT-LaQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_calc2.jpg"/>
+                                        <state key="normal" title="Button" image="boton_peso_rev.jpg"/>
                                         <connections>
-                                            <segue destination="TdS-gh-HQD" kind="show" id="l8p-pq-pL1"/>
+                                            <segue destination="frg-ud-eCJ" kind="show" id="xmF-Xg-oUd"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru2-Iv-nDU" userLabel="ButtonControl">
@@ -2814,9 +2814,6 @@
                                             <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="boton_peso.jpg"/>
-                                        <connections>
-                                            <segue destination="frg-ud-eCJ" kind="show" id="04N-eA-yfk"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Di-9mn" userLabel="ButtonClub">
                                         <rect key="frame" x="0.0" y="0.0" width="69" height="95"/>
@@ -3457,11 +3454,11 @@ CQ
         <image name="atras.png" width="25" height="25"/>
         <image name="boton_actividad2.jpg" width="182" height="238"/>
         <image name="boton_apoyo2.jpg" width="182" height="238"/>
-        <image name="boton_calc2.jpg" width="164" height="225"/>
         <image name="boton_club2.jpg" width="164" height="225"/>
         <image name="boton_control.jpg" width="164" height="225"/>
         <image name="boton_nutricion.jpg" width="182" height="238"/>
         <image name="boton_peso.jpg" width="164" height="225"/>
+        <image name="boton_peso_rev.jpg" width="164" height="225"/>
         <image name="boton_pronokal.jpg" width="164" height="225"/>
         <image name="boton_testimonios2.jpg" width="164" height="225"/>
         <image name="calc1-h2.jpg" width="750" height="1224"/>
@@ -3497,22 +3494,22 @@ CQ
         <image name="texto-contacto.png" width="426" height="162"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="had-le-EPl"/>
-        <segue reference="N6i-Yv-VVr"/>
-        <segue reference="f7U-6P-83y"/>
-        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="kRA-qC-B1P"/>
+        <segue reference="xmF-Xg-oUd"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="fvA-qt-0EE"/>
+        <segue reference="G2V-es-xvu"/>
+        <segue reference="aw2-Fr-I3T"/>
         <segue reference="WCL-6a-cs6"/>
         <segue reference="nPa-bS-CB1"/>
-        <segue reference="l8p-pq-pL1"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="CDX-BN-Kvp"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="eNI-yk-SAr"/>
-        <segue reference="w2u-1g-DF4"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="xhY-sy-Kil"/>
         <segue reference="WLM-zQ-shq"/>
-        <segue reference="kRA-qC-B1P"/>
-        <segue reference="KBI-Tt-PM3"/>
-        <segue reference="CDX-BN-Kvp"/>
+        <segue reference="xhY-sy-Kil"/>
+        <segue reference="afE-xA-CND"/>
     </inferredMetricsTieBreakers>
 </document>
