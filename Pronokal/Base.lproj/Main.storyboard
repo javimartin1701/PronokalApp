@@ -2350,6 +2350,122 @@
             </objects>
             <point key="canvasLocation" x="1539" y="-1624"/>
         </scene>
+        <!--Tutorial2 View Controller-->
+        <scene sceneID="rTf-GA-yzg">
+            <objects>
+                <viewController id="W8H-ns-goe" customClass="Tutorial2ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="75b-hm-aWZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="TUi-LL-Pve"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2TD-m0-fN3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BLb-zR-zit">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="C3z-h1-9BB">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="521"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAl-WA-pWH">
+                                        <rect key="frame" x="120" y="350" width="80" height="34"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="DTE-PP-JoE"/>
+                                            <constraint firstAttribute="width" secondItem="GAl-WA-pWH" secondAttribute="height" multiplier="40:17" id="ZKV-Xl-r3O"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="0F0-DW-Hd1" kind="show" id="Ewb-1B-IFP"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BLb-zR-zit" secondAttribute="height" multiplier="320:519" id="GPO-xV-o3i"/>
+                                    <constraint firstItem="GAl-WA-pWH" firstAttribute="centerX" secondItem="BLb-zR-zit" secondAttribute="centerX" id="N73-e8-8f4"/>
+                                    <constraint firstItem="GAl-WA-pWH" firstAttribute="top" secondItem="BLb-zR-zit" secondAttribute="top" constant="350" id="OSa-TS-2m1"/>
+                                    <constraint firstAttribute="width" constant="320" id="kMn-aY-kza"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="BLb-zR-zit" firstAttribute="top" secondItem="75b-hm-aWZ" secondAttribute="bottom" id="53m-IU-vIk"/>
+                            <constraint firstItem="BLb-zR-zit" firstAttribute="centerX" secondItem="2TD-m0-fN3" secondAttribute="centerX" id="Icf-rs-MWg"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="scroller" destination="BLb-zR-zit" id="nCn-h1-uYg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Bx-qi-d2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="856" y="-500"/>
+        </scene>
+        <!--Tutorial3 View Controller-->
+        <scene sceneID="1yI-ll-1QX">
+            <objects>
+                <viewController id="0F0-DW-Hd1" customClass="Tutorial3ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yjH-uW-I9E"/>
+                        <viewControllerLayoutGuide type="bottom" id="iyj-PB-fh7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vjs-N3-LuF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fsu-m9-P6y">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L4z-q8-jpN">
+                                        <rect key="frame" x="0.0" y="-1" width="320" height="521"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQj-iL-TCt">
+                                        <rect key="frame" x="73" y="331" width="176" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="176" id="aqP-D5-BOs"/>
+                                            <constraint firstAttribute="width" secondItem="WQj-iL-TCt" secondAttribute="height" multiplier="88:15" id="rXz-lH-7Gh"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="frg-ud-eCJ" kind="show" id="TZs-ad-IQf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPw-1y-ggA">
+                                        <rect key="frame" x="73" y="380" width="176" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="176" id="0w5-SQ-uR6"/>
+                                            <constraint firstAttribute="width" secondItem="gPw-1y-ggA" secondAttribute="height" multiplier="88:15" id="Bo6-lp-zEy"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="Cy8-pz-gFb" kind="show" id="uyO-0I-gPX"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WQj-iL-TCt" firstAttribute="top" secondItem="Fsu-m9-P6y" secondAttribute="top" constant="331" id="Pkz-Eq-axH"/>
+                                    <constraint firstItem="WQj-iL-TCt" firstAttribute="centerX" secondItem="Fsu-m9-P6y" secondAttribute="centerX" id="Z9Q-TC-b8F"/>
+                                    <constraint firstAttribute="width" constant="320" id="dZd-TE-paY"/>
+                                    <constraint firstItem="gPw-1y-ggA" firstAttribute="top" secondItem="WQj-iL-TCt" secondAttribute="bottom" constant="19" id="euN-ZT-9Xy"/>
+                                    <constraint firstItem="gPw-1y-ggA" firstAttribute="centerX" secondItem="Fsu-m9-P6y" secondAttribute="centerX" id="fEd-3E-5Gg"/>
+                                    <constraint firstAttribute="width" secondItem="Fsu-m9-P6y" secondAttribute="height" multiplier="320:519" id="zID-BW-2GT"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Fsu-m9-P6y" firstAttribute="centerX" secondItem="Vjs-N3-LuF" secondAttribute="centerX" id="03R-je-K1X"/>
+                            <constraint firstItem="Fsu-m9-P6y" firstAttribute="top" secondItem="yjH-uW-I9E" secondAttribute="bottom" id="f9H-dY-VQu"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="scroller" destination="Fsu-m9-P6y" id="95m-5N-cqg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uk-q9-tnz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1301" y="-500"/>
+        </scene>
         <!--Control1 View Controller-->
         <scene sceneID="MeV-aQ-zA6">
             <objects>
@@ -2435,7 +2551,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1201" y="-804"/>
+            <point key="canvasLocation" x="1709" y="-886"/>
         </scene>
         <!--Control2 View Controller-->
         <scene sceneID="OCp-mT-pVz">
@@ -2527,7 +2643,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1889" y="-878"/>
+            <point key="canvasLocation" x="2225" y="-886"/>
         </scene>
         <!--Nutricion-->
         <scene sceneID="EBj-od-nyd">
@@ -2914,13 +3030,46 @@ CQ
                     <view key="view" contentMode="scaleToFill" id="idn-wA-XtP">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3L-jV-SsK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xIw-Hj-cVg">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="521"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUE-wh-339">
+                                        <rect key="frame" x="123" y="406" width="76" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="76" id="2ql-0B-LmF"/>
+                                            <constraint firstAttribute="width" secondItem="LUE-wh-339" secondAttribute="height" multiplier="76:37" id="f3o-HX-dpo"/>
+                                        </constraints>
+                                        <connections>
+                                            <segue destination="W8H-ns-goe" kind="show" id="cfC-ab-5CW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="o3L-jV-SsK" secondAttribute="height" multiplier="320:519" id="U7f-nK-ekd"/>
+                                    <constraint firstItem="LUE-wh-339" firstAttribute="top" secondItem="o3L-jV-SsK" secondAttribute="top" constant="406" id="cqr-HM-MEw"/>
+                                    <constraint firstItem="LUE-wh-339" firstAttribute="centerX" secondItem="o3L-jV-SsK" secondAttribute="centerX" id="uXf-ui-ANm"/>
+                                    <constraint firstAttribute="width" constant="320" id="v5k-Ta-HdQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="o3L-jV-SsK" firstAttribute="centerX" secondItem="idn-wA-XtP" secondAttribute="centerX" id="Rus-Oa-8S9"/>
+                            <constraint firstItem="o3L-jV-SsK" firstAttribute="top" secondItem="gLv-q1-Uyz" secondAttribute="bottom" id="yga-qz-KS4"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="scroller" destination="o3L-jV-SsK" id="QTg-6P-CYy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5zs-rp-e14" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="404" y="-490"/>
+            <point key="canvasLocation" x="431" y="-508"/>
         </scene>
         <!--PNK2-->
         <scene sceneID="Lrx-AI-2nV">
@@ -3514,22 +3663,25 @@ CQ
         <image name="sobre.png" width="123" height="123"/>
         <image name="testimonios1b_rev2.jpg" width="753" height="1218"/>
         <image name="texto-contacto.png" width="426" height="162"/>
+        <image name="tuto1.jpg" width="751" height="1224"/>
+        <image name="tuto2.jpg" width="751" height="1224"/>
+        <image name="tuto3.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kRA-qC-B1P"/>
-        <segue reference="o8C-AN-1nk"/>
-        <segue reference="7lL-BT-yup"/>
-        <segue reference="5cW-5g-JXh"/>
+        <segue reference="gPM-aR-IOE"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="rac-cS-TaQ"/>
+        <segue reference="WLM-zQ-shq"/>
         <segue reference="Wlk-Wu-exx"/>
+        <segue reference="7lL-BT-yup"/>
         <segue reference="X96-Pp-Dok"/>
         <segue reference="wJS-rf-Zqo"/>
-        <segue reference="F62-eN-4x7"/>
         <segue reference="oHC-TG-CEi"/>
-        <segue reference="LhT-Yc-oIj"/>
         <segue reference="had-le-EPl"/>
-        <segue reference="WLM-zQ-shq"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="uyO-0I-gPX"/>
+        <segue reference="TZs-ad-IQf"/>
         <segue reference="CDX-BN-Kvp"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>

@@ -1,5 +1,5 @@
 //
-//  TutorialViewController.h
+//  Tutorial2ViewController.h
 //  Pronokal
 //
 //  Created by Javier Martin Espinosa on 12/11/15.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TutorialViewController : UIViewController{
+@interface Tutorial2ViewController : UIViewController{
     IBOutlet UIScrollView *scroller;
     
 }
-
 
 @end

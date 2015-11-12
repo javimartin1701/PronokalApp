@@ -1,24 +1,25 @@
 //
-//  TutorialViewController.m
+//  Tutorial3ViewController.m
 //  Pronokal
 //
 //  Created by Javier Martin Espinosa on 12/11/15.
 //  Copyright © 2015 Hopper. All rights reserved.
 //
 
-#import "TutorialViewController.h"
+#import "Tutorial3ViewController.h"
 
-@interface TutorialViewController ()
+@interface Tutorial3ViewController ()
 
 @end
 
-@implementation TutorialViewController
+@implementation Tutorial3ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     [scroller setScrollEnabled:YES];
-    [scroller setContentSize:CGSizeMake(320,500)];
+    [scroller setContentSize:CGSizeMake(320,600)];
     // Do any additional setup after loading the view.
 }
 
