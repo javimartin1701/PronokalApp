@@ -232,26 +232,15 @@
                                     <segue destination="3po-R3-VDS" kind="show" id="wJS-rf-Zqo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWb-UF-VEM">
-                                <rect key="frame" x="-4" y="314" width="328" height="27"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="TU PESO IDEAL">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="frg-ud-eCJ" kind="show" id="1Hh-Cf-M9u"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQy-m1-hlo">
                                 <rect key="frame" x="-4" y="285" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="ÍNDICE MASA CORPORAL">
+                                <state key="normal" title="CALCULA TU PESO IDEAL">
                                     <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TdS-gh-HQD" kind="show" id="Ihw-Oi-boR"/>
+                                    <segue destination="frg-ud-eCJ" kind="show" id="o8C-AN-1nk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1O-J8-Gb0">
@@ -272,6 +261,17 @@
                                     <constraint firstAttribute="width" constant="292" id="kit-sP-xLE"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWb-UF-VEM">
+                                <rect key="frame" x="-4" y="314" width="328" height="27"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="TUTORIAL">
+                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xF7-Yo-Mjm" kind="show" id="Wlk-Wu-exx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -2813,7 +2813,10 @@
                                             <constraint firstAttribute="width" secondItem="UBs-3G-Xz8" secondAttribute="height" multiplier="69:95" id="Y7c-hG-OOm"/>
                                             <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_peso.jpg"/>
+                                        <state key="normal" title="Button" image="boton_tutorial.jpg"/>
+                                        <connections>
+                                            <segue destination="xF7-Yo-Mjm" kind="show" id="iF5-BM-GOO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Di-9mn" userLabel="ButtonClub">
                                         <rect key="frame" x="0.0" y="0.0" width="69" height="95"/>
@@ -2899,6 +2902,25 @@ CQ
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q84-da-G8D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="12" y="117"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="gpl-uI-d7l">
+            <objects>
+                <viewController id="xF7-Yo-Mjm" customClass="TutorialViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gLv-q1-Uyz"/>
+                        <viewControllerLayoutGuide type="bottom" id="ESJ-y6-jwe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="idn-wA-XtP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zs-rp-e14" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="404" y="-490"/>
         </scene>
         <!--PNK2-->
         <scene sceneID="Lrx-AI-2nV">
@@ -3457,10 +3479,10 @@ CQ
         <image name="boton_club2.jpg" width="164" height="225"/>
         <image name="boton_control.jpg" width="164" height="225"/>
         <image name="boton_nutricion.jpg" width="182" height="238"/>
-        <image name="boton_peso.jpg" width="164" height="225"/>
         <image name="boton_peso_rev.jpg" width="164" height="225"/>
         <image name="boton_pronokal.jpg" width="164" height="225"/>
         <image name="boton_testimonios2.jpg" width="164" height="225"/>
+        <image name="boton_tutorial.jpg" width="164" height="225"/>
         <image name="calc1-h2.jpg" width="750" height="1224"/>
         <image name="calc1-h2b.jpg" width="750" height="1224"/>
         <image name="calc1-m2.jpg" width="750" height="1224"/>
@@ -3495,21 +3517,21 @@ CQ
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kRA-qC-B1P"/>
-        <segue reference="xmF-Xg-oUd"/>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="fvA-qt-0EE"/>
-        <segue reference="G2V-es-xvu"/>
-        <segue reference="aw2-Fr-I3T"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="nPa-bS-CB1"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="o8C-AN-1nk"/>
+        <segue reference="7lL-BT-yup"/>
+        <segue reference="5cW-5g-JXh"/>
+        <segue reference="Wlk-Wu-exx"/>
+        <segue reference="X96-Pp-Dok"/>
+        <segue reference="wJS-rf-Zqo"/>
+        <segue reference="F62-eN-4x7"/>
+        <segue reference="oHC-TG-CEi"/>
+        <segue reference="LhT-Yc-oIj"/>
         <segue reference="had-le-EPl"/>
+        <segue reference="WLM-zQ-shq"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="CDX-BN-Kvp"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="WLM-zQ-shq"/>
-        <segue reference="xhY-sy-Kil"/>
-        <segue reference="afE-xA-CND"/>
     </inferredMetricsTieBreakers>
 </document>
