@@ -1572,7 +1572,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sUp-JS-Skg">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-m2b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ztz-Fs-nYg">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-m2b_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ztz-Fs-nYg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="522"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Ztz-Fs-nYg" secondAttribute="height" multiplier="160:261" id="Se9-fp-gkJ"/>
@@ -1967,7 +1967,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Izn-lG-6cd">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-h2b.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Mcx-PT-8cT">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="calc1-h2b_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Mcx-PT-8cT">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="526"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="8qF-du-JQK"/>
@@ -3355,7 +3355,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ap9-H9-a8o">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="home-pre.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="W8l-pS-sYV">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="home-pre_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="W8l-pS-sYV">
                                         <rect key="frame" x="0.0" y="2" width="320" height="565"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="W8l-pS-sYV" secondAttribute="height" multiplier="64:113" id="3Q1-Jq-gKa"/>
@@ -3633,9 +3633,9 @@ CQ
         <image name="boton_testimonios2.jpg" width="164" height="225"/>
         <image name="boton_tutorial.jpg" width="164" height="225"/>
         <image name="calc1-h2.jpg" width="750" height="1224"/>
-        <image name="calc1-h2b.jpg" width="750" height="1224"/>
+        <image name="calc1-h2b_rev.jpg" width="750" height="1224"/>
         <image name="calc1-m2.jpg" width="750" height="1224"/>
-        <image name="calc1-m2b.jpg" width="750" height="1224"/>
+        <image name="calc1-m2b_rev.jpg" width="750" height="1224"/>
         <image name="club.png" width="25" height="25"/>
         <image name="coaching-a2.jpg" width="746" height="1805"/>
         <image name="coaching1.jpg" width="747" height="1218"/>
@@ -3644,7 +3644,7 @@ CQ
         <image name="control2a_rev.jpg" width="741" height="1700"/>
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
-        <image name="home-pre.jpg" width="751" height="1334"/>
+        <image name="home-pre_rev.jpg" width="751" height="1334"/>
         <image name="llamadas.png" width="123" height="123"/>
         <image name="logo_texto.jpg" width="373" height="94"/>
         <image name="logo_texto2.png" width="373" height="94"/>
@@ -3668,11 +3668,8 @@ CQ
         <image name="tuto3.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gPM-aR-IOE"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="rlm-MO-jpp"/>
-        <segue reference="rac-cS-TaQ"/>
-        <segue reference="WLM-zQ-shq"/>
+        <segue reference="kRA-qC-B1P"/>
+        <segue reference="TZs-ad-IQf"/>
         <segue reference="Wlk-Wu-exx"/>
         <segue reference="7lL-BT-yup"/>
         <segue reference="X96-Pp-Dok"/>
@@ -3681,9 +3678,12 @@ CQ
         <segue reference="had-le-EPl"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="uyO-0I-gPX"/>
-        <segue reference="TZs-ad-IQf"/>
         <segue reference="CDX-BN-Kvp"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="rac-cS-TaQ"/>
+        <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
 </document>
