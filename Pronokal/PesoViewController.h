@@ -15,6 +15,10 @@
     IBOutlet UITextField *edad;
     IBOutlet UILabel *resultado;
     
+    IBOutlet UIButton *redirigir;
+    
+    IBOutlet UIView *sinperder;
+    
     IBOutlet UILabel *pesoIdeal;
     IBOutlet UILabel *pesoPerder;
     
@@ -48,6 +52,7 @@
 -(IBAction)prePantallaResultado:(id)sender;
 
 -(IBAction)calcular:(id)sender;
+-(IBAction)calcularHombre:(id)sender;
 
 -(IBAction)vetGrafica:(id)sender;
 

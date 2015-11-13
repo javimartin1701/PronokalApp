@@ -16,7 +16,7 @@
 
 - (IBAction)llamar:(id)sender
 {
-   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:640128291"]];
+   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:901100262"]];
 }
 
 

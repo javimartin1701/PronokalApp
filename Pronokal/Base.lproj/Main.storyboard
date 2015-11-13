@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O5I-nN-gol">
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -1621,7 +1622,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KpZ-y0-ba5">
                                         <rect key="frame" x="174" y="402" width="46" height="42"/>
                                         <connections>
-                                            <segue destination="1zW-k4-CKP" kind="show" animates="NO" id="CDX-BN-Kvp"/>
+                                            <action selector="calcularHombre:" destination="frg-ud-eCJ" eventType="touchUpInside" id="sSQ-uY-AjP"/>
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2WQ-VC-DDU">
@@ -1831,7 +1832,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJx-61-CZe">
-                                                <rect key="frame" x="31" y="118" width="173" height="101"/>
+                                                <rect key="frame" x="0.0" y="118" width="204" height="101"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1842,6 +1843,18 @@
                                                 <color key="textColor" red="0.50980392159999999" green="0.47058823529999999" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="whM-1J-Eu2">
+                                                <rect key="frame" x="0.0" y="223" width="320" height="260"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="El resultado del cálculo de perder peso parace indicar que no necesitas perder peso" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPI-Li-BN8">
+                                                        <rect key="frame" x="8" y="41" width="301" height="54"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMP-uH-u0R">
                                                 <rect key="frame" x="86" y="445" width="155" height="30"/>
                                                 <connections>
@@ -1897,6 +1910,18 @@
                                             <constraint firstItem="J5e-jI-79q" firstAttribute="top" secondItem="QAJ-xP-L7c" secondAttribute="top" id="mMV-Nt-G3d"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA4-Cb-8fa" userLabel="redirigir">
+                                        <rect key="frame" x="110" y="1200" width="100" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="EdU-EX-kWA"/>
+                                            <constraint firstAttribute="width" secondItem="oA4-Cb-8fa" secondAttribute="height" multiplier="2:1" id="j6M-wD-0qL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <connections>
+                                            <segue destination="1oK-Nv-yd0" kind="show" id="s2Y-HI-cLn"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Ler-V3-8na" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" constant="40" id="0mC-nY-DHE"/>
@@ -1910,6 +1935,7 @@
                                     <constraint firstItem="0eN-GO-KFt" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" constant="40" id="dUt-85-D2u"/>
                                     <constraint firstItem="Ztz-Fs-nYg" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="fZ1-KX-dyW"/>
                                     <constraint firstItem="zNR-xn-Vp3" firstAttribute="top" secondItem="0eN-GO-KFt" secondAttribute="bottom" constant="18" id="qv0-zz-257"/>
+                                    <constraint firstItem="2WQ-VC-DDU" firstAttribute="centerX" secondItem="sUp-JS-Skg" secondAttribute="centerX" id="tOL-oq-IaM"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -1938,9 +1964,11 @@
                         <outlet property="pesoIdeal" destination="NJx-61-CZe" id="s80-c8-VZd"/>
                         <outlet property="pesoPerder" destination="RwK-E9-ISh" id="WdL-j0-ZXB"/>
                         <outlet property="prepantallaresultado" destination="2WQ-VC-DDU" id="eA9-EA-nyP"/>
+                        <outlet property="redirigir" destination="oA4-Cb-8fa" id="4zj-vk-6Fw"/>
                         <outlet property="resultado" destination="kOm-zJ-noE" id="HYa-ng-0eW"/>
                         <outlet property="resultado2" destination="Npk-Dw-3Kj" id="thC-Ed-Y5U"/>
                         <outlet property="scrollcalc" destination="sUp-JS-Skg" id="nrG-rE-wUZ"/>
+                        <outlet property="sinperder" destination="whM-1J-Eu2" id="nRA-h9-fFt"/>
                         <outlet property="textobajopeso" destination="hH5-uJ-Oii" id="pet-0b-L2e"/>
                         <outlet property="textonormal" destination="CjL-Un-Fwg" id="Agh-7l-0lg"/>
                         <outlet property="textoobesidad" destination="fPv-5d-H3n" id="EWu-Dn-4BK"/>
@@ -2249,10 +2277,10 @@
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AOY-r7-ohz">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
                                                 <subviews>
-                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tWq-WH-WU8">
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8VO-Kq-9LR">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                     </imageView>
-                                                    <webView contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
+                                                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqR-8i-Myt">
                                                         <rect key="frame" x="0.0" y="185" width="320" height="430"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </webView>
@@ -2266,21 +2294,11 @@
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oA4-Cb-8fa">
-                                                        <rect key="frame" x="110" y="1200" width="100" height="50"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="100" id="EdU-EX-kWA"/>
-                                                            <constraint firstAttribute="width" secondItem="oA4-Cb-8fa" secondAttribute="height" multiplier="2:1" id="j6M-wD-0qL"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstItem="oA4-Cb-8fa" firstAttribute="top" secondItem="dqR-8i-Myt" secondAttribute="bottom" constant="585" id="1Cy-Yh-fm4"/>
                                                     <constraint firstItem="9JZ-GZ-XTz" firstAttribute="top" secondItem="AOY-r7-ohz" secondAttribute="top" constant="143" id="6ec-Kd-kEG"/>
                                                     <constraint firstItem="9JZ-GZ-XTz" firstAttribute="centerX" secondItem="AOY-r7-ohz" secondAttribute="centerX" id="C6P-zv-HTq"/>
-                                                    <constraint firstItem="oA4-Cb-8fa" firstAttribute="centerX" secondItem="AOY-r7-ohz" secondAttribute="centerX" id="MFd-n9-Qyk"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -2298,6 +2316,7 @@
                                 <constraints>
                                     <constraint firstItem="Mcx-PT-8cT" firstAttribute="top" secondItem="Izn-lG-6cd" secondAttribute="top" id="2da-L6-W7X"/>
                                     <constraint firstItem="sjq-pj-mgM" firstAttribute="centerX" secondItem="Izn-lG-6cd" secondAttribute="centerX" constant="-40" id="54E-aT-fFC"/>
+                                    <constraint firstItem="2Jv-x3-757" firstAttribute="centerX" secondItem="Izn-lG-6cd" secondAttribute="centerX" id="Cwa-fX-Wj7"/>
                                     <constraint firstItem="Sph-mD-H3a" firstAttribute="top" secondItem="Izn-lG-6cd" secondAttribute="top" constant="473" id="Pkw-yQ-QoL"/>
                                     <constraint firstItem="cpb-p4-c89" firstAttribute="top" secondItem="Izn-lG-6cd" secondAttribute="top" constant="351" id="Ski-H5-dsa"/>
                                     <constraint firstItem="SsC-da-lyv" firstAttribute="top" secondItem="Izn-lG-6cd" secondAttribute="top" constant="257" id="UOd-SQ-FZ7"/>
@@ -2337,6 +2356,7 @@
                         <outlet property="pesoIdeal" destination="HDh-dp-cqS" id="ETE-h7-Xsx"/>
                         <outlet property="pesoPerder" destination="f1z-bG-4Xz" id="Xe2-wJ-4yX"/>
                         <outlet property="prepantallaresultado" destination="2Jv-x3-757" id="n3w-UH-0Oe"/>
+                        <outlet property="redirigir" destination="oA4-Cb-8fa" id="U2Y-3v-xaz"/>
                         <outlet property="resultado2" destination="BNh-kQ-0bo" id="jsm-em-37h"/>
                         <outlet property="scrollcalc" destination="Izn-lG-6cd" id="PjF-4n-nrJ"/>
                         <outlet property="textobajopeso" destination="P0d-xA-0lk" id="4eu-O2-TQ0"/>
@@ -3668,22 +3688,21 @@ CQ
         <image name="tuto3.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kRA-qC-B1P"/>
-        <segue reference="TZs-ad-IQf"/>
+        <segue reference="s2Y-HI-cLn"/>
+        <segue reference="xmF-Xg-oUd"/>
+        <segue reference="X96-Pp-Dok"/>
+        <segue reference="oHC-TG-CEi"/>
+        <segue reference="wJS-rf-Zqo"/>
         <segue reference="Wlk-Wu-exx"/>
         <segue reference="7lL-BT-yup"/>
-        <segue reference="X96-Pp-Dok"/>
-        <segue reference="wJS-rf-Zqo"/>
-        <segue reference="oHC-TG-CEi"/>
         <segue reference="had-le-EPl"/>
         <segue reference="I9p-9N-ZWK"/>
         <segue reference="uyO-0I-gPX"/>
-        <segue reference="CDX-BN-Kvp"/>
         <segue reference="S3p-zB-FPh"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="rlm-MO-jpp"/>
-        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="rac-cS-TaQ"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="rlm-MO-jpp"/>
         <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
 </document>

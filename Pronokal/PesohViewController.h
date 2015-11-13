@@ -18,6 +18,8 @@
     IBOutlet UILabel *pesoIdeal;
     IBOutlet UILabel *pesoPerder;
     
+    IBOutlet UIButton *redirigir;
+    
     
     IBOutlet UIView *prepantallaresultado;
     IBOutlet UIView *pantallaresultado;

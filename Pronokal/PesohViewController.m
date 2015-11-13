@@ -17,6 +17,7 @@
 -(IBAction)vetGrafica:(id)sender{
     grafica.hidden=NO;
     pantallagrafica.hidden=NO;
+    redirigir.hidden=NO;
 }
 
 -(IBAction)prePantallaResultado:(id)sender{
@@ -220,6 +221,8 @@
     textosobrepeso.hidden=YES;
     textopreobesidad.hidden=YES;
     textoobesidad.hidden=YES;
+    
+    redirigir.hidden=YES;
 
     
     [scrollcalc setScrollEnabled:YES];
