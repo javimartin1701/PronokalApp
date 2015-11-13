@@ -26,26 +26,61 @@
 -(IBAction)play:(id)sender{
     
     
+    NSURL *movieURL = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio1.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
     
     
     
-
+    
+    
+//////////////////////////////
     
    // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
-    
+  
+    /*
     NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio1.mp4"];
    
     mpc=[[MPMoviePlayerController alloc] initWithContentURL:url];
     [mpc setMovieSourceType:MPMovieSourceTypeFile];
     
+    
     [[self view]addSubview:mpc.view];
+   
+
     [mpc setFullscreen:YES];
+   
     
-    
-    [mpc play];
+    [mpc play];*/
 }
 
 -(IBAction)play2:(id)sender{
+    
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio2.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    
+    /*
     //NSString *stringPath2=[[NSBundle mainBundle]pathForResource:@"ingridconsuelo" ofType:@"mp4"];
     NSURL *url2 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio2.mp4"];
     
@@ -55,10 +90,27 @@
     [[self view]addSubview:mpc2.view];
     [mpc2 setFullscreen:YES];
     
-    [mpc2 play];
+    [mpc2 play];*/
+    
 }
 
 -(IBAction)play3:(id)sender{
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio3.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    
+    /*
    // NSString *stringPath3=[[NSBundle mainBundle]pathForResource:@"anamarta" ofType:@"mp4"];
     NSURL *url3 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio3.mp4"];
     
@@ -68,9 +120,26 @@
     [[self view]addSubview:mpc3.view];
     [mpc3 setFullscreen:YES];
     [mpc3 play];
+     
+     */
 }
 
 -(IBAction)play4:(id)sender{
+    
+    NSURL *movieURL = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio4.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
+    
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    /*
     //NSString *stringPath4=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     NSURL *url4 = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/testimonio4.mp4"];
     
@@ -81,7 +150,9 @@
     [[self view]addSubview:mpc4.view];
     [mpc4 setFullscreen:YES];
     [mpc4 play];
+     */
 }
+
 
 
 

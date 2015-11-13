@@ -19,7 +19,20 @@
 
 -(IBAction)play:(id)sender{
     
+    NSURL *movieURL = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/controlmedico.mp4"];  // sample url
+    MPMoviePlayerViewController *movieController = [[MPMoviePlayerViewController alloc] initWithContentURL:movieURL];
     
+    // Logic for play movie in landscape
+    CGAffineTransform landscapeTransform;
+    landscapeTransform = CGAffineTransformMakeRotation(90*M_PI/180.0f);
+    landscapeTransform = CGAffineTransformTranslate(landscapeTransform, 80, 80);
+    [movieController.moviePlayer.view setTransform: landscapeTransform];
+    
+    [self presentMoviePlayerViewControllerAnimated:movieController];
+    [movieController.moviePlayer prepareToPlay];
+    [movieController.moviePlayer play];
+    
+    /*
     // NSString *stringPath=[[NSBundle mainBundle]pathForResource:@"virginiaytoni" ofType:@"mp4"];
     
     NSURL *url = [NSURL URLWithString:@"http://webdemo.com.es/pnkv/controlmedico.mp4"];
@@ -30,6 +43,7 @@
     [[self view]addSubview:mpc.view];
     [mpc setFullscreen:YES];
     [mpc play];
+     */
 }
 
 - (void)viewDidLoad {
