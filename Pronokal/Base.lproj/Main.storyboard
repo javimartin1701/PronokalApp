@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="O5I-nN-gol">
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -237,22 +236,11 @@
                                 <rect key="frame" x="-4" y="285" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="CALCULA TU PESO IDEAL">
+                                <state key="normal" title="PRONOKAL GROUP CLUB">
                                     <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="frg-ud-eCJ" kind="show" id="o8C-AN-1nk"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1O-J8-Gb0">
-                                <rect key="frame" x="-4" y="256" width="328" height="27"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="PRONOKAL GRUP CLUB">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Cy8-pz-gFb" kind="show" id="5cW-5g-JXh"/>
+                                    <segue destination="Cy8-pz-gFb" kind="show" id="B5n-R8-b3N"/>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logo_texto.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xfp-ar-b9o">
@@ -266,11 +254,22 @@
                                 <rect key="frame" x="-4" y="314" width="328" height="27"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="CALCULA TU PESO IDEAL">
+                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="frg-ud-eCJ" kind="show" id="fvq-jr-0D1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M1O-J8-Gb0">
+                                <rect key="frame" x="-4" y="256" width="328" height="27"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="TUTORIAL">
                                     <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xF7-Yo-Mjm" kind="show" id="Wlk-Wu-exx"/>
+                                    <segue destination="xF7-Yo-Mjm" kind="show" id="O6n-gb-jcv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1635,8 +1634,8 @@
                                                     <constraint firstAttribute="width" secondItem="nWH-ti-OOD" secondAttribute="height" multiplier="8:13" id="u1w-ow-29I"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-Dw-3Kj">
-                                                <rect key="frame" x="50" y="107" width="220" height="114"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npk-Dw-3Kj">
+                                                <rect key="frame" x="50" y="107" width="260" height="114"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="Npk-Dw-3Kj" secondAttribute="height" multiplier="110:57" id="DlK-aE-HV4"/>
                                                     <constraint firstAttribute="width" constant="220" id="e2k-OH-paE"/>
@@ -1690,11 +1689,11 @@
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-2R-X2g">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZw-2R-X2g">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <string key="text">Tu IMC indica que tienes un peso por debajo de un peso saludable, lo que eleva tu riesgo de desarrollar problemas de salud. Consulta con un especialista médico. </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -1710,11 +1709,11 @@
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOy-Wq-mEQ">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <string key="text">Tu IMC indica que tienes un peso correcto para tu altura. Aun así, podrías tener un exceso de grasa, por lo que sería aconsejable que realizaras un estudio del índice de masa grasa para descartarlo. Si quieres comprobar tu índice de grasa, ponte en contacto con PronoKal Group.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -1730,11 +1729,11 @@
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mKx-mb-tfK">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <string key="text">Tu IMC indica que tienes un exceso de peso, lo que aumenta el riesgo de que padezcas diferentes enfermedades. Deberías empezar a tomar medidas para perder peso y conseguir un peso saludable. Contacta con nosotros para conseguir tu peso ideal. </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -1750,11 +1749,11 @@
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uFq-OC-gvH">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uFq-OC-gvH">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <string key="text">Tu IMC indica que estás en un estado de preobesidad, por lo que estás aumentado el riesgo de padecer diferentes enfermedades con tu peso actual. Deberías tomar medidas ya y adquirir un peso saludable. Nosotros te podemos ayudar.</string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -1773,12 +1772,12 @@
                                                         <nil key="highlightedColor"/>
                                                         <color key="shadowColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wg4-od-Tk3">
                                                         <rect key="frame" x="13" y="44" width="240" height="128"/>
                                                         <string key="text">Tu IMC indica que presentas obesidad, por lo que tienes un elevado riesgo de padecer diferentes enfermedades, como diabetes tipo 2, enfermedades cardiovascualres o alteracioens osteoarticulares, entre otras. Deberías iniciar ya las medidas necesarias para disminuir  de peso y reducir tu riesgo de comorbilidades. Contacta con nosotros para que te podamos ayudar.
 </string>
                                                         <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
                                                 </subviews>
@@ -1805,6 +1804,7 @@
                                             <constraint firstItem="MC9-47-NzY" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="OaU-hJ-Obo"/>
                                             <constraint firstItem="RsI-Wr-GTh" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="YJn-fm-ewz"/>
                                             <constraint firstItem="vIM-qq-ViM" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="202" id="bEJ-V6-iMy"/>
+                                            <constraint firstItem="Npk-Dw-3Kj" firstAttribute="centerX" secondItem="2WQ-VC-DDU" secondAttribute="centerX" id="cYf-Gs-Y5S"/>
                                             <constraint firstItem="dWA-zt-cjA" firstAttribute="leading" secondItem="2WQ-VC-DDU" secondAttribute="leading" constant="43" id="euR-XO-n50"/>
                                             <constraint firstItem="Xph-ZP-svj" firstAttribute="top" secondItem="2WQ-VC-DDU" secondAttribute="top" constant="455" id="ges-hi-lch"/>
                                             <constraint firstItem="MC9-47-NzY" firstAttribute="leading" secondItem="RsI-Wr-GTh" secondAttribute="trailing" constant="52" id="kiV-Yw-sJV"/>
@@ -2916,9 +2916,9 @@
                                             <constraint firstAttribute="width" constant="69" id="VXc-40-nrN"/>
                                             <constraint firstAttribute="width" secondItem="V87-Vn-WTy" secondAttribute="height" multiplier="69:95" id="ljB-HT-LaQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_peso_rev.jpg"/>
+                                        <state key="normal" title="Button" image="boton_club2.jpg"/>
                                         <connections>
-                                            <segue destination="frg-ud-eCJ" kind="show" id="xmF-Xg-oUd"/>
+                                            <segue destination="Cy8-pz-gFb" kind="show" id="jKD-kl-Vvs"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ru2-Iv-nDU" userLabel="ButtonControl">
@@ -2949,9 +2949,9 @@
                                             <constraint firstAttribute="width" secondItem="UBs-3G-Xz8" secondAttribute="height" multiplier="69:95" id="Y7c-hG-OOm"/>
                                             <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_tutorial.jpg"/>
+                                        <state key="normal" title="Button" image="boton_peso_rev.jpg"/>
                                         <connections>
-                                            <segue destination="xF7-Yo-Mjm" kind="show" id="iF5-BM-GOO"/>
+                                            <segue destination="frg-ud-eCJ" kind="show" id="OXP-8a-Gcg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Di-9mn" userLabel="ButtonClub">
@@ -2960,9 +2960,9 @@
                                             <constraint firstAttribute="width" constant="69" id="6k2-0f-pi3"/>
                                             <constraint firstAttribute="width" secondItem="A0t-Di-9mn" secondAttribute="height" multiplier="69:95" id="bHU-f8-obq"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_club2.jpg"/>
+                                        <state key="normal" title="Button" image="boton_tutorial.jpg"/>
                                         <connections>
-                                            <segue destination="Cy8-pz-gFb" kind="show" id="nPa-bS-CB1"/>
+                                            <segue destination="xF7-Yo-Mjm" kind="show" id="5cy-8V-7W7"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -3688,21 +3688,21 @@ CQ
         <image name="tuto3.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s2Y-HI-cLn"/>
-        <segue reference="xmF-Xg-oUd"/>
-        <segue reference="X96-Pp-Dok"/>
-        <segue reference="oHC-TG-CEi"/>
-        <segue reference="wJS-rf-Zqo"/>
-        <segue reference="Wlk-Wu-exx"/>
-        <segue reference="7lL-BT-yup"/>
+        <segue reference="5cy-8V-7W7"/>
+        <segue reference="F62-eN-4x7"/>
+        <segue reference="WLM-zQ-shq"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="jKD-kl-Vvs"/>
+        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="G2V-es-xvu"/>
+        <segue reference="fvA-qt-0EE"/>
+        <segue reference="OXP-8a-Gcg"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="Z1s-8x-Pdf"/>
         <segue reference="had-le-EPl"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="uyO-0I-gPX"/>
-        <segue reference="S3p-zB-FPh"/>
+        <segue reference="s2Y-HI-cLn"/>
         <segue reference="HvQ-gg-HKO"/>
-        <segue reference="rac-cS-TaQ"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="rlm-MO-jpp"/>
-        <segue reference="WLM-zQ-shq"/>
+        <segue reference="S3p-zB-FPh"/>
     </inferredMetricsTieBreakers>
 </document>
