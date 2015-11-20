@@ -190,6 +190,7 @@
 		8EE1F27F1BD53E4E007A3D73 /* calc1-m.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1F27D1BD53E4E007A3D73 /* calc1-m.jpg */; };
 		8EE1F2821BD5424D007A3D73 /* CalculadorahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1F2811BD5424D007A3D73 /* CalculadorahViewController.m */; };
 		8EE1F2851BD54E83007A3D73 /* Calculadora2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE1F2841BD54E83007A3D73 /* Calculadora2ViewController.m */; };
+		8EFB2C531BFF495E00E54AC8 /* coaching1_v4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EFB2C521BFF495E00E54AC8 /* coaching1_v4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -431,6 +432,7 @@
 		8EE1F2811BD5424D007A3D73 /* CalculadorahViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculadorahViewController.m; sourceTree = "<group>"; };
 		8EE1F2831BD54E83007A3D73 /* Calculadora2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora2ViewController.h; sourceTree = "<group>"; };
 		8EE1F2841BD54E83007A3D73 /* Calculadora2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora2ViewController.m; sourceTree = "<group>"; };
+		8EFB2C521BFF495E00E54AC8 /* coaching1_v4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coaching1_v4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -771,6 +773,7 @@
 				8ED9F41E1BFE4E460076FA3F /* resultado_test_v4.jpg */,
 				8ED9F4061BFE4A2F0076FA3F /* tuto3_v4.jpg */,
 				8ED9F41C1BFE4D670076FA3F /* paso4_rev_v4.jpg */,
+				8EFB2C521BFF495E00E54AC8 /* coaching1_v4.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -952,6 +955,7 @@
 				8EC69BDF1BC57C9A00B7149E /* menu@3x.png in Resources */,
 				8E2E8AA01BF3970A0019B4B5 /* PNK-2a_rev2.jpg in Resources */,
 				8EE1F24D1BCEACFF007A3D73 /* PNK-1.jpg in Resources */,
+				8EFB2C531BFF495E00E54AC8 /* coaching1_v4.jpg in Resources */,
 				8E672AF21BDE329A00B8D12F /* coaching-a1.jpg in Resources */,
 				8E2E8A7A1BECB1B90019B4B5 /* icon-58.png in Resources */,
 				8EC69C0D1BC66D8D00B7149E /* logo_texto.jpg in Resources */,
@@ -1222,8 +1226,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Carlos Espinosa (U3CY4D6LD4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Carlos Espinosa (U3CY4D6LD4)";
 				INFOPLIST_FILE = Pronokal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1237,8 +1241,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Carlos Espinosa (TD7FRFAWL8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Carlos Espinosa (TD7FRFAWL8)";
 				INFOPLIST_FILE = Pronokal/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
