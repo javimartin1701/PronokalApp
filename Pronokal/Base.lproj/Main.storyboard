@@ -2851,6 +2851,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="iconos_zoom.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3vA-Ed-gBf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="370"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3vA-Ed-gBf" secondAttribute="height" multiplier="32:37" id="dnD-Rm-2Wb"/>
+                                </constraints>
+                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="logo_texto.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wj5-kp-rsi">
                                 <rect key="frame" x="61" y="12" width="199" height="49"/>
                                 <constraints>
@@ -2873,7 +2879,7 @@
                                             <constraint firstAttribute="width" constant="69" id="0eZ-QE-vOE"/>
                                             <constraint firstAttribute="width" secondItem="0jD-lI-5q9" secondAttribute="height" multiplier="69:95" id="Qix-Oc-GZ6"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_testimonios2.jpg"/>
+                                        <state key="normal" image="boton_testimonios2*.jpg"/>
                                         <connections>
                                             <segue destination="3po-R3-VDS" kind="show" id="WCL-6a-cs6"/>
                                         </connections>
@@ -2884,7 +2890,7 @@
                                             <constraint firstAttribute="width" constant="69" id="2Yv-93-m8w"/>
                                             <constraint firstAttribute="width" secondItem="Rly-Qm-KdH" secondAttribute="height" multiplier="69:95" id="PBq-i0-5vx"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_pronokal.jpg"/>
+                                        <state key="normal" image="boton_pronokal*.jpg"/>
                                         <connections>
                                             <segue destination="p0O-Mv-NaQ" kind="show" id="fvA-qt-0EE"/>
                                         </connections>
@@ -2895,7 +2901,7 @@
                                             <constraint firstAttribute="width" secondItem="KwG-wL-x3V" secondAttribute="height" multiplier="75:97" id="8f1-hX-llP"/>
                                             <constraint firstAttribute="width" constant="75" id="ufi-ox-GK4"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_actividad2.jpg"/>
+                                        <state key="normal" image="boton_actividad2*.jpg"/>
                                         <connections>
                                             <segue destination="V8R-a3-HFF" kind="show" id="aw2-Fr-I3T"/>
                                         </connections>
@@ -2906,7 +2912,7 @@
                                             <constraint firstAttribute="width" secondItem="ngv-ct-lNo" secondAttribute="height" multiplier="75:97" id="tVS-vp-h8y"/>
                                             <constraint firstAttribute="width" constant="75" id="vCl-Yo-7Ho"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_nutricion.jpg"/>
+                                        <state key="normal" image="boton_nutricion*.jpg"/>
                                         <connections>
                                             <segue destination="2cB-6l-lOj" kind="show" id="3Be-AD-gcw"/>
                                         </connections>
@@ -2917,7 +2923,7 @@
                                             <constraint firstAttribute="width" constant="69" id="VXc-40-nrN"/>
                                             <constraint firstAttribute="width" secondItem="V87-Vn-WTy" secondAttribute="height" multiplier="69:95" id="ljB-HT-LaQ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_club_v4.jpg"/>
+                                        <state key="normal" image="boton_club_v4*.jpg"/>
                                         <connections>
                                             <segue destination="Cy8-pz-gFb" kind="show" id="jKD-kl-Vvs"/>
                                         </connections>
@@ -2928,7 +2934,7 @@
                                             <constraint firstAttribute="width" constant="75" id="rGN-ur-b5F"/>
                                             <constraint firstAttribute="width" secondItem="Ru2-Iv-nDU" secondAttribute="height" multiplier="75:97" id="xG9-mn-EPS"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_apoyo2.jpg"/>
+                                        <state key="normal" image="boton_apoyo2*.jpg"/>
                                         <connections>
                                             <segue destination="QzO-PJ-1Vh" kind="show" id="G2V-es-xvu"/>
                                         </connections>
@@ -2939,7 +2945,7 @@
                                             <constraint firstAttribute="width" constant="69" id="7tG-f5-q6Q"/>
                                             <constraint firstAttribute="width" secondItem="WvN-5u-Ysk" secondAttribute="height" multiplier="69:95" id="xSp-px-aeK"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_control.jpg"/>
+                                        <state key="normal" image="boton_control*.jpg"/>
                                         <connections>
                                             <segue destination="UZr-GG-ldv" kind="show" id="xLk-7n-WHd"/>
                                         </connections>
@@ -2950,7 +2956,7 @@
                                             <constraint firstAttribute="width" secondItem="UBs-3G-Xz8" secondAttribute="height" multiplier="69:95" id="Y7c-hG-OOm"/>
                                             <constraint firstAttribute="width" constant="69" id="c7k-Iq-I7p"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_peso_rev.jpg"/>
+                                        <state key="normal" image="boton_peso_rev*.jpg"/>
                                         <connections>
                                             <segue destination="frg-ud-eCJ" kind="show" id="OXP-8a-Gcg"/>
                                         </connections>
@@ -2961,7 +2967,7 @@
                                             <constraint firstAttribute="width" constant="69" id="6k2-0f-pi3"/>
                                             <constraint firstAttribute="width" secondItem="A0t-Di-9mn" secondAttribute="height" multiplier="69:95" id="bHU-f8-obq"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="boton_tutorial.jpg"/>
+                                        <state key="normal" image="boton_tutorial*.jpg"/>
                                         <connections>
                                             <segue destination="xF7-Yo-Mjm" kind="show" id="5cy-8V-7W7"/>
                                         </connections>
@@ -3008,11 +3014,14 @@
 CQ
 </string>
                             </constraint>
+                            <constraint firstAttribute="trailingMargin" secondItem="3vA-Ed-gBf" secondAttribute="trailing" constant="-20" id="XOE-Lv-6Wm"/>
                             <constraint firstItem="jcv-wf-QFj" firstAttribute="top" secondItem="fgp-mO-RA2" secondAttribute="bottom" id="ZUa-El-KUQ"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="20" id="b2O-9C-VuI"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="10" id="gF5-lL-Slh"/>
+                            <constraint firstItem="3vA-Ed-gBf" firstAttribute="top" secondItem="oUD-Bc-vlJ" secondAttribute="bottom" constant="-10" id="gfX-MO-NUp"/>
                             <constraint firstItem="fgp-mO-RA2" firstAttribute="top" secondItem="wj5-kp-rsi" secondAttribute="bottom" constant="8" id="i9t-Ti-aYT"/>
                             <constraint firstItem="jcv-wf-QFj" firstAttribute="top" secondItem="fgp-mO-RA2" secondAttribute="bottom" constant="8" id="ohb-DJ-0N4"/>
+                            <constraint firstItem="3vA-Ed-gBf" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="-20" id="q6j-qN-cij"/>
                             <constraint firstItem="jcv-wf-QFj" firstAttribute="leading" secondItem="WBJ-aB-MK2" secondAttribute="leadingMargin" constant="-20" id="wnl-MF-aHa"/>
                             <constraint firstItem="wj5-kp-rsi" firstAttribute="centerX" secondItem="WBJ-aB-MK2" secondAttribute="centerX" id="zVp-f7-Wdf"/>
                         </constraints>
@@ -3644,22 +3653,22 @@ CQ
         <image name="actividad1a_rev2_v4.jpg" width="750" height="1218"/>
         <image name="actividad2a_rev_v4.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
-        <image name="boton_actividad2.jpg" width="182" height="238"/>
-        <image name="boton_apoyo2.jpg" width="182" height="238"/>
-        <image name="boton_club_v4.jpg" width="164" height="225"/>
-        <image name="boton_control.jpg" width="164" height="225"/>
-        <image name="boton_nutricion.jpg" width="182" height="238"/>
-        <image name="boton_peso_rev.jpg" width="164" height="225"/>
-        <image name="boton_pronokal.jpg" width="164" height="225"/>
-        <image name="boton_testimonios2.jpg" width="164" height="225"/>
-        <image name="boton_tutorial.jpg" width="164" height="225"/>
+        <image name="boton_actividad2*.jpg" width="426" height="162"/>
+        <image name="boton_apoyo2*.jpg" width="426" height="162"/>
+        <image name="boton_club_v4*.jpg" width="426" height="162"/>
+        <image name="boton_control*.jpg" width="426" height="162"/>
+        <image name="boton_nutricion*.jpg" width="426" height="162"/>
+        <image name="boton_peso_rev*.jpg" width="426" height="162"/>
+        <image name="boton_pronokal*.jpg" width="426" height="162"/>
+        <image name="boton_testimonios2*.jpg" width="426" height="162"/>
+        <image name="boton_tutorial*.jpg" width="426" height="162"/>
         <image name="calc1-h2.jpg" width="750" height="1224"/>
         <image name="calc1-h2b_rev.jpg" width="750" height="1224"/>
         <image name="calc1-m2.jpg" width="750" height="1224"/>
         <image name="calc1-m2b_rev_v4.jpg" width="750" height="1224"/>
         <image name="club.png" width="25" height="25"/>
         <image name="coaching-a2_v4.jpg" width="746" height="1805"/>
-        <image name="coaching1_v4.jpg" width="426" height="162"/>
+        <image name="coaching1_v4.jpg" width="747" height="1218"/>
         <image name="contacto.png" width="25" height="25"/>
         <image name="control1a_rev_v4.jpg" width="745" height="1400"/>
         <image name="control2a_rev_v4.jpg" width="741" height="1700"/>
@@ -3667,6 +3676,7 @@ CQ
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
         <image name="fondoGrafica2_v4.jpg" width="751" height="3000"/>
         <image name="home-pre_rev_v4.jpg" width="751" height="1334"/>
+        <image name="iconos_zoom.jpg" width="749" height="880"/>
         <image name="llamadas.png" width="123" height="123"/>
         <image name="logo_texto.jpg" width="373" height="94"/>
         <image name="logo_texto2.png" width="373" height="94"/>
@@ -3690,21 +3700,21 @@ CQ
         <image name="tuto3_v4.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="5cy-8V-7W7"/>
+        <segue reference="I9p-9N-ZWK"/>
+        <segue reference="G2V-es-xvu"/>
+        <segue reference="jKD-kl-Vvs"/>
+        <segue reference="OXP-8a-Gcg"/>
         <segue reference="WCL-6a-cs6"/>
-        <segue reference="TZs-ad-IQf"/>
-        <segue reference="uyO-0I-gPX"/>
-        <segue reference="xhY-sy-Kil"/>
-        <segue reference="WLM-zQ-shq"/>
+        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="fvA-qt-0EE"/>
+        <segue reference="5cy-8V-7W7"/>
+        <segue reference="xLk-7n-WHd"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="SRY-IF-6Bj"/>
         <segue reference="HvQ-gg-HKO"/>
         <segue reference="S3p-zB-FPh"/>
-        <segue reference="eNI-yk-SAr"/>
-        <segue reference="N6i-Yv-VVr"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="rlm-MO-jpp"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="I9p-9N-ZWK"/>
-        <segue reference="f7U-6P-83y"/>
-        <segue reference="SRY-IF-6Bj"/>
+        <segue reference="xhY-sy-Kil"/>
+        <segue reference="WLM-zQ-shq"/>
     </inferredMetricsTieBreakers>
 </document>
