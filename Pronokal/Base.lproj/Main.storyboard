@@ -172,7 +172,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="APOYO PSICO-EMOCIONAL">
-                                    <color key="titleColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="QzO-PJ-1Vh" kind="show" id="oHC-TG-CEi"/>
@@ -183,7 +183,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="ACTIVIDAD FÍSICA">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="V8R-a3-HFF" kind="show" id="X96-Pp-Dok"/>
@@ -194,21 +194,10 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="NUTRICIÓN">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="CNz-ox-b8J" kind="show" id="F62-eN-4x7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YE1-Wp-0kl">
-                                <rect key="frame" x="-4" y="401" width="328" height="27"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <state key="normal" title="CONTROL MÉDICO">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="UZr-GG-ldv" kind="show" id="LhT-Yc-oIj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qj3-gp-fE0">
@@ -216,7 +205,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="PRONOKAL GROUP">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="p0O-Mv-NaQ" kind="show" id="7lL-BT-yup"/>
@@ -227,7 +216,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="HISTORIAS TESTIMONIALES">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="3po-R3-VDS" kind="show" id="wJS-rf-Zqo"/>
@@ -238,7 +227,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="PRONOKAL GROUP CLUB">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Cy8-pz-gFb" kind="show" id="B5n-R8-b3N"/>
@@ -256,7 +245,7 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="CALCULA TU PESO IDEAL">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="frg-ud-eCJ" kind="show" id="fvq-jr-0D1"/>
@@ -267,10 +256,21 @@
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <state key="normal" title="TUTORIAL">
-                                    <color key="titleColor" red="0.69803921570000005" green="0.69803921570000005" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="xF7-Yo-Mjm" kind="show" id="O6n-gb-jcv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YE1-Wp-0kl">
+                                <rect key="frame" x="-4" y="401" width="328" height="27"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="CONTROL MÉDICO">
+                                    <color key="titleColor" red="0.41176470590000003" green="0.41176470590000003" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="UZr-GG-ldv" kind="show" id="LhT-Yc-oIj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -331,7 +331,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Mq-4M-aEb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching1_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oTo-Nh-VFQ">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="coaching1_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oTo-Nh-VFQ">
                                         <rect key="frame" x="0.0" y="5" width="320" height="509"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="gSY-ZX-Giu"/>
@@ -361,7 +361,7 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zhV-6L-Inj">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso1_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KrZ-jT-rzt">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso1_rev_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KrZ-jT-rzt">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="KrZ-jT-rzt" secondAttribute="height" multiplier="320:603" id="3dn-rc-X1s"/>
@@ -417,7 +417,7 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CSe-xo-g1E">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso2_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x9Y-uc-HWg">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso2_rev_v4_1_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x9Y-uc-HWg">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="x9Y-uc-HWg" secondAttribute="height" multiplier="320:603" id="GVI-0p-8fI"/>
@@ -473,7 +473,7 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="esP-QK-o7f">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso3_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kp8-qK-ULU">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso3_rev_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kp8-qK-ULU">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="kp8-qK-ULU" secondAttribute="height" multiplier="320:603" id="8za-RM-dUY"/>
@@ -529,7 +529,7 @@
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B7o-FZ-4Af">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="620"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso4_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Zf-Ad5">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="paso4_rev_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KvR-Zf-Ad5">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="603"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="320" id="tJz-52-jKm"/>
@@ -592,8 +592,8 @@
                                                     <constraint firstAttribute="width" secondItem="ygV-l1-ZvH" secondAttribute="height" multiplier="320:519" id="LqJ-lJ-HT2"/>
                                                 </constraints>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAD-b7-YP9">
-                                                <rect key="frame" x="79" y="461" width="161" height="34"/>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAD-b7-YP9">
+                                                <rect key="frame" x="79" y="461" width="161" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="161" id="8Pu-8B-asg"/>
                                                     <constraint firstAttribute="width" secondItem="wAD-b7-YP9" secondAttribute="height" multiplier="161:34" id="efs-6q-TxG"/>
@@ -609,7 +609,7 @@
                                                     <constraint firstAttribute="width" secondItem="rz0-v3-c0W" secondAttribute="height" multiplier="15:8" id="AtY-ly-Fo7"/>
                                                     <constraint firstAttribute="width" constant="240" id="nD6-ba-GMn"/>
                                                 </constraints>
-                                                <string key="text">Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
+                                                <string key="text">¡Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1825,7 +1825,7 @@
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="resPesIda2l.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J5e-jI-79q">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="resPesIda2l_rev.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J5e-jI-79q">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="527"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="320" id="d63-2K-mHQ"/>
@@ -1865,7 +1865,7 @@
                                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HE0-oq-2v1">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                 <subviews>
-                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NrY-if-lyh">
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="fondoGrafica2_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NrY-if-lyh">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1270"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8oF-LU-HeZ">
@@ -2766,7 +2766,7 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBl-CZ-bx5">
                                 <rect key="frame" x="-4" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-2a_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jKw-t8-WoA">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="nutricion-2a_rev_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jKw-t8-WoA">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="740"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="G6R-qH-wRO"/>
@@ -3294,7 +3294,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ppi-RS-0Bk">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-1a_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-aM-fRf">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-1a_rev_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hCg-aM-fRf">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="845"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="7t1-F7-HAl"/>
@@ -3559,7 +3559,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lp4-Mv-YyN">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad2a_rev_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k8I-Wl-pYV">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad2a_rev_v4_2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k8I-Wl-pYV">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="717"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="7NT-w9-66D"/>
@@ -3646,12 +3646,12 @@ CQ
         </scene>
     </scenes>
     <resources>
-        <image name="PNK-1a_rev_v4.jpg" width="745" height="1964"/>
+        <image name="PNK-1a_rev_v4_1.jpg" width="745" height="1964"/>
         <image name="PNK-2a_rev2_v4.jpg" width="754" height="5314"/>
         <image name="PNK-2a_rev_v4.jpg" width="426" height="162"/>
         <image name="PNK-3aa_rev_v4.jpg" width="741" height="2032"/>
         <image name="actividad1a_rev2_v4.jpg" width="750" height="1218"/>
-        <image name="actividad2a_rev_v4.jpg" width="747" height="1689"/>
+        <image name="actividad2a_rev_v4_2.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
         <image name="boton_actividad2*.jpg" width="426" height="162"/>
         <image name="boton_apoyo2*.jpg" width="426" height="162"/>
@@ -3668,13 +3668,13 @@ CQ
         <image name="calc1-m2b_rev_v4.jpg" width="750" height="1224"/>
         <image name="club.png" width="25" height="25"/>
         <image name="coaching-a2_v4.jpg" width="746" height="1805"/>
-        <image name="coaching1_v4.jpg" width="747" height="1218"/>
+        <image name="coaching1_v4_1.jpg" width="754" height="1221"/>
         <image name="contacto.png" width="25" height="25"/>
         <image name="control1a_rev_v4.jpg" width="745" height="1400"/>
         <image name="control2a_rev_v4.jpg" width="741" height="1700"/>
         <image name="flecha.png" width="41" height="37"/>
         <image name="fondoGrafica2.jpg" width="751" height="3000"/>
-        <image name="fondoGrafica2_v4.jpg" width="751" height="3000"/>
+        <image name="fondoGrafica2_v4_1.jpg" width="751" height="3000"/>
         <image name="home-pre_rev_v4.jpg" width="751" height="1334"/>
         <image name="iconos_zoom.jpg" width="749" height="880"/>
         <image name="llamadas.png" width="123" height="123"/>
@@ -3683,13 +3683,14 @@ CQ
         <image name="medicos_home.jpg" width="745" height="344"/>
         <image name="menu.png" width="25" height="25"/>
         <image name="nutricion-1a_rev2_v4.jpg" width="747" height="1221"/>
-        <image name="nutricion-2a_rev_v4.jpg" width="753" height="1731"/>
-        <image name="paso1_rev_v4.jpg" width="747" height="1400"/>
-        <image name="paso2_rev_v4.jpg" width="747" height="1400"/>
-        <image name="paso3_rev_v4.jpg" width="747" height="1400"/>
-        <image name="paso4_rev_v4.jpg" width="747" height="1400"/>
+        <image name="nutricion-2a_rev_v4_1.jpg" width="753" height="1731"/>
+        <image name="paso1_rev_v4_1.jpg" width="747" height="1400"/>
+        <image name="paso2_rev_v4_1_1.jpg" width="747" height="1400"/>
+        <image name="paso3_rev_v4_1.jpg" width="747" height="1400"/>
+        <image name="paso4_rev_v4_1.jpg" width="747" height="1400"/>
         <image name="posicion.png" width="123" height="124"/>
         <image name="resPesIda2l.jpg" width="747" height="1221"/>
+        <image name="resPesIda2l_rev.jpg" width="747" height="1221"/>
         <image name="resultado_test_v4.jpg" width="750" height="1221"/>
         <image name="resultadoimc.jpg" width="744" height="1224"/>
         <image name="sobre.png" width="123" height="123"/>
@@ -3700,21 +3701,21 @@ CQ
         <image name="tuto3_v4.jpg" width="751" height="1224"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="N6i-Yv-VVr"/>
+        <segue reference="had-le-EPl"/>
+        <segue reference="owA-kL-23f"/>
         <segue reference="I9p-9N-ZWK"/>
-        <segue reference="G2V-es-xvu"/>
-        <segue reference="jKD-kl-Vvs"/>
-        <segue reference="OXP-8a-Gcg"/>
-        <segue reference="WCL-6a-cs6"/>
-        <segue reference="aw2-Fr-I3T"/>
+        <segue reference="f7U-6P-83y"/>
+        <segue reference="SRY-IF-6Bj"/>
+        <segue reference="Z1s-8x-Pdf"/>
+        <segue reference="xLk-7n-WHd"/>
         <segue reference="fvA-qt-0EE"/>
         <segue reference="5cy-8V-7W7"/>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="had-le-EPl"/>
-        <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="SRY-IF-6Bj"/>
-        <segue reference="HvQ-gg-HKO"/>
-        <segue reference="S3p-zB-FPh"/>
-        <segue reference="xhY-sy-Kil"/>
+        <segue reference="jKD-kl-Vvs"/>
+        <segue reference="WCL-6a-cs6"/>
+        <segue reference="azG-x2-9hX"/>
+        <segue reference="djE-OB-S6i"/>
         <segue reference="WLM-zQ-shq"/>
+        <segue reference="xhY-sy-Kil"/>
     </inferredMetricsTieBreakers>
 </document>
