@@ -36,7 +36,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [scrollpnk setScrollEnabled:YES];
-    [scrollpnk setContentSize:CGSizeMake(320,2200)];
+    [scrollpnk setContentSize:CGSizeMake(320,2100)];
 }
 
 - (void)didReceiveMemoryWarning {

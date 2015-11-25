@@ -611,7 +611,7 @@
                                                 </constraints>
                                                 <string key="text">¡Enhorabuena! El peso de tu motivación inclina la balanza hacia el cambio para perder peso. Eso te posiciona en un excelente punto de partida. El Departamento de Coaching de PronoKal Group te ayudará a mantener tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9gK-hL-dDj">
@@ -623,7 +623,7 @@
                                                 </constraints>
                                                 <string key="text">Tu motivación para el cambio no tiene todavía el peso necesario para animarte a iniciar el camino hacia una vida y un peso más saludable. El Departamento de Coaching de PronoKal Group te ayudará a aumentar tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="CsF-hu-usg">
@@ -635,7 +635,7 @@
                                                 </constraints>
                                                 <string key="text">Parece que te sientes ambivalente ante la decisión de iniciar el camino para alcanzar tu objetivo. ¿Quieres cambiar y seguir igual al mismo tiempo? El Departamento de Coaching de PronoKal Group te ayudará a reforzar tu motivación.</string>
                                                 <color key="textColor" red="0.49803921569999998" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
@@ -2509,9 +2509,6 @@
                                             <constraint firstAttribute="width" secondItem="CxU-7G-Lj8" secondAttribute="height" multiplier="64:121" id="DPE-T6-zdO"/>
                                             <constraint firstAttribute="width" constant="320" id="um0-u4-6U1"/>
                                         </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="t3c-ag-aqW" appends="YES" id="IgA-aX-vET"/>
-                                        </connections>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPt-GA-VC5">
                                         <rect key="frame" x="179" y="85" width="54" height="33"/>
@@ -2566,11 +2563,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJD-W6-Y8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="left" id="t3c-ag-aqW">
-                    <connections>
-                        <segue destination="ouZ-Bq-AZp" kind="show" animates="NO" id="GqF-PK-3do"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1709" y="-886"/>
         </scene>
@@ -2596,9 +2588,6 @@
                                             <constraint firstAttribute="width" secondItem="Imw-i7-kWc" secondAttribute="height" multiplier="64:147" id="Rhj-dX-RWx"/>
                                             <constraint firstAttribute="width" constant="320" id="sou-K4-yoo"/>
                                         </constraints>
-                                        <connections>
-                                            <outletCollection property="gestureRecognizers" destination="YJD-a2-R4n" appends="YES" id="guy-mb-ZJG"/>
-                                        </connections>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBm-Hl-4Ea">
                                         <rect key="frame" x="95" y="82" width="56" height="36"/>
@@ -2658,11 +2647,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8gA-3B-Wgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="YJD-a2-R4n">
-                    <connections>
-                        <segue destination="UZr-GG-ldv" kind="show" animates="NO" id="WSi-Ga-s1Q"/>
-                    </connections>
-                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2225" y="-886"/>
         </scene>
@@ -3064,7 +3048,7 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3L-jV-SsK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto1_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xIw-Hj-cVg">
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" fixedFrame="YES" image="tuto1_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xIw-Hj-cVg">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="521"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUE-wh-339">
@@ -3123,11 +3107,11 @@ CQ
                                             <constraint firstAttribute="width" constant="320" id="Yf7-Qa-Poi"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-2a_rev2_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qqU-nj-CAt">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2250"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="PNK-2a_rev2_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qqU-nj-CAt">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="2085"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="320" id="4dj-ef-tud"/>
-                                            <constraint firstAttribute="width" secondItem="qqU-nj-CAt" secondAttribute="height" multiplier="32:225" id="DZd-Rg-N74"/>
+                                            <constraint firstAttribute="width" constant="320" id="Axe-gM-d9c"/>
+                                            <constraint firstAttribute="width" secondItem="qqU-nj-CAt" secondAttribute="height" multiplier="64:417" id="IDZ-Dv-N0o"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DOF-1l-gen">
@@ -3166,15 +3150,15 @@ CQ
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="0Lg-Eq-KR6"/>
-                                    <constraint firstItem="qqU-nj-CAt" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="2jX-bH-b2I"/>
-                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="2170" id="RRC-Gg-EbZ"/>
+                                    <constraint firstItem="c49-xN-3Kr" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="2025" id="RRC-Gg-EbZ"/>
                                     <constraint firstItem="or3-Le-MRe" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="Sh5-Kz-wim"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="-100" id="UOi-qE-Ebg"/>
+                                    <constraint firstItem="qqU-nj-CAt" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="VES-bY-sNd"/>
                                     <constraint firstItem="DOF-1l-gen" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" constant="100" id="gir-Fq-FQv"/>
                                     <constraint firstItem="or3-Le-MRe" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="gnY-Rf-tAW"/>
                                     <constraint firstItem="c49-xN-3Kr" firstAttribute="centerX" secondItem="8oU-LR-GVl" secondAttribute="centerX" id="j9u-Kq-ggz"/>
                                     <constraint firstItem="w4l-dc-Vzn" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" constant="376" id="qey-v6-Lh9"/>
-                                    <constraint firstItem="qqU-nj-CAt" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="sOi-ow-jtc"/>
+                                    <constraint firstItem="qqU-nj-CAt" firstAttribute="top" secondItem="8oU-LR-GVl" secondAttribute="top" id="s8W-md-hQW"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
@@ -3483,11 +3467,11 @@ CQ
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zkg-aD-t3M">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
-                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad1a_rev2_v4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fy4-wH-DTP">
-                                        <rect key="frame" x="1" y="0.0" width="320" height="508"/>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="actividad1a_rev2_v4_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kfZ-Sw-tSc">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="520"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="fy4-wH-DTP" secondAttribute="height" multiplier="80:127" id="Fwl-Xj-2Pf"/>
-                                            <constraint firstAttribute="width" constant="320" id="v4L-zx-WEr"/>
+                                            <constraint firstAttribute="width" constant="320" id="L5U-sJ-Htm"/>
+                                            <constraint firstAttribute="width" secondItem="kfZ-Sw-tSc" secondAttribute="height" multiplier="8:13" id="P1Z-D6-08F"/>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOf-ns-gRH">
@@ -3518,11 +3502,11 @@ CQ
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fy4-wH-DTP" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="8y5-Aw-H9p"/>
+                                    <constraint firstItem="kfZ-Sw-tSc" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="Dft-Hm-qeM"/>
                                     <constraint firstItem="BOf-ns-gRH" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" constant="83" id="LiN-tC-mma"/>
                                     <constraint firstItem="9OJ-nR-Aih" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" id="M7y-KV-7qk"/>
+                                    <constraint firstItem="kfZ-Sw-tSc" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" id="OR4-iv-QRg"/>
                                     <constraint firstItem="BOf-ns-gRH" firstAttribute="centerX" secondItem="Zkg-aD-t3M" secondAttribute="centerX" constant="40" id="Rr4-xm-nqj"/>
-                                    <constraint firstItem="fy4-wH-DTP" firstAttribute="top" secondItem="Zkg-aD-t3M" secondAttribute="top" id="Zap-ze-Xnb"/>
                                     <constraint firstItem="9OJ-nR-Aih" firstAttribute="top" secondItem="BOf-ns-gRH" secondAttribute="bottom" constant="359" id="lkb-E8-vpp"/>
                                 </constraints>
                             </scrollView>
@@ -3647,10 +3631,10 @@ CQ
     </scenes>
     <resources>
         <image name="PNK-1a_rev_v4_1.jpg" width="745" height="1964"/>
-        <image name="PNK-2a_rev2_v4.jpg" width="754" height="5314"/>
+        <image name="PNK-2a_rev2_v4_1.jpg" width="754" height="4915"/>
         <image name="PNK-2a_rev_v4.jpg" width="426" height="162"/>
         <image name="PNK-3aa_rev_v4.jpg" width="741" height="2032"/>
-        <image name="actividad1a_rev2_v4.jpg" width="750" height="1218"/>
+        <image name="actividad1a_rev2_v4_1.jpg" width="750" height="1218"/>
         <image name="actividad2a_rev_v4_2.jpg" width="747" height="1689"/>
         <image name="atras.png" width="25" height="25"/>
         <image name="boton_actividad2*.jpg" width="426" height="162"/>
@@ -3696,7 +3680,7 @@ CQ
         <image name="sobre.png" width="123" height="123"/>
         <image name="testimonios1b_rev2_v4.jpg" width="753" height="1218"/>
         <image name="texto-contacto.png" width="426" height="162"/>
-        <image name="tuto1_v4.jpg" width="751" height="1224"/>
+        <image name="tuto1_v4_1.jpg" width="751" height="1224"/>
         <image name="tuto2_v4.jpg" width="751" height="1224"/>
         <image name="tuto3_v4.jpg" width="751" height="1224"/>
     </resources>
@@ -3708,14 +3692,14 @@ CQ
         <segue reference="f7U-6P-83y"/>
         <segue reference="SRY-IF-6Bj"/>
         <segue reference="Z1s-8x-Pdf"/>
-        <segue reference="xLk-7n-WHd"/>
-        <segue reference="fvA-qt-0EE"/>
+        <segue reference="rlm-MO-jpp"/>
+        <segue reference="rac-cS-TaQ"/>
+        <segue reference="WLM-zQ-shq"/>
         <segue reference="5cy-8V-7W7"/>
         <segue reference="jKD-kl-Vvs"/>
         <segue reference="WCL-6a-cs6"/>
+        <segue reference="S3p-zB-FPh"/>
         <segue reference="azG-x2-9hX"/>
-        <segue reference="djE-OB-S6i"/>
-        <segue reference="WLM-zQ-shq"/>
-        <segue reference="xhY-sy-Kil"/>
+        <segue reference="eNI-yk-SAr"/>
     </inferredMetricsTieBreakers>
 </document>
